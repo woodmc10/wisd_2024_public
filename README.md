@@ -1,5 +1,5 @@
 # Batter Scouting Scorecard
-[Baseball Swing Metrics Dashboard](https://wisd2024-swing-metric-dashboard.streamlit.app/)
+[Baseball Batter Scouting Tool](https://wisd2024-batter-scouting-tool.streamlit.app/)
 
 Batting is one of the most complicated movements in sports. It requires full-body coordination, excellent timing, patience, and precision. Assessing a batter's quality and potential can be highly variable and subjective. In this project, I have created four metrics to evaluate different parts of a batter's swing and provided a tool that allows a scout to fine-tune the target ranges for these metrics to generate a final overall grade for the batter. Details on the [metrics](docs/Metric%20Details.md) and [tool](docs/Tool%20Details.md) can be found in the [docs folder](docs/).
 
