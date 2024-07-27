@@ -1,0 +1,1255 @@
+,file_path,pitch_id,pitch_type,pitch_result,action,hit_id,stroke,event_len,game_score,inning,inning_outs,play_outs,count_appearance,count_play,batter
+0,anonymized-files-wisd/12345634_10136.jsonl,54e48da8-67a0-46a4-bf51-c75170a07411,Sinker,Strike,Called,{},{},0,2 - 0,3,2,0,0 - 0,0 - 1,
+1,anonymized-files-wisd/12345634_1020.jsonl,f1c5834c-ba80-419b-883f-56b665cb2e79,Sinker,Strike,{},{},{},0,9 - 0,6,0,0,0 - 1,0 - 1,
+2,anonymized-files-wisd/12345634_10282.jsonl,ac29b4ab-63bc-4672-a29c-f4517fd03c85,Changeup,HitIntoPlay,{},daf9742c-869c-4370-9d66-59e217be1c89,{},1,9 - 0,7,1,1,2 - 1,0 - 0,{'mlbId': 797796542}
+3,anonymized-files-wisd/12345634_10475.jsonl,8efde6c7-6ab0-40aa-a197-c1ad42bb7ee7,FourSeamFastball,HitIntoPlay,{},62848ee8-bff2-4410-9c61-eb672c283a60,{},1,0 - 0,3,1,0,2 - 2,0 - 0,{'mlbId': 352830460}
+4,anonymized-files-wisd/12345634_10501.jsonl,b4727ec0-5df2-48ae-baab-1dea20f53f15,Curveball,Strike,{},{},{},0,0 - 0,1,2,0,0 - 1,0 - 1,
+5,anonymized-files-wisd/12345634_10636.jsonl,69931eb8-37bc-4b1c-91f8-7325b54faa72,Slider,Strike,Called,{},{},0,6 - 0,3,2,0,0 - 0,0 - 1,
+6,anonymized-files-wisd/12345634_10962.jsonl,7139315c-faea-486f-94a4-c33e022866a9,Sinker,Strike,Foul,49f533e3-075e-428b-abc3-3303e0871a34,{},1,0 - 0,1,0,0,2 - 2,0 - 0,{'mlbId': 412098649}
+7,anonymized-files-wisd/12345634_10980.jsonl,de0e4c47-e433-4a87-b113-5276655100dd,Changeup,Ball,Called,{},{},0,9 - 0,8,1,0,0 - 0,1 - 0,
+8,anonymized-files-wisd/12345634_10997.jsonl,a49f856d-5004-4629-8260-a709fc1ffc11,Curveball,Strike,Called,{},{},0,9 - 0,9,1,0,0 - 0,0 - 1,
+9,anonymized-files-wisd/12345634_11018.jsonl,f480e3cc-cf47-4aaf-a0ea-820700504970,Sinker,Strike,Called,{},{},0,0 - 0,1,2,0,0 - 1,0 - 1,
+10,anonymized-files-wisd/12345634_11227.jsonl,444a6133-f51f-4fda-bef8-066259b9de2f,FourSeamFastball,HitIntoPlay,{},6851a681-5242-42ff-906c-125b455c7b08,{},1,0 - 0,1,2,1,1 - 2,0 - 0,{'mlbId': 797957728}
+11,anonymized-files-wisd/12345634_11283.jsonl,33a6a28e-5446-4e8b-8ea5-27f6907ffb62,Slider,Ball,Called,{},{},0,0 - 0,3,1,0,1 - 2,1 - 0,
+12,anonymized-files-wisd/12345634_11372.jsonl,7c6aeff0-14f3-4816-a692-dcfa4a05d985,Sinker,Ball,Called,{},{},0,9 - 0,6,0,0,0 - 2,1 - 0,
+13,anonymized-files-wisd/12345634_11434.jsonl,fc342567-4736-47c8-9296-d9e453ecf2b6,Sinker,Ball,Called,{},{},0,0 - 0,3,0,0,0 - 0,1 - 0,
+14,anonymized-files-wisd/12345634_11462.jsonl,443da200-358b-44b9-a8c2-b0a5cbe80d9b,Curveball,Strike,Foul,54ca7cb0-2e2b-49ac-a782-0abd52515ce7,{},1,0 - 0,3,1,0,0 - 1,0 - 1,{'mlbId': 459722179}
+15,anonymized-files-wisd/12345634_11798.jsonl,f0de98ba-6090-408b-a259-882abf8b087d,Slider,Strike,{},{},{},0,6 - 0,4,0,1,2 - 2,0 - 1,
+16,anonymized-files-wisd/12345634_11892.jsonl,bb53738f-62d0-4eb6-b9f9-0ebc5176f4a7,Cutter,HitIntoPlay,{},cac8582a-8ab9-4d75-809f-d0bbc309cb25,{},1,0 - 0,2,1,1,2 - 1,0 - 0,{'mlbId': 505414610}
+17,anonymized-files-wisd/12345634_12044.jsonl,c891aaee-6618-4d8b-9bc2-a77be47e468d,Sinker,Strike,{},{},{},0,0 - 0,3,0,1,1 - 2,0 - 1,
+18,anonymized-files-wisd/12345634_12076.jsonl,30283af3-84b9-4de0-b972-8977d3ccff0c,Sinker,HitIntoPlay,{},1c2ac927-d7e3-475d-a121-ae837139f3f8,{},1,0 - 0,3,0,1,0 - 0,0 - 0,{'mlbId': 360906992}
+19,anonymized-files-wisd/12345634_12247.jsonl,8534bc84-5126-4f30-aac0-85399ea3b921,Slider,Ball,Called,{},{},0,9 - 0,7,0,0,1 - 2,1 - 0,
+20,anonymized-files-wisd/12345634_12324.jsonl,fe96e47f-8266-4ead-acdb-b1dc1ac6963b,Sinker,Strike,Foul,88580dec-fb03-459b-9783-6d69af7706ec,{},1,0 - 0,3,1,0,1 - 1,0 - 1,{'mlbId': 352830460}
+21,anonymized-files-wisd/12345634_12346.jsonl,29229aa2-b006-4e1b-88f3-16bab43e6f8b,Slider,Strike,{},{},{},0,9 - 0,7,0,0,1 - 0,0 - 1,
+22,anonymized-files-wisd/12345634_12545.jsonl,95fe2dee-4c63-4288-bf9f-bab1c0a6ad2e,Sinker,Ball,Called,{},{},0,9 - 0,8,2,0,2 - 0,1 - 0,
+23,anonymized-files-wisd/12345634_12697.jsonl,68238140-c3ec-432c-b7a9-914448e15d39,Sinker,Strike,Called,{},{},0,6 - 0,4,0,0,3 - 1,0 - 1,
+24,anonymized-files-wisd/12345634_12705.jsonl,32fe3461-e038-4c5d-898c-bcf35825be15,Curveball,HitIntoPlay,{},dc74e9a0-ad4b-4735-8927-0364731e3ffe,{},1,0 - 0,3,2,1,1 - 1,0 - 0,{'mlbId': 654287703}
+25,anonymized-files-wisd/12345634_12759.jsonl,5245f3e2-0ea5-437a-8260-741f2a9f6fb0,Cutter,Ball,Called,{},{},0,6 - 0,4,2,0,0 - 0,1 - 0,
+26,anonymized-files-wisd/12345634_12817.jsonl,3658fd75-ff8d-4ee2-a1a5-c50a1ff49caa,Changeup,Ball,Called,{},{},0,9 - 0,8,0,0,1 - 2,1 - 0,
+27,anonymized-files-wisd/12345634_12839.jsonl,ff24838d-53b1-4b12-b05c-9da691db703e,Sinker,Ball,Called,{},{},0,9 - 0,8,2,0,1 - 2,1 - 0,
+28,anonymized-files-wisd/12345634_12842.jsonl,b2f167b0-b01c-4987-8efa-7dc1b59e3096,Curveball,Ball,Called,{},{},0,7 - 0,4,2,0,1 - 2,1 - 0,
+29,anonymized-files-wisd/12345634_12865.jsonl,561dcd15-21de-4ef2-9202-cbcc6b0e8d50,Slider,Strike,{},{},{},0,0 - 0,1,2,1,0 - 2,0 - 1,
+30,anonymized-files-wisd/12345634_12936.jsonl,e866814f-8f0c-45e4-a9f1-f5ea9354b6d7,Sinker,Strike,Foul,04d236e0-7a67-4c2e-af11-d8877bf73219,{},1,9 - 0,5,2,0,3 - 1,0 - 1,{'mlbId': 849653732}
+31,anonymized-files-wisd/12345634_1347.jsonl,87252f21-19f0-4097-a7af-b2f778089b8e,Slider,Ball,Called,{},{},0,9 - 0,7,1,0,1 - 1,1 - 0,
+32,anonymized-files-wisd/12345634_14023.jsonl,343563c2-4e3a-4511-a10d-686134897b75,Slider,HitIntoPlay,{},0e0bbfbe-de64-488f-a775-9c921559a26a,{},1,9 - 0,6,2,1,2 - 1,0 - 0,{'mlbId': 590082479}
+33,anonymized-files-wisd/12345634_14070.jsonl,cbaf8988-2da4-43e6-affa-e0ea5670e364,Sinker,HitIntoPlay,{},c2f411bd-149a-4292-8743-9be188b385ba,{},1,0 - 0,2,1,1,1 - 1,0 - 0,{'mlbId': 474808052}
+34,anonymized-files-wisd/12345634_14191.jsonl,88c7e077-be75-4960-a4be-985748ec7c64,Sinker,Ball,Called,{},{},0,0 - 0,3,1,0,1 - 0,1 - 0,
+35,anonymized-files-wisd/12345634_14325.jsonl,61a4bba0-ea15-420d-96e6-f5db62803a1e,Slider,Ball,Called,{},{},0,7 - 0,5,1,0,0 - 0,1 - 0,
+36,anonymized-files-wisd/12345634_14605.jsonl,ed70678d-7460-44b7-a630-8bd9fd85cef4,Curveball,Strike,{},{},{},0,0 - 0,2,2,0,0 - 0,0 - 1,
+37,anonymized-files-wisd/12345634_1484.jsonl,db733354-a9a2-43a4-8acb-daf127b0d677,FourSeamFastball,Strike,Called,{},{},0,4 - 0,3,2,0,2 - 1,0 - 1,
+38,anonymized-files-wisd/12345634_15021.jsonl,a8b3869b-52e1-46a9-8ff6-6a41ac4cc2d4,Sinker,Strike,Called,{},{},0,9 - 0,9,2,0,0 - 0,0 - 1,
+39,anonymized-files-wisd/12345634_15159.jsonl,0059fedc-a17a-4b87-ba57-7bd188015060,Curveball,Strike,{},{},{},0,0 - 0,1,0,1,2 - 2,0 - 1,
+40,anonymized-files-wisd/12345634_15279.jsonl,8cdee4ae-7e7d-489b-9f26-9a7a03746c30,Slider,Ball,Called,{},{},0,7 - 0,5,2,0,0 - 0,1 - 0,
+41,anonymized-files-wisd/12345634_1566.jsonl,a3ae70b8-3824-4e37-bb35-8de3bbc07a2b,Slider,Ball,Called,{},{},0,9 - 0,6,2,0,0 - 0,1 - 0,
+42,anonymized-files-wisd/12345634_1574.jsonl,f26b42be-568b-420a-8032-b9f705155507,Sinker,HitIntoPlay,{},b5ae0716-5252-42a9-a0e4-043fc79c3ef4,{},1,9 - 0,8,1,1,0 - 0,0 - 0,{'mlbId': 797957728}
+43,anonymized-files-wisd/12345634_15748.jsonl,71c8810b-f293-4e61-8c80-5e79d02dfe36,Curveball,Strike,Called,{},{},0,0 - 0,3,1,0,2 - 1,0 - 1,
+44,anonymized-files-wisd/12345634_15841.jsonl,7201f19c-fb2a-4b68-8b70-2f2d2be89857,Sinker,Ball,Called,{},{},0,2 - 0,3,2,0,3 - 2,1 - 0,
+45,anonymized-files-wisd/12345634_15863.jsonl,096effd6-7d66-4e00-bceb-471df72519c9,Curveball,Strike,{},{},{},0,0 - 0,1,1,0,0 - 0,0 - 1,
+46,anonymized-files-wisd/12345634_15963.jsonl,4ad0275c-9048-4d25-ae58-1fc47dbc15f5,FourSeamFastball,Ball,Called,{},{},0,9 - 0,7,1,0,2 - 0,1 - 0,
+47,anonymized-files-wisd/12345634_16179.jsonl,1ab37ac3-ad64-4e32-bc4e-d77d027834a5,Changeup,Strike,Called,{},{},0,9 - 0,6,1,0,2 - 1,0 - 1,
+48,anonymized-files-wisd/12345634_16364.jsonl,e3583e56-f6d0-401e-94b0-f5c85902ae77,Curveball,Ball,Called,{},{},0,9 - 0,7,2,0,0 - 1,1 - 0,
+49,anonymized-files-wisd/12345634_16500.jsonl,d77809b8-680d-4d39-a99f-8d46cdd95e31,Slider,Ball,Called,{},{},0,7 - 0,5,2,0,3 - 2,1 - 0,
+50,anonymized-files-wisd/12345634_16669.jsonl,50a4b528-b675-4f87-8b8d-5fd36dee3f25,Slider,Ball,Called,{},{},0,9 - 0,8,2,0,0 - 1,1 - 0,
+51,anonymized-files-wisd/12345634_16685.jsonl,c336d1d7-357f-4792-85d3-a14493184cee,Sinker,HitIntoPlay,{},48049927-cb11-4a83-969a-c7411eabef0e,{},1,9 - 0,8,1,1,1 - 0,0 - 0,{'mlbId': 459722179}
+52,anonymized-files-wisd/12345634_16737.jsonl,55e398ea-b97f-4e15-af57-501d10e990cb,Slider,Ball,Called,{},{},0,9 - 0,7,2,0,0 - 2,1 - 0,
+53,anonymized-files-wisd/12345634_17071.jsonl,63570424-afcd-4fb5-9a4f-c1fb92cf5763,Sinker,Ball,Called,{},{},0,0 - 0,3,0,0,2 - 1,1 - 0,
+54,anonymized-files-wisd/12345634_17331.jsonl,bbb3d477-4241-4a05-ab68-6ce3aba5bf4e,Slider,Strike,Blocked,{},{},0,9 - 0,7,0,0,1 - 1,0 - 1,
+55,anonymized-files-wisd/12345634_17498.jsonl,9042164e-cb3b-4e10-bc18-3249c11e4835,FourSeamFastball,Ball,Called,{},{},0,9 - 0,7,0,0,0 - 0,1 - 0,
+56,anonymized-files-wisd/12345634_17679.jsonl,c0f4d013-b33b-464e-b6df-24df9541b735,FourSeamFastball,Strike,{},{},{},0,4 - 0,3,2,0,2 - 0,0 - 1,
+57,anonymized-files-wisd/12345634_17733.jsonl,33ab7bd5-971a-4af5-bf98-7e2b87887054,Changeup,Strike,Called,{},{},0,0 - 0,1,2,0,0 - 1,0 - 1,
+58,anonymized-files-wisd/12345634_17841.jsonl,40433a76-f327-4cf2-b424-dfaff3f5bb3f,Sinker,Ball,Called,{},{},0,9 - 0,8,2,0,1 - 0,1 - 0,
+59,anonymized-files-wisd/12345634_17952.jsonl,3ef8d634-0c3b-4bb5-9123-9f898654cfe1,Changeup,Ball,Called,{},{},0,9 - 0,8,2,0,0 - 0,1 - 0,
+60,anonymized-files-wisd/12345634_18227.jsonl,3140b3b3-c6f6-427d-908f-361f603d228d,Sinker,Ball,Called,{},{},0,0 - 0,3,1,0,3 - 0,1 - 0,
+61,anonymized-files-wisd/12345634_18427.jsonl,8fffb86c-e0f2-4860-acdd-89ec955bfdcb,Sinker,Ball,Called,{},{},0,0 - 0,2,2,0,0 - 1,1 - 0,
+62,anonymized-files-wisd/12345634_18456.jsonl,42c4d000-6e5b-4643-98f5-13d25f305d71,FourSeamFastball,Strike,Foul,6fb37721-f14e-4c0e-98be-044876682d83,{},1,9 - 0,9,0,0,0 - 0,0 - 1,{'mlbId': 485007791}
+63,anonymized-files-wisd/12345634_18892.jsonl,dad5691e-f48b-488f-9a96-8ed7ae84bc37,Sinker,Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+64,anonymized-files-wisd/12345634_18902.jsonl,a85b4842-2eaf-4d45-8ef5-ba43bfe6cc2b,Slider,Ball,Called,{},{},0,0 - 0,1,0,0,1 - 2,1 - 0,
+65,anonymized-files-wisd/12345634_19190.jsonl,1ccd80d8-599c-451a-9647-c7e0f09419e3,Sinker,Ball,Called,{},{},0,9 - 0,8,2,0,3 - 1,1 - 0,
+66,anonymized-files-wisd/12345634_19341.jsonl,1aa8720d-c88f-46a2-b36a-b7975046b21a,Sinker,Ball,Called,{},{},0,0 - 0,2,2,0,2 - 0,1 - 0,
+67,anonymized-files-wisd/12345634_19403.jsonl,e82dbf6f-3dcf-4349-b110-80e01ccefa71,Sinker,Strike,{},{},{},0,9 - 0,6,2,0,1 - 0,0 - 1,
+68,anonymized-files-wisd/12345634_19590.jsonl,b9a256b2-d8e4-497f-89fa-40381f72b371,Changeup,Ball,Called,{},{},0,9 - 0,6,1,0,0 - 0,1 - 0,
+69,anonymized-files-wisd/12345634_19709.jsonl,cad684cf-ed0e-449a-94c4-2b71e95fd269,Sinker,Strike,Called,{},{},0,7 - 0,5,0,0,1 - 1,0 - 1,
+70,anonymized-files-wisd/12345634_19719.jsonl,5c338471-c3a8-4e4c-8a33-892efb9bc0f0,Sinker,HitIntoPlay,{},5e109c86-d951-4253-aa89-f4dd8f8abecc,{},1,9 - 0,8,0,0,0 - 2,0 - 0,{'mlbId': 849653732}
+71,anonymized-files-wisd/12345634_19899.jsonl,0aca77bf-22fc-4bba-ac6e-e64ec49334a7,FourSeamFastball,Strike,{},{},{},0,6 - 0,4,0,1,0 - 2,0 - 1,
+72,anonymized-files-wisd/12345634_20029.jsonl,9e18ebc4-6dbd-467c-b125-c1ec72ea8711,Slider,Ball,Called,{},{},0,0 - 0,3,0,0,1 - 0,1 - 0,
+73,anonymized-files-wisd/12345634_20037.jsonl,f9b7ac73-e670-40ef-9cb6-74b6510fecb9,Cutter,Ball,Called,{},{},0,6 - 0,4,0,0,0 - 1,1 - 0,
+74,anonymized-files-wisd/12345634_20489.jsonl,6220c535-db3e-4007-ba1c-a89014ade7a0,Sinker,Strike,{},{},{},0,0 - 0,1,0,0,1 - 0,0 - 1,
+75,anonymized-files-wisd/12345634_20785.jsonl,d272907c-c255-4b6a-80a7-7cef4e3833b9,Slider,Ball,Called,{},{},0,2 - 0,3,2,0,1 - 2,1 - 0,
+76,anonymized-files-wisd/12345634_20786.jsonl,1ebabf1f-838d-4f9d-99b5-1491d68e6c7f,Changeup,Ball,Called,{},{},0,9 - 0,6,1,0,0 - 0,1 - 0,
+77,anonymized-files-wisd/12345634_20847.jsonl,76ad0de6-ab66-4544-b70a-0738ab26db7b,Sinker,Ball,Called,{},{},0,0 - 0,3,1,0,0 - 1,1 - 0,
+78,anonymized-files-wisd/12345634_20958.jsonl,47588fc6-e103-4a7e-85f5-39ecc82aa4da,Sinker,HitIntoPlay,{},c7eb597c-43b8-4c05-affa-7c10be3e9901,{},1,7 - 0,5,2,0,1 - 1,0 - 0,{'mlbId': 854238128}
+79,anonymized-files-wisd/12345634_21336.jsonl,47af9ffd-8ce2-4448-8b78-d9b1a2038baf,FourSeamFastball,Strike,Called,{},{},0,9 - 0,7,1,0,3 - 0,0 - 1,
+80,anonymized-files-wisd/12345634_21635.jsonl,49f9cdd2-d8f4-477c-bf68-158aefc0fa99,Sinker,Strike,Foul,0960e748-bcdf-4c4e-8eee-1ccffb909c08,{},1,0 - 0,1,0,0,1 - 2,0 - 0,{'mlbId': 412098649}
+81,anonymized-files-wisd/12345634_21673.jsonl,d69ff164-7325-4842-a51c-9a7a93014642,Slider,Strike,Foul,{},{},0,6 - 0,4,1,0,1 - 2,0 - 0,
+82,anonymized-files-wisd/12345634_21796.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,6 - 0,3,2,1,0 - 1,0 - 0,
+83,anonymized-files-wisd/12345634_22784.jsonl,140e1a04-5427-49be-81de-2f4288baa2aa,Sinker,Strike,Foul,{},{},0,7 - 0,5,2,0,0 - 0,0 - 1,
+84,anonymized-files-wisd/12345634_23217.jsonl,c19a4c14-85a1-4e38-9827-77c72084cb6a,Cutter,HitIntoPlay,{},0717e1ab-d4b8-46d5-a417-6960f393b042,{},1,9 - 0,8,0,0,0 - 2,0 - 0,{'mlbId': 412098649}
+85,anonymized-files-wisd/12345634_23274.jsonl,c26ba558-aa05-4ad1-8f97-b66f69e4dd18,Sinker,Ball,Called,{},{},0,9 - 0,8,2,0,1 - 0,1 - 0,
+86,anonymized-files-wisd/12345634_23352.jsonl,6833ade9-60f6-48c8-8feb-fa558df43346,Changeup,Ball,Called,{},{},0,7 - 0,5,0,0,2 - 2,1 - 0,
+87,anonymized-files-wisd/12345634_23446.jsonl,f72a2355-79d9-4d6d-adc9-598e0e219fed,Sinker,Strike,Called,{},{},0,7 - 0,5,1,0,1 - 0,0 - 1,
+88,anonymized-files-wisd/12345634_23652.jsonl,e0d459e5-0764-4c14-ad85-6f1c63300658,Cutter,Ball,Called,{},{},0,6 - 0,4,0,0,3 - 2,1 - 0,
+89,anonymized-files-wisd/12345634_23870.jsonl,898145b0-8441-4cd0-a77e-548889e0eb85,FourSeamFastball,Ball,Called,{},{},0,7 - 0,4,2,0,2 - 2,1 - 0,
+90,anonymized-files-wisd/12345634_24078.jsonl,d537f904-82c6-436d-a0b9-1fabfb5760f1,Slider,HitIntoPlay,{},34e45593-4577-431f-ac34-8a2f222be7f3,{},1,9 - 0,9,1,1,0 - 2,0 - 0,{'mlbId': 558675411}
+91,anonymized-files-wisd/12345634_24118.jsonl,afe3e36f-08e4-4f68-867c-a14843f3ecf8,Slider,Strike,Called,{},{},0,0 - 0,2,2,1,3 - 2,0 - 1,
+92,anonymized-files-wisd/12345634_24251.jsonl,e3b863e1-7f58-442a-b9f3-57aa416b75e8,Sinker,Strike,Foul,d1f36bb3-7632-46f1-a010-4add7799d471,{},1,0 - 0,1,2,0,0 - 0,0 - 1,{'mlbId': 765710437}
+93,anonymized-files-wisd/12345634_24450.jsonl,12901ed5-55e0-4264-b089-d651d77b0ed9,Sinker,Ball,Called,{},{},0,0 - 0,3,0,0,1 - 0,1 - 0,
+94,anonymized-files-wisd/12345634_2479.jsonl,d1618e12-bb24-44c1-95d8-19ae79867cf5,Changeup,Ball,Called,{},{},0,7 - 0,5,0,0,0 - 1,1 - 0,
+95,anonymized-files-wisd/12345634_24937.jsonl,bfd5eaa9-c6bf-46f2-8203-3a937869dc1b,Cutter,Ball,Called,{},{},0,6 - 0,4,0,0,1 - 1,1 - 0,
+96,anonymized-files-wisd/12345634_25188.jsonl,26a1ca0d-a415-43bc-be9c-a454e959f311,Sinker,Strike,Called,{},{},0,0 - 0,2,2,0,3 - 0,0 - 1,
+97,anonymized-files-wisd/12345634_25216.jsonl,112607aa-1a73-4e2b-b128-74563816ec8b,Slider,Strike,Called,{},{},0,9 - 0,7,2,0,0 - 1,0 - 1,
+98,anonymized-files-wisd/12345634_25227.jsonl,578a2f10-fab2-4695-b88f-15042ba69ee0,FourSeamFastball,Strike,Called,{},{},0,6 - 0,4,1,0,1 - 1,0 - 1,
+99,anonymized-files-wisd/12345634_25617.jsonl,f9c4267d-6650-453c-bbb4-d62e6008747a,Changeup,Strike,{},{},{},0,9 - 0,6,0,1,0 - 2,0 - 1,
+100,anonymized-files-wisd/12345634_25639.jsonl,6a15757b-57ff-4007-a659-48dbc43244a0,Changeup,Strike,Called,{},{},0,9 - 0,6,1,0,1 - 1,0 - 1,
+101,anonymized-files-wisd/12345634_25711.jsonl,d2ae1c1c-06ee-478b-8dd1-fe706f92abdf,Slider,Strike,{},{},{},0,9 - 0,6,2,1,3 - 2,0 - 1,
+102,anonymized-files-wisd/12345634_25752.jsonl,e8eb18a9-0a35-4a7f-9345-d88b25b09f86,Cutter,Ball,Called,{},{},0,3 - 0,3,2,0,1 - 0,1 - 0,
+103,anonymized-files-wisd/12345634_26137.jsonl,1c39204b-36cf-439c-ad3e-3e5d733f05d1,Cutter,Ball,Called,{},{},0,2 - 0,3,2,0,2 - 2,1 - 0,
+104,anonymized-files-wisd/12345634_2616.jsonl,34e7826d-8f41-43e9-a055-68cdfe7c87b2,Sinker,Strike,Foul,{},{},0,9 - 0,6,2,0,1 - 1,0 - 1,
+105,anonymized-files-wisd/12345634_26173.jsonl,dd3f126f-b3a2-403c-8af6-8b24475bcbd6,Curveball,Strike,Foul,fcf4b904-a337-4292-b035-8099f457ca08,{},1,9 - 0,6,0,0,0 - 1,0 - 1,{'mlbId': 412098649}
+106,anonymized-files-wisd/12345634_26389.jsonl,b5d93921-9ccc-4711-b1a0-3b6760b06b8e,Sinker,Ball,Called,{},{},0,9 - 0,6,2,0,1 - 2,1 - 0,
+107,anonymized-files-wisd/12345634_26394.jsonl,ed8f17cc-d1f1-46fd-9514-686a65addd96,Slider,Ball,Called,{},{},0,0 - 0,1,2,0,0 - 2,1 - 0,
+108,anonymized-files-wisd/12345634_26410.jsonl,b18aa588-b538-4ec6-9552-cbcd11077b36,Slider,HitIntoPlay,{},{},{},0,6 - 0,4,2,1,1 - 2,0 - 0,
+109,anonymized-files-wisd/12345634_26446.jsonl,81c48c2a-1d9d-4096-8c4e-0adbf129ea5c,Slider,Strike,Foul,cf857bdd-8a58-4eee-a566-d53a65e62d35,{},1,9 - 0,7,2,0,1 - 2,0 - 0,{'mlbId': 360906992}
+110,anonymized-files-wisd/12345634_26853.jsonl,2e271d3a-ac66-4450-9a74-f3ef6ebb71f2,Sinker,Ball,Called,{},{},0,7 - 0,5,1,0,3 - 2,1 - 0,
+111,anonymized-files-wisd/12345634_26953.jsonl,d61a1089-5945-4645-a96f-2812aaf9309a,Cutter,Ball,Called,{},{},0,7 - 0,4,2,0,0 - 2,1 - 0,
+112,anonymized-files-wisd/12345634_26985.jsonl,723f67c6-32d0-4063-8f67-34c706ff9e64,Changeup,HitIntoPlay,{},4557ab15-561e-47e6-a395-a2204e923568,{},1,9 - 0,7,0,1,2 - 2,0 - 0,{'mlbId': 505414610}
+113,anonymized-files-wisd/12345634_27135.jsonl,0a39e4f7-d55b-40bc-8824-1222de30da3b,Sinker,Strike,Called,{},{},0,0 - 0,2,0,0,0 - 0,0 - 1,
+114,anonymized-files-wisd/12345634_27165.jsonl,67638c58-c965-41b2-94bf-c18628015064,FourSeamFastball,Strike,Called,{},{},0,6 - 0,4,0,0,1 - 1,0 - 1,
+115,anonymized-files-wisd/12345634_2741.jsonl,d2bb7501-5377-4490-ba25-8bb28e0fd277,FourSeamFastball,Ball,Called,{},{},0,6 - 0,4,0,0,0 - 0,1 - 0,
+116,anonymized-files-wisd/12345634_27956.jsonl,9a29d9f8-7497-4988-a941-ad34750d9d8f,Cutter,Strike,{},{},{},0,0 - 0,1,0,1,2 - 2,0 - 1,
+117,anonymized-files-wisd/12345634_28018.jsonl,93ebadc3-ea0a-4cf0-ad18-debe3f97805f,Changeup,HitIntoPlay,{},0a819a81-3a69-4619-a4a0-9e83197df860,{},1,9 - 0,7,2,1,1 - 2,0 - 0,{'mlbId': 854238128}
+118,anonymized-files-wisd/12345634_28037.jsonl,cc7bba24-1171-41bc-9335-4a248fd1b0b2,Curveball,Ball,Called,{},{},0,0 - 0,2,2,0,1 - 0,1 - 0,
+119,anonymized-files-wisd/12345634_28183.jsonl,f93bc664-073f-4092-bc68-3f7cf9aba6cb,FourSeamFastball,Strike,Called,{},{},0,9 - 0,7,1,0,3 - 1,0 - 1,
+120,anonymized-files-wisd/12345634_28237.jsonl,356dd4c4-9e7d-4d17-8784-93f10783c5b6,Sinker,Strike,Called,{},{},0,0 - 0,1,0,0,1 - 1,0 - 1,
+121,anonymized-files-wisd/12345634_28640.jsonl,39e5a483-5cc5-4c72-9fa4-2da86771e280,Sinker,Ball,Called,{},{},0,0 - 0,3,0,0,0 - 0,1 - 0,
+122,anonymized-files-wisd/12345634_28863.jsonl,e7e32f22-c9e6-4b91-a98a-fc880cffc839,Slider,HitIntoPlay,{},5c0f6cd7-f4c2-4f60-b26b-532f0376576e,{},1,0 - 0,3,0,0,0 - 1,0 - 0,{'mlbId': 854238128}
+123,anonymized-files-wisd/12345634_28940.jsonl,249d22c7-31f8-4b5b-92af-9a7aa0e2662d,Sinker,Ball,Called,{},{},0,2 - 0,3,2,0,0 - 1,1 - 0,
+124,anonymized-files-wisd/12345634_29110.jsonl,fa5bcadb-1f05-4210-be57-b6b0b51a063b,Sinker,Strike,Foul,19026651-667e-4dca-bd4a-dcaa820bc2f2,{},1,9 - 0,8,0,0,0 - 2,0 - 0,{'mlbId': 412098649}
+125,anonymized-files-wisd/12345634_29635.jsonl,af75c5a5-0c7a-497e-88de-9bfc204ed96e,Curveball,Ball,Called,{},{},0,9 - 0,7,1,0,0 - 0,1 - 0,
+126,anonymized-files-wisd/12345634_29734.jsonl,fd43bc91-5d4c-49ad-a88f-60926f45c593,Slider,Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+127,anonymized-files-wisd/12345634_29904.jsonl,c4516ad7-fd11-4bc8-a89d-73ef3f312de8,Cutter,Ball,Called,{},{},0,9 - 0,8,0,0,0 - 0,1 - 0,
+128,anonymized-files-wisd/12345634_29970.jsonl,06250b96-c86a-4160-bab3-822d045231f6,Curveball,Strike,Called,{},{},0,0 - 0,2,1,0,1 - 0,0 - 1,
+129,anonymized-files-wisd/12345634_30007.jsonl,40a3918f-17e2-4e2c-aed3-9b1b8c2c44ca,Changeup,Ball,Called,{},{},0,9 - 0,6,2,0,1 - 0,1 - 0,
+130,anonymized-files-wisd/12345634_3057.jsonl,a003ab28-9759-404a-9f28-4c57dc5ffe5c,FourSeamFastball,HitIntoPlay,{},feed4e7f-ab51-432c-9fd9-459555742482,{},1,4 - 0,3,2,0,3 - 2,0 - 0,{'mlbId': 805688901}
+131,anonymized-files-wisd/12345634_30797.jsonl,de362d7b-319f-4ab2-b5e0-ee2cf6b3cb63,Slider,Strike,{},{},{},0,7 - 0,5,0,0,0 - 0,0 - 1,
+132,anonymized-files-wisd/12345634_30857.jsonl,9fba69d1-8085-4b00-be3b-b06178744e81,Sinker,Strike,Called,{},{},0,9 - 0,8,1,0,2 - 0,0 - 1,
+133,anonymized-files-wisd/12345634_30945.jsonl,bd2efc93-7838-4d4b-8b99-ab43a387815f,Cutter,Strike,Called,{},{},0,2 - 0,3,2,0,1 - 1,0 - 1,
+134,anonymized-files-wisd/12345634_30971.jsonl,1a5e152f-f2e8-469c-b15d-e60580b49a0b,Changeup,Ball,Called,{},{},0,9 - 0,6,2,0,0 - 0,1 - 0,
+135,anonymized-files-wisd/12345634_31111.jsonl,fbe64505-cabd-419b-b900-28d0145c68c1,Changeup,HitIntoPlay,{},b9414597-bfe6-4016-96cf-48214bede4bd,{},1,0 - 0,1,1,1,0 - 1,0 - 0,{'mlbId': 352830460}
+136,anonymized-files-wisd/12345634_31233.jsonl,48e626dd-687d-4a7b-a69b-01445af381b1,Changeup,HitIntoPlay,{},ba3924d5-37d2-4203-bb15-4d817ce0adf3,{},1,9 - 0,6,1,1,1 - 2,0 - 0,{'mlbId': 719210239}
+137,anonymized-files-wisd/12345634_31386.jsonl,1785a0d9-b057-4fb4-8cf9-75f8252c29b2,Slider,Ball,Called,{},{},0,7 - 0,5,1,0,2 - 2,1 - 0,
+138,anonymized-files-wisd/12345634_31396.jsonl,9b08fde3-72af-4c33-806d-946e3b2b9ea4,Sinker,HitIntoPlay,{},412c2d8c-12ff-4859-9c3a-e08f0c6e5cc4,{},1,7 - 0,5,1,2,1 - 0,0 - 0,{'mlbId': 545569723}
+139,anonymized-files-wisd/12345634_31480.jsonl,f7453016-1541-4fad-bada-b8d58b48432a,Slider,Strike,{},{},{},0,7 - 0,5,1,0,0 - 1,0 - 1,
+140,anonymized-files-wisd/12345634_31527.jsonl,75bc7c96-f829-47ea-8ddb-50be5c249a64,Sinker,Strike,Called,{},{},0,7 - 0,5,1,0,2 - 1,0 - 1,
+141,anonymized-files-wisd/12345634_31565.jsonl,2afe5ad3-3388-4513-bdc1-36d2c5a0d605,Sinker,Strike,{},077e61d4-4509-4654-ab89-527965942e55,{},1,9 - 0,8,0,0,0 - 0,0 - 1,{'mlbId': 412098649}
+142,anonymized-files-wisd/12345634_31588.jsonl,1242c10e-1e5d-4fa7-a560-3b0794d495cf,Sinker,Strike,Called,{},{},0,7 - 0,5,1,0,0 - 0,0 - 1,
+143,anonymized-files-wisd/12345634_32045.jsonl,c01b9594-3e75-4ed0-a13a-cc32ddb286d6,Slider,Ball,Called,{},{},0,7 - 0,5,2,0,1 - 2,1 - 0,
+144,anonymized-files-wisd/12345634_32238.jsonl,ddd56f14-589e-4c55-a3b2-58e5a131414d,Sinker,Ball,Called,{},{},0,0 - 0,3,1,0,2 - 0,1 - 0,
+145,anonymized-files-wisd/12345634_32602.jsonl,ce4e8528-7f11-4ae2-92c2-081efe7bb45c,Sinker,Strike,Called,{},{},0,6 - 0,4,2,0,1 - 1,0 - 1,
+146,anonymized-files-wisd/12345634_32807.jsonl,6ed09546-1e89-4418-8593-92a1a3986de5,Curveball,Ball,BallInDirt,{},{},0,6 - 0,4,0,0,1 - 2,1 - 0,
+147,anonymized-files-wisd/12345634_32954.jsonl,015c3a94-30ec-438a-b343-8a542183c8bc,Sinker,Strike,Called,{},{},0,0 - 0,3,2,0,0 - 0,0 - 1,
+148,anonymized-files-wisd/12345634_32956.jsonl,347ba753-f1d6-47db-941d-c40110e72b36,Slider,Strike,Called,{},{},0,7 - 0,5,0,0,0 - 1,0 - 1,
+149,anonymized-files-wisd/12345634_32980.jsonl,ab7f8945-4ba0-45f1-9c67-602119606b5a,Slider,Strike,Called,{},{},0,7 - 0,5,2,0,1 - 1,0 - 1,
+150,anonymized-files-wisd/12345634_33042.jsonl,f06e1df5-ae11-45c8-9271-113e02364982,Sinker,Strike,Foul,e4299e45-518e-4ada-914e-8890c0db9823,{},1,0 - 0,2,0,0,0 - 0,0 - 1,{'mlbId': 686425745}
+151,anonymized-files-wisd/12345634_33094.jsonl,556ef114-35d0-43c4-8caa-2e0979c3e483,Cutter,Strike,Foul,{},{},0,0 - 0,3,0,0,1 - 1,0 - 1,
+152,anonymized-files-wisd/12345634_33197.jsonl,0051f5bb-1024-4673-a4f3-c9e51bf4f6fc,Changeup,HitIntoPlay,{},a7cd75ed-1423-47e2-a32f-29c1b9d68930,{},1,0 - 0,1,2,0,0 - 2,0 - 0,{'mlbId': 765710437}
+153,anonymized-files-wisd/12345634_33282.jsonl,8d0abf82-6953-40c6-8ac2-50ca684333b0,FourSeamFastball,Ball,Called,{},{},0,9 - 0,8,1,0,0 - 0,1 - 0,
+154,anonymized-files-wisd/12345634_33322.jsonl,346487c9-422f-4515-a549-e66e3f09c82a,Sinker,Strike,Foul,31f72f30-5b49-4d6a-b82f-dea5d9ba28b5,{},1,9 - 0,6,0,0,0 - 2,0 - 0,{'mlbId': 459722179}
+155,anonymized-files-wisd/12345634_33357.jsonl,f2e6a6f6-2c46-4be0-8eb2-6ee5eaa663a3,Cutter,Strike,{},{},{},0,0 - 0,3,0,0,0 - 0,0 - 1,
+156,anonymized-files-wisd/12345634_33415.jsonl,704d0b3e-123f-45da-aea4-4f93dc9a0e85,Cutter,Strike,Called,{},{},0,9 - 0,8,0,0,0 - 1,0 - 1,
+157,anonymized-files-wisd/12345634_33630.jsonl,be38eb9e-fdb9-427d-b0c9-b8b82da45835,Changeup,Strike,{},{},{},0,9 - 0,7,0,0,2 - 1,0 - 1,
+158,anonymized-files-wisd/12345634_33811.jsonl,2eec1a6a-db95-48bb-84a0-a58e6c70aee0,Slider,Strike,Called,{},{},0,9 - 0,5,2,0,2 - 0,0 - 1,
+159,anonymized-files-wisd/12345634_34065.jsonl,a97f9292-d602-4228-b38d-25f38435cd35,Cutter,Ball,Called,{},{},0,7 - 0,5,1,0,0 - 0,1 - 0,
+160,anonymized-files-wisd/12345634_34286.jsonl,2ca13312-4eb0-4dbb-a111-8c64b8230e84,Sinker,Strike,Called,{},{},0,0 - 0,2,0,0,0 - 1,0 - 1,
+161,anonymized-files-wisd/12345634_343.jsonl,1f36c9a8-197e-483d-85a1-d33fe175e2ce,Slider,Strike,Called,{},{},0,9 - 0,7,2,0,0 - 0,0 - 1,
+162,anonymized-files-wisd/12345634_3441.jsonl,e51c4877-3bff-4277-9bf3-93fddc409dbf,Slider,Strike,Foul,171b32f6-9067-4020-947c-e24ec9083f89,{},1,9 - 0,9,2,0,1 - 1,0 - 1,{'mlbId': 360906992}
+163,anonymized-files-wisd/12345634_34451.jsonl,b7056da5-a630-4beb-8cd0-20261eb20350,Curveball,Strike,Called,{},{},0,0 - 0,3,1,0,0 - 0,0 - 1,
+164,anonymized-files-wisd/12345634_34503.jsonl,22789bfe-220f-4e92-a7be-a6328d4d4bb2,Curveball,Ball,Called,{},{},0,9 - 0,7,0,0,1 - 1,1 - 0,
+165,anonymized-files-wisd/12345634_34602.jsonl,e5449df2-999e-426a-883d-1eff7c0cefc1,Curveball,Ball,Called,{},{},0,9 - 0,8,1,0,2 - 1,1 - 0,
+166,anonymized-files-wisd/12345634_34783.jsonl,dc0008b0-225a-45c7-8220-8a4a5199389a,Slider,Strike,Foul,7aa84367-8d6e-45ab-aa99-6c11afec34ff,{},1,9 - 0,9,2,0,2 - 2,0 - 0,{'mlbId': 360906992}
+167,anonymized-files-wisd/12345634_35000.jsonl,31bfacfe-6a5d-497f-b7c5-5e9bc36dff24,Changeup,Ball,Called,{},{},0,9 - 0,7,0,0,0 - 1,1 - 0,
+168,anonymized-files-wisd/12345634_35072.jsonl,4a81f6fe-ab63-452e-8959-d481e194aaad,Sinker,Strike,Called,{},{},0,0 - 0,2,1,0,1 - 0,0 - 1,
+169,anonymized-files-wisd/12345634_35122.jsonl,2a060c67-4a17-4ca9-85a6-61aa6f10ab42,Sinker,Strike,Foul,97567688-2726-4c36-a4c4-5ed363e89754,{},1,0 - 0,2,0,0,0 - 2,0 - 0,{'mlbId': 686425745}
+170,anonymized-files-wisd/12345634_35188.jsonl,bbcfbbf2-7b66-4aad-a4a2-43214f04c2f0,Slider,Strike,Foul,5cf17a50-464a-43c5-a51b-1961bde2fea6,{},1,0 - 0,2,2,0,3 - 2,0 - 0,{'mlbId': 805688901}
+171,anonymized-files-wisd/12345634_35764.jsonl,acf45aeb-ee14-45b5-b95f-867633eef23d,Sinker,Ball,Called,{},{},0,9 - 0,8,1,0,1 - 0,1 - 0,
+172,anonymized-files-wisd/12345634_35901.jsonl,0c2c936a-626f-49c2-9fff-44f2ee7f7621,Slider,HitIntoPlay,{},687498ac-2e3c-4362-8389-57092908e34d,{},1,9 - 0,6,1,0,2 - 2,0 - 0,{'mlbId': 797957728}
+173,anonymized-files-wisd/12345634_35936.jsonl,09939142-b193-4b53-aed9-8e9f34a6a6d3,Curveball,Strike,Foul,129f6a36-2f96-4d61-9ced-e3de20c06c0f,{},1,0 - 0,3,0,0,3 - 1,0 - 1,{'mlbId': 558675411}
+174,anonymized-files-wisd/12345634_35999.jsonl,2058afff-bfde-4292-8ab7-eadb174dd66b,Slider,Ball,Called,{},{},0,9 - 0,6,1,0,1 - 1,1 - 0,
+175,anonymized-files-wisd/12345634_36672.jsonl,e9a6b455-87e5-4310-998d-0d08edd267db,Curveball,Strike,{},{},{},0,9 - 0,6,0,0,0 - 0,0 - 1,
+176,anonymized-files-wisd/12345634_3669.jsonl,bac76be2-8934-4e9e-bdd6-d3de6404d9e0,Sinker,HitIntoPlay,{},d9d1d001-3e66-4eda-aeb6-019cc9f8c230,{},1,6 - 0,4,1,1,1 - 0,0 - 0,{'mlbId': 485007791}
+177,anonymized-files-wisd/12345634_36747.jsonl,0424bad8-a68e-49ff-b6e2-b1cbe61e9de5,Sinker,Strike,Foul,a3d06dc5-d102-4847-a69d-09f3a5d088d1,{},1,9 - 0,8,0,0,0 - 0,0 - 1,{'mlbId': 849653732}
+178,anonymized-files-wisd/12345634_36947.jsonl,01a881b4-bf82-41b8-8395-9e36eb5e0b71,Sinker,Strike,Foul,cf523ae1-fa2f-4401-92d4-7582e8c13713,{},1,0 - 0,3,1,0,1 - 2,0 - 0,{'mlbId': 352830460}
+179,anonymized-files-wisd/12345634_37582.jsonl,a7b8f872-f8f9-4eab-b3cf-e19cdde90192,Sinker,Ball,Called,{},{},0,0 - 0,1,0,0,0 - 0,1 - 0,
+180,anonymized-files-wisd/12345634_37639.jsonl,5aeaee38-5e94-4d9a-b261-953d163f6d4c,Slider,Ball,Called,{},{},0,0 - 0,3,1,0,1 - 1,1 - 0,
+181,anonymized-files-wisd/12345634_37766.jsonl,942b61e5-9b98-4f2b-a75b-a0bcef9c71a0,FourSeamFastball,Strike,Foul,{},{},0,0 - 0,1,1,0,0 - 0,0 - 1,
+182,anonymized-files-wisd/12345634_37821.jsonl,4bd8edcf-cca6-429a-a8c1-6597aec936fa,Sinker,Ball,Called,{},{},0,9 - 0,8,1,0,3 - 1,1 - 0,
+183,anonymized-files-wisd/12345634_38016.jsonl,5f2aa62c-727d-4da3-82ef-0810a75dcba5,Sinker,Ball,Called,{},{},0,9 - 0,8,2,0,0 - 0,1 - 0,
+184,anonymized-files-wisd/12345634_38551.jsonl,350a2df2-0a35-4125-98fe-d3414cdb1d26,Changeup,Strike,Called,{},{},0,9 - 0,8,0,0,1 - 0,0 - 1,
+185,anonymized-files-wisd/12345634_386.jsonl,57687042-4a7d-49f2-a220-7ab7053ec90b,Sinker,Ball,HitByPitch,{},{},0,2 - 0,3,2,0,2 - 0,1 - 0,
+186,anonymized-files-wisd/12345634_38735.jsonl,42820cea-89d0-4047-b121-2c1419cd4d3c,Cutter,Strike,Called,{},{},0,0 - 0,2,2,0,0 - 0,0 - 1,
+187,anonymized-files-wisd/12345634_38804.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,0 - 0,3,0,0,1 - 0,0 - 0,
+188,anonymized-files-wisd/12345634_38882.jsonl,b1d833dc-faab-41f5-9564-89ded7df3369,FourSeamFastball,HitIntoPlay,{},d8fca64f-b34b-4721-aac7-73379f34accc,{},1,7 - 0,5,1,0,0 - 2,0 - 0,{'mlbId': 719210239}
+189,anonymized-files-wisd/12345634_38908.jsonl,d9e8d660-7ca7-4196-a667-9d8073657101,Sinker,HitIntoPlay,{},85fc4724-856e-4b48-80d1-39548c1d3b13,{},1,1 - 0,3,1,1,0 - 1,0 - 0,{'mlbId': 797957728}
+190,anonymized-files-wisd/12345634_38915.jsonl,43914046-1868-4b0d-8fd8-c0d725833568,Slider,Ball,Called,{},{},0,9 - 0,7,1,0,1 - 0,1 - 0,
+191,anonymized-files-wisd/12345634_38919.jsonl,4bf4caf7-4d50-4354-9942-f43d21d177f8,Curveball,HitIntoPlay,{},bf077a86-a55d-41bc-b216-f39b08699cc6,{},1,0 - 0,3,0,0,3 - 2,0 - 0,{'mlbId': 558675411}
+192,anonymized-files-wisd/12345634_38983.jsonl,0d7a77c4-3475-4d28-8867-47e6b79595ea,Curveball,Ball,Called,{},{},0,3 - 0,3,2,0,0 - 0,1 - 0,
+193,anonymized-files-wisd/12345634_39022.jsonl,75c0e467-d14f-419b-b59f-61224af068fb,FourSeamFastball,Strike,Foul,4dfab355-cbae-47fb-bb79-f41296ba16ce,{},1,4 - 0,3,2,0,2 - 2,0 - 0,{'mlbId': 805688901}
+194,anonymized-files-wisd/12345634_39197.jsonl,f92cb5b2-e2a0-4ee8-ae0d-55faa9f5dc8d,Cutter,Ball,Called,{},{},0,0 - 0,3,0,0,2 - 0,1 - 0,
+195,anonymized-files-wisd/12345634_3929.jsonl,a1a2ffb8-bd8c-46ed-8f03-4b09c34e9f13,FourSeamFastball,Strike,Called,{},{},0,7 - 0,4,2,0,0 - 0,0 - 1,
+196,anonymized-files-wisd/12345634_39406.jsonl,7d911dfc-e6a0-44f6-9240-a791b1052b5b,Slider,Strike,{},{},{},0,9 - 0,7,2,0,1 - 1,0 - 1,
+197,anonymized-files-wisd/12345634_39431.jsonl,afad37ac-2608-4a94-933e-5ac03303e944,Slider,Ball,Called,{},{},0,9 - 0,9,2,0,0 - 1,1 - 0,
+198,anonymized-files-wisd/12345634_39466.jsonl,def3cdfc-1f04-4d2f-a9ba-5386d01c8dca,Changeup,HitIntoPlay,{},cecd8760-e8c8-416f-98ae-0d407c8ae28b,{},1,0 - 0,2,0,1,0 - 1,0 - 0,{'mlbId': 459722179}
+199,anonymized-files-wisd/12345634_39560.jsonl,7a3e5a8b-d955-411d-87ee-3cc1595aa720,Slider,Strike,Called,{},{},0,9 - 0,6,1,0,0 - 0,0 - 1,
+200,anonymized-files-wisd/12345634_39621.jsonl,4fe48dda-9b39-432e-b4fe-b1126822613c,Sinker,Strike,Foul,a9df485e-4e59-4e4c-a492-f62f2718cb77,{},1,6 - 0,4,0,0,0 - 1,0 - 1,{'mlbId': 223971350}
+201,anonymized-files-wisd/12345634_39952.jsonl,a3076600-ef41-4f1b-843c-18c21a1c4631,FourSeamFastball,HitIntoPlay,{},f73ad04d-6a8c-4faa-a8ad-68ff2bda9bb2,{},1,9 - 0,8,2,0,2 - 0,0 - 0,{'mlbId': 654287703}
+202,anonymized-files-wisd/12345634_3999.jsonl,607e2cc9-e749-4eae-a29d-ba77952b155d,Slider,HitIntoPlay,{},3fb738ab-16f2-4c8b-8519-eab90b9a8c58,{},1,7 - 0,5,1,1,0 - 2,0 - 0,{'mlbId': 505414610}
+203,anonymized-files-wisd/12345634_40262.jsonl,ae84ad01-eec5-475f-95c7-fd2b8bc7cdde,Curveball,Ball,Called,{},{},0,6 - 0,4,0,0,2 - 1,1 - 0,
+204,anonymized-files-wisd/12345634_40299.jsonl,10edf232-08a7-404c-a1a0-7b1d42717642,FourSeamFastball,Strike,Called,{},{},0,9 - 0,8,2,1,2 - 2,0 - 1,
+205,anonymized-files-wisd/12345634_40321.jsonl,5a3ec214-7290-4ac6-b94e-b23ecd4e46e6,Slider,Strike,{},{},{},0,6 - 0,4,1,0,0 - 0,0 - 1,
+206,anonymized-files-wisd/12345634_40372.jsonl,0a3b707b-4af2-4892-8ae0-4dd0b61f92f9,Sinker,Strike,{},{},{},0,2 - 0,3,2,0,0 - 0,0 - 1,
+207,anonymized-files-wisd/12345634_40409.jsonl,0a4b4910-2e2e-46ec-9ef7-b3181544d443,Sinker,Ball,Called,{},{},0,9 - 0,5,2,0,0 - 0,1 - 0,
+208,anonymized-files-wisd/12345634_4045.jsonl,9e58b026-5f23-454b-b2dc-294c73f8a071,Changeup,Strike,Called,{},{},0,9 - 0,7,1,0,1 - 0,0 - 1,
+209,anonymized-files-wisd/12345634_40552.jsonl,0cd7747d-2d22-43f7-9d96-a4158fc94ab7,Sinker,Strike,Foul,b835423b-2e81-4b73-a6ec-9c48cc52e65f,{},1,0 - 0,3,1,0,2 - 2,0 - 0,{'mlbId': 352830460}
+210,anonymized-files-wisd/12345634_40602.jsonl,28c1d33c-9795-4bf6-af83-fbc7cecca5a9,Cutter,Ball,Called,{},{},0,0 - 0,2,1,0,1 - 1,1 - 0,
+211,anonymized-files-wisd/12345634_4069.jsonl,8a7e9e60-864f-4110-8810-2ccb790921ae,FourSeamFastball,Strike,Called,{},{},0,9 - 0,9,2,1,2 - 2,0 - 1,
+212,anonymized-files-wisd/12345634_41083.jsonl,7a307a87-fe77-4c6f-af44-f3fb487c152e,Curveball,Ball,Called,{},{},0,0 - 0,2,2,0,3 - 1,1 - 0,
+213,anonymized-files-wisd/12345634_41109.jsonl,42d218e2-4e46-4878-b1dc-25d274587d7c,Sinker,HitIntoPlay,{},687e2c12-dff4-4580-9226-c111366746e5,{},1,9 - 0,8,0,1,0 - 0,0 - 0,{'mlbId': 765710437}
+214,anonymized-files-wisd/12345634_41274.jsonl,676486ea-2202-4a98-8b6e-a9a358a621c6,Sinker,Strike,Called,{},{},0,9 - 0,8,2,0,3 - 0,0 - 1,
+215,anonymized-files-wisd/12345634_41536.jsonl,b7c8aba1-9600-40e9-8576-a27b93953dd5,Slider,Strike,Called,{},{},0,0 - 0,2,2,0,1 - 1,0 - 1,
+216,anonymized-files-wisd/12345634_41862.jsonl,e1045093-17d4-44fb-9265-6fbcdd1815ab,Changeup,Strike,Called,{},{},0,9 - 0,6,1,0,1 - 0,0 - 1,
+217,anonymized-files-wisd/12345634_41950.jsonl,6bae3d86-d349-4721-ba8f-9184018941ee,Curveball,Ball,Called,{},{},0,9 - 0,8,2,0,0 - 0,1 - 0,
+218,anonymized-files-wisd/12345634_42047.jsonl,1faa5f76-7a60-4b6c-ab69-535a02d2f71e,Slider,Strike,Foul,bd60a84a-cb0f-4dba-88fe-e7bb4ba8c44d,{},1,9 - 0,6,1,0,1 - 0,0 - 1,{'mlbId': 719210239}
+219,anonymized-files-wisd/12345634_42192.jsonl,272dc1e5-9c36-456c-8342-0950ce6e922b,Curveball,Ball,Called,{},{},0,0 - 0,3,1,0,3 - 2,1 - 0,
+220,anonymized-files-wisd/12345634_42373.jsonl,42ac4615-8b26-4e55-97b8-c6d4a3f9e89b,Sinker,HitIntoPlay,{},c3835f90-6098-42e6-86bd-9982393c40be,{},1,9 - 0,8,2,1,1 - 0,0 - 0,{'mlbId': 223971350}
+221,anonymized-files-wisd/12345634_42950.jsonl,cb9f3a98-0bbb-4b4e-b72e-81fe7cf960b6,Slider,Strike,Foul,f3df52a3-ead0-4622-991e-f93329c9f8e3,{},1,7 - 0,5,1,0,0 - 2,0 - 0,{'mlbId': 719210239}
+222,anonymized-files-wisd/12345634_43134.jsonl,bdf67872-ce0c-4924-ba7f-6f401267d823,Slider,Strike,{},{},{},0,7 - 0,5,1,0,0 - 0,0 - 1,
+223,anonymized-files-wisd/12345634_43187.jsonl,95741606-a673-4f2a-9988-7ee1148c5633,Slider,Strike,Foul,2c6145d8-10ca-4c1b-9244-0590883f51c5,{},1,9 - 0,8,0,0,0 - 2,0 - 0,{'mlbId': 849653732}
+224,anonymized-files-wisd/12345634_43229.jsonl,9add967c-5e8d-446a-bdf4-b2c2013c1f77,Cutter,Ball,Called,{},{},0,0 - 0,2,2,0,1 - 2,1 - 0,
+225,anonymized-files-wisd/12345634_43342.jsonl,efc48aee-be83-48a7-95d4-42052efd9400,Sinker,Ball,Called,{},{},0,0 - 0,2,1,0,3 - 1,1 - 0,
+226,anonymized-files-wisd/12345634_43370.jsonl,c37795f3-ba04-41a7-a3da-fbbc131c1118,Cutter,Strike,Called,{},{},0,0 - 0,2,0,1,0 - 2,0 - 1,
+227,anonymized-files-wisd/12345634_43794.jsonl,0ffb30f2-2a24-486b-946f-851ba24becbc,Sinker,Strike,Called,{},{},0,0 - 0,3,1,0,1 - 0,0 - 1,
+228,anonymized-files-wisd/12345634_43818.jsonl,a0d99dd8-c1f3-49e0-b707-4ab9ca64ffd0,Slider,Strike,Foul,1bdfcc3e-c56c-494b-9699-b4af4c8877e6,{},1,7 - 0,5,1,0,0 - 1,0 - 1,{'mlbId': 719210239}
+229,anonymized-files-wisd/12345634_43934.jsonl,1c0b7dfc-2271-4462-848e-69cf608eb968,Sinker,Strike,Foul,4bba763b-ba5c-4f2d-be37-dd7ca07eafae,{},1,9 - 0,8,2,0,0 - 0,0 - 1,{'mlbId': 719210239}
+230,anonymized-files-wisd/12345634_43969.jsonl,f9fd5f4d-d113-409e-9ac7-f331908ede8b,Sinker,Strike,Foul,{},{},0,9 - 0,8,0,0,3 - 2,0 - 0,
+231,anonymized-files-wisd/12345634_44275.jsonl,db458679-8477-4eb1-8666-b03424eb5e78,Sinker,Ball,Called,{},{},0,0 - 0,2,1,0,1 - 1,1 - 0,
+232,anonymized-files-wisd/12345634_44356.jsonl,0ff26131-3075-4bd9-8c57-8cf23c77d54a,Sinker,Strike,{},{},{},0,6 - 0,4,2,0,1 - 0,0 - 1,
+233,anonymized-files-wisd/12345634_44370.jsonl,8725440a-f466-4452-aa95-328bee3b3fd0,Slider,HitIntoPlay,{},b97b174f-bc73-4e93-a508-7ea691f7c9fc,{},1,0 - 0,1,1,1,0 - 1,0 - 0,{'mlbId': 360906992}
+234,anonymized-files-wisd/12345634_44379.jsonl,3fdfa16d-16c9-49b2-8516-86b6a0363d3d,Curveball,Ball,BallInDirt,{},{},0,4 - 0,3,2,0,2 - 2,1 - 0,
+235,anonymized-files-wisd/12345634_44621.jsonl,2a8a9cb1-c375-45a9-ad2c-29c23302975d,Slider,HitIntoPlay,{},fd75a8f4-bc27-4418-b467-a920b055cc73,{},1,9 - 0,6,0,1,1 - 2,0 - 0,{'mlbId': 459722179}
+236,anonymized-files-wisd/12345634_44646.jsonl,19191cdc-6019-4b18-8fa8-27cd3b3d8c7b,FourSeamFastball,HitIntoPlay,{},fd1e4e7d-56c0-4b62-bc13-331722c5b30c,{},1,7 - 0,4,2,1,3 - 2,0 - 0,{'mlbId': 352830460}
+237,anonymized-files-wisd/12345634_44762.jsonl,fb10606a-83c9-4800-b77e-2a8b2ab9b394,Sinker,Strike,Called,{},{},0,6 - 0,4,0,0,0 - 0,0 - 1,
+238,anonymized-files-wisd/12345634_44774.jsonl,3c0e530e-2952-4b70-aa23-c2f2117935ba,Curveball,Ball,Called,{},{},0,0 - 0,3,2,0,0 - 1,1 - 0,
+239,anonymized-files-wisd/12345634_44937.jsonl,7c3621ae-fd77-4580-8d6f-a3604db580ff,Sinker,Ball,Called,{},{},0,0 - 0,1,0,0,0 - 0,1 - 0,
+240,anonymized-files-wisd/12345634_44940.jsonl,d3c3ff5e-e00a-4532-bec3-48edfdf46111,Sinker,Ball,Called,{},{},0,0 - 0,3,1,0,2 - 2,1 - 0,
+241,anonymized-files-wisd/12345634_45088.jsonl,cd883540-b8d0-4079-aa51-9d773422e747,Sinker,HitIntoPlay,{},f69d3b2b-e738-4a02-a970-24f0b1dcce27,{},1,9 - 0,5,2,1,3 - 2,0 - 0,{'mlbId': 849653732}
+242,anonymized-files-wisd/12345634_4522.jsonl,a9723586-4af4-4868-a949-b9b8b5a1b7f2,Changeup,Strike,Foul,{},{},0,7 - 0,5,0,0,1 - 2,0 - 0,
+243,anonymized-files-wisd/12345634_45334.jsonl,607b1efb-19dd-422b-8366-8b9b7b9770e7,FourSeamFastball,Strike,Foul,a0233232-0671-4eb1-add0-75201ce9c1a4,{},1,9 - 0,9,2,0,1 - 2,0 - 0,{'mlbId': 360906992}
+244,anonymized-files-wisd/12345634_45529.jsonl,d683b2e9-609a-4fb9-81bf-3f41457711f2,FourSeamFastball,HitIntoPlay,{},4af97d7c-7e41-4de2-9d9c-ad5fafffa9a1,{},1,6 - 0,4,0,0,1 - 0,0 - 0,{'mlbId': 854238128}
+245,anonymized-files-wisd/12345634_45703.jsonl,45d8422f-b1c3-4a89-8014-9f09d115644b,Curveball,Strike,Called,{},{},0,9 - 0,9,1,0,0 - 1,0 - 1,
+246,anonymized-files-wisd/12345634_46014.jsonl,13359a63-665c-4539-95f6-7a992898ea02,Slider,Ball,Called,{},{},0,7 - 0,5,1,0,1 - 1,1 - 0,
+247,anonymized-files-wisd/12345634_46064.jsonl,98b23eba-bc07-450b-96c3-17a479f858b0,Slider,Ball,Called,{},{},0,9 - 0,6,2,0,2 - 2,1 - 0,
+248,anonymized-files-wisd/12345634_46068.jsonl,93653da7-12c5-43af-b929-0ee86b14224e,Sinker,Ball,Called,{},{},0,0 - 0,2,1,0,2 - 1,1 - 0,
+249,anonymized-files-wisd/12345634_46252.jsonl,e2afe17b-e8f6-43bb-8cc7-5c9f479c85c8,Slider,Ball,BallInDirt,{},{},0,7 - 0,5,2,0,2 - 2,1 - 0,
+250,anonymized-files-wisd/12345634_46436.jsonl,7012ca5b-bde3-4133-96f2-3397a4af6ef5,Slider,Ball,Called,{},{},0,9 - 0,7,1,0,0 - 0,1 - 0,
+251,anonymized-files-wisd/12345634_46588.jsonl,0c350d87-3cbf-4726-90cf-e23e3930c5de,Cutter,Strike,Foul,601cb936-6b8d-4bb9-b90e-3cee514ed191,{},1,1 - 0,3,1,0,0 - 0,0 - 1,{'mlbId': 797957728}
+252,anonymized-files-wisd/12345634_46602.jsonl,656d8de2-e47b-4aa5-9f92-19959a7f51a4,Sinker,Strike,Foul,c8a96de6-f73d-4a25-82f9-08ef21e81268,{},1,0 - 0,1,0,0,1 - 0,0 - 1,{'mlbId': 412098649}
+253,anonymized-files-wisd/12345634_46652.jsonl,cee6eb42-63f1-4eb6-8284-69e72e4159f6,Changeup,Strike,Called,{},{},0,9 - 0,6,1,0,0 - 0,0 - 1,
+254,anonymized-files-wisd/12345634_46717.jsonl,028860ef-0272-43bb-a46b-eb7b83845b58,FourSeamFastball,Ball,Called,{},{},0,0 - 0,2,2,0,2 - 2,1 - 0,
+255,anonymized-files-wisd/12345634_4680.jsonl,7ca2cee9-11e0-4de2-a8f0-9132a01e8163,FourSeamFastball,Strike,Foul,{},{},0,7 - 0,5,0,0,0 - 0,0 - 1,
+256,anonymized-files-wisd/12345634_46897.jsonl,336b6cb2-033a-4332-ac47-7ae5d84a2a47,Slider,Strike,Foul,7804ac26-6ecf-4bf9-833e-5726918a8515,{},1,9 - 0,9,2,0,2 - 2,0 - 0,{'mlbId': 360906992}
+257,anonymized-files-wisd/12345634_47306.jsonl,2f8cfefb-0c53-4507-a7b5-d380d050ef94,Sinker,Strike,{},{},{},0,9 - 0,8,0,0,1 - 1,0 - 1,
+258,anonymized-files-wisd/12345634_47421.jsonl,b2144783-3442-4f15-8572-8410067291a5,Curveball,HitIntoPlay,{},8af2a2a6-894a-4bae-b677-39f5191f6bcb,{},1,0 - 0,2,2,1,0 - 2,0 - 0,{'mlbId': 485007791}
+259,anonymized-files-wisd/12345634_47562.jsonl,f287f989-53af-444f-ae9b-7a1f7f797251,Slider,Ball,BallInDirt,{},{},0,6 - 0,4,1,0,0 - 1,1 - 0,
+260,anonymized-files-wisd/12345634_47994.jsonl,89aa00e2-f810-4750-a531-ff27b7a7e486,Curveball,Strike,{},{},{},0,0 - 0,1,2,0,0 - 0,0 - 1,
+261,anonymized-files-wisd/12345634_48010.jsonl,1272e70d-14e5-45c3-a1d9-e3b40fce59cd,Sinker,Strike,Called,{},{},0,9 - 0,8,0,0,0 - 1,0 - 1,
+262,anonymized-files-wisd/12345634_48067.jsonl,0ad6d33c-b158-439d-bbf2-2c4a35aed525,Sinker,HitIntoPlay,{},a7f14e68-7bf2-48ff-a49e-ba044680eb5a,{},1,7 - 0,5,0,0,0 - 0,0 - 0,{'mlbId': 360906992}
+263,anonymized-files-wisd/12345634_48412.jsonl,b399ec13-6ecc-450c-bdb6-df56da3aaa85,Cutter,Strike,Foul,5029b625-927b-4abb-875e-a7ba770b3c22,{},1,0 - 0,1,2,0,0 - 0,0 - 1,{'mlbId': 797957728}
+264,anonymized-files-wisd/12345634_48583.jsonl,fa63174b-1c69-4c65-8b46-06965b12274d,Curveball,Strike,{},{},{},0,0 - 0,2,2,0,0 - 1,0 - 1,
+265,anonymized-files-wisd/12345634_48653.jsonl,83a06b35-347d-4feb-9df1-0f5929f7bf4a,Sinker,Strike,{},{},{},0,6 - 0,4,0,0,0 - 0,0 - 1,
+266,anonymized-files-wisd/12345634_48672.jsonl,1b4c3be7-3030-404b-9769-9ffca9a327ec,Slider,Ball,Called,{},{},0,6 - 0,4,1,0,0 - 0,1 - 0,
+267,anonymized-files-wisd/12345634_48793.jsonl,9b49de11-5807-474a-9756-96be4bd450a5,Changeup,Strike,Called,{},{},0,9 - 0,7,2,0,0 - 0,0 - 1,
+268,anonymized-files-wisd/12345634_48958.jsonl,9dc55cd8-cd6e-4494-a528-95174f790306,Curveball,Strike,Called,{},{},0,0 - 0,3,0,0,2 - 0,0 - 1,
+269,anonymized-files-wisd/12345634_49038.jsonl,03fd9d29-727d-4494-86c8-476c0732fb84,Curveball,Strike,Called,{},{},0,0 - 0,3,1,0,0 - 0,0 - 1,
+270,anonymized-files-wisd/12345634_49160.jsonl,5e16cef3-2261-4483-91b6-f3a94bfa6b0b,Sinker,Ball,HitByPitch,{},{},0,0 - 0,2,1,0,1 - 0,1 - 0,
+271,anonymized-files-wisd/12345634_49170.jsonl,2a0008f3-8740-45ad-bcba-c939269be7fc,Slider,Strike,Called,{},{},0,9 - 0,7,0,0,0 - 0,0 - 1,
+272,anonymized-files-wisd/12345634_49209.jsonl,77a95668-7783-4f39-b016-8b497b8da65d,Slider,Ball,Called,{},{},0,7 - 0,5,2,0,0 - 1,1 - 0,
+273,anonymized-files-wisd/12345634_49396.jsonl,50e27f5c-f9c9-4a31-8f5e-f43de61844d4,FourSeamFastball,HitIntoPlay,{},be40d556-8c6b-407d-a6d2-08a0360ade16,{},1,9 - 0,9,0,1,0 - 1,0 - 0,{'mlbId': 485007791}
+274,anonymized-files-wisd/12345634_49513.jsonl,a23b9415-e62d-4847-908f-7cc03340ebf1,Slider,Strike,Called,{},{},0,6 - 0,4,0,0,0 - 0,0 - 1,
+275,anonymized-files-wisd/12345634_49565.jsonl,8423c26e-de73-4df7-88c7-692d5ce253e3,Changeup,HitIntoPlay,{},{},{},0,2 - 0,3,2,0,0 - 1,0 - 0,
+276,anonymized-files-wisd/12345634_49682.jsonl,ccbcaeee-fc79-42db-856f-9465db67be00,Curveball,Strike,{},{},{},0,0 - 0,1,0,0,2 - 1,0 - 1,
+277,anonymized-files-wisd/12345634_49717.jsonl,1e134264-681a-4153-91a2-ecf9f12b23b3,Slider,Strike,Called,{},{},0,9 - 0,6,0,0,0 - 0,0 - 1,
+278,anonymized-files-wisd/12345634_49860.jsonl,7d930164-b44f-400b-9211-a03cb97dc2a1,Sinker,HitIntoPlay,{},{},{},0,9 - 0,6,1,0,0 - 0,0 - 0,
+279,anonymized-files-wisd/12345634_5019.jsonl,62b6042d-89e1-4573-93a1-77a94df5faf4,Curveball,Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+280,anonymized-files-wisd/12345634_5304.jsonl,8c89200f-6a1d-4572-a35a-afc97ef73977,Slider,Ball,Called,{},{},0,7 - 0,5,0,0,0 - 2,1 - 0,
+281,anonymized-files-wisd/12345634_5430.jsonl,bb03885f-bb1c-48f3-8601-5187b38ea8f2,Sinker,Strike,{},{},{},0,9 - 0,8,2,0,1 - 1,0 - 1,
+282,anonymized-files-wisd/12345634_5494.jsonl,0446bf99-d748-4e31-9017-51914e6d2ac1,Slider,Strike,{},{},{},0,7 - 0,5,2,0,1 - 0,0 - 1,
+283,anonymized-files-wisd/12345634_5500.jsonl,bc1f17f7-8f3f-49c4-93bd-c16a7352c211,Sinker,Ball,Called,{},{},0,9 - 0,5,2,0,1 - 0,1 - 0,
+284,anonymized-files-wisd/12345634_5529.jsonl,e49f766b-8741-43d8-9c92-8dff551f0827,Changeup,Strike,Called,{},{},0,9 - 0,6,2,0,2 - 0,0 - 1,
+285,anonymized-files-wisd/12345634_5626.jsonl,4f2259a0-2bbf-45a7-9ff2-b1d572542005,FourSeamFastball,Ball,Called,{},{},0,6 - 0,4,0,0,0 - 1,1 - 0,
+286,anonymized-files-wisd/12345634_5655.jsonl,84f189a5-98fd-478d-b982-e8032a1f14bf,FourSeamFastball,HitIntoPlay,{},1a7f5cfe-4838-4db0-ad08-a5be97749d79,{},1,6 - 0,4,1,1,1 - 2,0 - 0,{'mlbId': 412098649}
+287,anonymized-files-wisd/12345634_5661.jsonl,31d28cee-8503-4552-ab40-a6bc48241578,Slider,Ball,Called,{},{},0,9 - 0,5,2,0,2 - 1,1 - 0,
+288,anonymized-files-wisd/12345634_5701.jsonl,86f18ca8-3b22-40bc-a830-04d73a06bd72,Sinker,Ball,Called,{},{},0,9 - 0,8,0,0,2 - 2,1 - 0,
+289,anonymized-files-wisd/12345634_5780.jsonl,43c27fc8-6628-44d7-88a2-5c4b90c8a981,Slider,Strike,Foul,3622c91b-e3b5-46e4-a17a-f1643dd88661,{},1,9 - 0,7,2,0,1 - 2,0 - 0,{'mlbId': 360906992}
+290,anonymized-files-wisd/12345634_5960.jsonl,01d3cb1d-00c1-4bfb-8527-e07d35029baa,Sinker,Ball,Called,{},{},0,0 - 0,2,2,0,0 - 0,1 - 0,
+291,anonymized-files-wisd/12345634_6197.jsonl,82539a40-0f3b-4651-8bbf-c7581365d3eb,Curveball,Ball,BallInDirt,{},{},0,2 - 0,3,2,0,0 - 0,1 - 0,
+292,anonymized-files-wisd/12345634_6269.jsonl,070e16d6-c6d3-47bc-80d3-1c121f6f2ad9,Sinker,Ball,Called,{},{},0,0 - 0,3,0,0,3 - 0,1 - 0,
+293,anonymized-files-wisd/12345634_6544.jsonl,71ff49cd-6b23-4d99-ade5-ea3a7242229d,Sinker,Ball,Called,{},{},0,0 - 0,3,0,0,0 - 1,1 - 0,
+294,anonymized-files-wisd/12345634_6854.jsonl,f6d4d0f0-3c32-4be7-a45f-3d7602f7077d,Sinker,Ball,Called,{},{},0,0 - 0,3,1,0,0 - 0,1 - 0,
+295,anonymized-files-wisd/12345634_700.jsonl,f19f00e3-b86d-4916-9db3-c180fd5cabad,Changeup,Ball,Called,{},{},0,0 - 0,3,1,0,0 - 0,1 - 0,
+296,anonymized-files-wisd/12345634_7592.jsonl,35599748-9823-46d1-8426-f66e87af00b0,Sinker,Strike,Foul,a39f573a-8043-41fb-8ddc-56c223c4199b,{},1,0 - 0,1,2,0,1 - 2,0 - 0,{'mlbId': 797957728}
+297,anonymized-files-wisd/12345634_7975.jsonl,b41565fb-679a-4bcd-a7ca-a95c175fff8b,Sinker,Strike,FoulTip,{},{},0,9 - 0,8,0,1,3 - 2,0 - 1,
+298,anonymized-files-wisd/12345634_7990.jsonl,afc00eb1-0f89-453f-980e-ebf3944b6a5d,Slider,HitIntoPlay,{},51f59abb-a2a9-41cf-ac1c-06a88b0a8e28,{},1,9 - 0,7,1,1,3 - 2,0 - 0,{'mlbId': 558675411}
+299,anonymized-files-wisd/12345634_8192.jsonl,63f6ce69-8fd3-40d1-99d4-703546d41898,Slider,Strike,Foul,{},{},0,7 - 0,5,2,0,2 - 2,0 - 0,
+300,anonymized-files-wisd/12345634_8377.jsonl,9e026639-f5a0-463b-83cd-38e29f52052b,Curveball,Ball,Called,{},{},0,0 - 0,1,0,0,1 - 1,1 - 0,
+301,anonymized-files-wisd/12345634_8421.jsonl,8cdc9935-d461-4ef3-abe3-fc221cd8fd2c,Slider,Ball,HitByPitch,{},{},0,9 - 0,6,1,0,0 - 1,1 - 0,
+302,anonymized-files-wisd/12345634_8459.jsonl,47b60f8d-56c2-4004-92c7-ba621bb2675d,Curveball,Strike,{},{},{},0,0 - 0,3,1,1,0 - 2,0 - 1,
+303,anonymized-files-wisd/12345634_8501.jsonl,ff275faa-fe1a-4201-9295-d0e20d439f71,Sinker,Strike,FoulTip,{},{},0,0 - 0,2,1,0,1 - 0,0 - 1,
+304,anonymized-files-wisd/12345634_8545.jsonl,38283cc9-0650-4409-b843-3edb11c2fc50,Cutter,Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+305,anonymized-files-wisd/12345634_8686.jsonl,03e29fec-3e07-488d-94a4-e6c23674154d,Slider,Ball,Called,{},{},0,9 - 0,9,2,0,1 - 2,1 - 0,
+306,anonymized-files-wisd/12345634_8772.jsonl,eb711b9b-4a94-45ec-835a-3f5d2a3a9ae5,FourSeamFastball,HitIntoPlay,{},717670f1-86e2-465b-a8cf-46a41d860b2d,{},1,9 - 0,7,2,1,1 - 2,0 - 0,{'mlbId': 360906992}
+307,anonymized-files-wisd/12345634_8840.jsonl,de300165-0f3c-475f-86db-37078a7079ee,Slider,HitIntoPlay,{},449037c4-b0b3-4786-83f4-578092ef14b2,{},1,9 - 0,6,1,1,0 - 1,0 - 0,{'mlbId': 474808052}
+308,anonymized-files-wisd/12345634_8961.jsonl,f6ae6cbc-afb2-47f1-b659-774671fecbe1,Sinker,Strike,{},{},{},0,7 - 0,5,0,1,3 - 2,0 - 1,
+309,anonymized-files-wisd/12345634_9516.jsonl,51e24e76-41af-49db-a900-58a91fbb1965,Sinker,Ball,Called,{},{},0,2 - 0,3,2,0,1 - 0,1 - 0,
+310,anonymized-files-wisd/12345634_9577.jsonl,11d88ece-2b9e-4f76-8c80-36bb2523abe3,Slider,Strike,{},{},{},0,7 - 0,5,0,1,1 - 2,0 - 1,
+311,anonymized-files-wisd/12345634_9751.jsonl,da0a14ee-91e0-4924-ad9a-2d39318ef7de,FourSeamFastball,Strike,Called,{},{},0,9 - 0,7,0,1,2 - 2,0 - 1,
+312,anonymized-files-wisd/12345636_10170.jsonl,ad7f09a0-4cd4-45bf-8893-af24e5199e77,{},Strike,{},{},{},0,5 - 0,7,2,0,0 - 1,0 - 1,
+313,anonymized-files-wisd/12345636_10225.jsonl,327468f2-3982-44d2-86c4-b0db13bc32f1,{},Strike,Called,{},{},0,2 - 0,3,1,0,0 - 1,0 - 1,
+314,anonymized-files-wisd/12345636_10379.jsonl,41ed9163-1353-4a6f-8d1a-591f542dde85,{},Strike,Foul,4044b8ad-4b13-4e15-bf57-98a1d20f0f23,{},1,6 - 3,9,2,0,0 - 1,0 - 1,{'mlbId': 474808052}
+315,anonymized-files-wisd/12345636_10380.jsonl,6f15c7fa-df4c-41bd-aa50-dc28eb6237c3,{},Ball,Called,{},{},0,5 - 0,7,0,0,2 - 0,1 - 0,
+316,anonymized-files-wisd/12345636_10404.jsonl,1dad5857-04ab-46cd-8131-ecdf05fee0fa,{},Ball,Called,{},{},0,3 - 0,4,2,0,1 - 0,1 - 0,
+317,anonymized-files-wisd/12345636_10679.jsonl,f7869846-8a10-4ea2-96b1-10321bec884c,{},HitIntoPlay,{},a82ae631-bec6-433e-a7ae-330f32a348c8,{},1,5 - 1,8,1,0,0 - 2,0 - 0,{'mlbId': 174158975}
+318,anonymized-files-wisd/12345636_1085.jsonl,71b0da2c-6e2e-496f-b748-658969fe5859,{},Strike,Called,{},{},0,1 - 0,2,0,0,0 - 1,0 - 1,
+319,anonymized-files-wisd/12345636_10867.jsonl,7957eaea-331b-4b2a-b8d5-8e6c488433bc,{},Strike,Foul,421f01fd-2278-4e66-9031-f2ef18f4bdbc,{},1,6 - 3,9,1,0,0 - 2,0 - 0,{'mlbId': 485007791}
+320,anonymized-files-wisd/12345636_1109.jsonl,a91648e2-d0ad-483e-ab29-7ad121608365,{},Strike,Foul,9fb1c82f-904c-4989-b70c-0f6bc7266c92,{},1,2 - 0,4,2,0,2 - 2,0 - 0,{'mlbId': 459722179}
+321,anonymized-files-wisd/12345636_11177.jsonl,fd53dbd9-6a53-46d7-ab3e-c73bf1a826ea,{},Ball,Called,{},{},0,1 - 0,2,2,0,2 - 2,1 - 0,
+322,anonymized-files-wisd/12345636_11534.jsonl,3d6d0aed-eb37-4b88-90e6-9c0daece390b,{},Strike,{},{},{},0,6 - 1,8,2,0,0 - 0,0 - 1,
+323,anonymized-files-wisd/12345636_11657.jsonl,db82ba8f-d64d-40ee-a7f8-cdc672515ff3,{},Strike,Called,{},{},0,2 - 0,2,1,0,0 - 1,0 - 1,
+324,anonymized-files-wisd/12345636_11753.jsonl,48adb0f4-6055-4e0a-a308-1a98eba58203,{},HitIntoPlay,{},ca663ed8-d834-4957-93db-e98c28270b6a,{},1,5 - 0,8,0,0,0 - 0,0 - 0,{'mlbId': 485007791}
+325,anonymized-files-wisd/12345636_1182.jsonl,a4b3779b-1fbf-4b28-87b6-8dfe8b061647,{},Strike,FoulTip,{},{},0,4 - 0,5,0,1,0 - 2,0 - 1,
+326,anonymized-files-wisd/12345636_11895.jsonl,6de1eb51-9dc4-40a4-8ae8-c4a8a4a32a58,{},Ball,Called,{},{},0,2 - 0,3,1,0,0 - 2,1 - 0,
+327,anonymized-files-wisd/12345636_11974.jsonl,fe001d90-8e80-49d3-abc0-c8f966228186,{},Strike,Foul,44426b95-8770-4dd9-8268-bec23dd9eb44,{},1,2 - 0,4,2,0,3 - 2,0 - 0,{'mlbId': 290569727}
+328,anonymized-files-wisd/12345636_12134.jsonl,548225d2-01dc-4c41-9f2e-aa68617010be,{},Ball,Called,{},{},0,5 - 1,8,1,0,0 - 0,1 - 0,
+329,anonymized-files-wisd/12345636_12516.jsonl,3f86c240-59de-467f-81d6-c704b1eed529,{},Strike,Called,{},{},0,2 - 0,4,2,1,3 - 2,0 - 1,
+330,anonymized-files-wisd/12345636_13529.jsonl,6239ce01-896a-4812-b83f-1a3a3db99546,{},Strike,Foul,{},{},0,4 - 0,5,0,0,1 - 2,0 - 0,
+331,anonymized-files-wisd/12345636_13574.jsonl,c144ba94-df74-4813-a9b8-7e6a87c8bc33,{},HitIntoPlay,{},af219680-da54-4e43-8ea5-3ea020f3bc2d,{},1,2 - 0,3,1,1,1 - 0,0 - 0,{'mlbId': 223971350}
+332,anonymized-files-wisd/12345636_13946.jsonl,5e10f6d2-5498-44d0-b8ac-3a8c04f827d2,{},Ball,Called,{},{},0,1 - 0,2,1,0,1 - 2,1 - 0,
+333,anonymized-files-wisd/12345636_13989.jsonl,7a35947e-559d-431e-9a7f-f5d722d33d29,{},Strike,Called,{},{},0,1 - 0,2,1,1,2 - 2,0 - 1,
+334,anonymized-files-wisd/12345636_14743.jsonl,81116cbb-6b7a-48da-8da5-27eb52fc71d5,{},HitIntoPlay,{},8ae0d741-a57b-4dac-bda8-4bf47c3bde99,{},1,5 - 0,5,2,1,0 - 2,0 - 0,{'mlbId': 719210239}
+335,anonymized-files-wisd/12345636_15097.jsonl,c012e9c4-26ab-4042-ad9e-1058bdf63665,{},Strike,{},{},{},0,5 - 0,8,0,0,1 - 1,0 - 1,
+336,anonymized-files-wisd/12345636_15127.jsonl,a9f675e3-475a-4db0-9e61-a4851296d912,{},Ball,Called,{},{},0,5 - 0,7,1,0,0 - 1,1 - 0,
+337,anonymized-files-wisd/12345636_15243.jsonl,43df7f6e-54ae-4e37-98d4-79ba387222d0,{},Strike,Called,{},{},0,5 - 0,6,0,0,0 - 0,0 - 1,
+338,anonymized-files-wisd/12345636_15300.jsonl,6742cfe6-e333-4084-860e-858b501671f1,{},Strike,Foul,0af5d47b-0d1d-43d2-aaaa-24d3d6a8586b,{},1,6 - 3,9,2,0,1 - 2,0 - 0,{'mlbId': 474808052}
+339,anonymized-files-wisd/12345636_15748.jsonl,6d43c19a-7a64-46a6-bb08-defe9037c516,{},Strike,Foul,10df367e-4851-48e3-a409-4498f6e287b0,{},1,6 - 3,9,2,0,0 - 0,0 - 1,{'mlbId': 474808052}
+340,anonymized-files-wisd/12345636_15891.jsonl,3ba2c0f1-8f16-43e8-883f-1ffcc52429d0,{},Strike,Foul,21f02c63-2c00-45f8-8c70-ccd911c42fa4,{},1,4 - 0,5,0,0,0 - 1,0 - 1,{'mlbId': 451871192}
+341,anonymized-files-wisd/12345636_15955.jsonl,{},{},Pickoff,ThrowToSecond,{},{},0,4 - 0,5,1,0,1 - 0,0 - 0,
+342,anonymized-files-wisd/12345636_1632.jsonl,d78a566a-3425-404a-b5a1-ae088696a4a1,{},Strike,{},{},{},0,5 - 0,6,1,0,0 - 1,0 - 1,
+343,anonymized-files-wisd/12345636_1647.jsonl,5d207571-c80e-48c7-8063-e9f4c3217c6a,{},Ball,Called,{},{},0,2 - 0,3,1,0,1 - 0,1 - 0,
+344,anonymized-files-wisd/12345636_16527.jsonl,ca2d438f-eda6-4c2a-9dca-3f729c2da789,{},Ball,Called,{},{},0,5 - 0,7,2,0,1 - 0,1 - 0,
+345,anonymized-files-wisd/12345636_1668.jsonl,423d0006-71d4-452f-b181-bc93a3174dad,{},Strike,Foul,e31d39c6-9830-46b7-93f4-3e7829c2d016,{},1,1 - 0,2,0,0,2 - 1,0 - 1,{'mlbId': 805688901}
+346,anonymized-files-wisd/12345636_16732.jsonl,319780cd-34c2-4dfe-9154-126184b54c3d,{},Strike,Blocked,{},{},0,0 - 0,1,2,1,2 - 2,0 - 1,
+347,anonymized-files-wisd/12345636_16753.jsonl,dca2c099-0580-4754-b620-9c618c03598e,{},Ball,Called,{},{},0,2 - 0,4,2,0,2 - 2,1 - 0,
+348,anonymized-files-wisd/12345636_16890.jsonl,a4e98d1e-5e60-440b-a02f-7600e9aca7a5,{},Ball,Called,{},{},0,6 - 2,9,0,0,1 - 1,1 - 0,
+349,anonymized-files-wisd/12345636_17128.jsonl,a0f2fa63-0478-4445-946b-91a021f0e140,{},Strike,Called,{},{},0,2 - 0,2,1,0,0 - 0,0 - 1,
+350,anonymized-files-wisd/12345636_17347.jsonl,d98461d3-fbfa-4fd5-815a-27f7f9ef43f6,{},Strike,Foul,d7f131ca-6ef0-45f7-ac29-c5707acee889,{},1,0 - 0,1,0,0,1 - 2,0 - 0,{'mlbId': 485007791}
+351,anonymized-files-wisd/12345636_1737.jsonl,36739ab3-dfc8-461a-935b-1473d1adf7a4,{},Ball,Called,{},{},0,6 - 1,9,0,0,1 - 0,1 - 0,
+352,anonymized-files-wisd/12345636_1762.jsonl,9ac6f971-4def-41c4-a1ff-c28d10ba7ee1,{},Ball,Called,{},{},0,5 - 1,8,1,0,3 - 1,1 - 0,
+353,anonymized-files-wisd/12345636_17708.jsonl,f736c1db-cffa-479d-a24b-e3eb659a27a1,{},Strike,Foul,69036f83-9e9d-4f80-af11-a843e94e1e55,{},1,5 - 0,7,1,0,1 - 1,0 - 1,{'mlbId': 849653732}
+354,anonymized-files-wisd/12345636_17773.jsonl,55c924f8-ba65-4d15-8336-b8ea22499270,{},Strike,Foul,{},{},0,2 - 0,4,0,0,1 - 1,0 - 1,
+355,anonymized-files-wisd/12345636_178.jsonl,6fea2ea6-291d-47cf-a077-9a4965cf052c,{},Strike,Called,{},{},0,3 - 0,4,0,0,0 - 0,0 - 1,
+356,anonymized-files-wisd/12345636_1784.jsonl,98571d48-77a7-4144-b725-26233c13b6af,{},HitIntoPlay,{},7a179109-6609-41ac-a215-eaa44e367e48,{},1,2 - 0,3,2,1,0 - 0,0 - 0,{'mlbId': 797957728}
+357,anonymized-files-wisd/12345636_1792.jsonl,d2ac4441-c590-4e7b-ad69-76b4c059feb9,{},Strike,Foul,{},{},0,2 - 0,4,2,0,2 - 2,0 - 0,
+358,anonymized-files-wisd/12345636_17939.jsonl,4c1a0a58-7a66-4690-845f-f831b493bcd1,{},Ball,BallInDirt,{},{},0,6 - 2,9,0,0,1 - 2,1 - 0,
+359,anonymized-files-wisd/12345636_18070.jsonl,6a1351e0-1512-42c5-bc37-c8ace47d5757,{},HitIntoPlay,{},75db042c-a1c1-4dc6-966a-46fac51aaeb3,{},1,5 - 0,6,2,1,0 - 0,0 - 0,{'mlbId': 459722179}
+360,anonymized-files-wisd/12345636_18269.jsonl,dafa2535-2631-45d5-97f1-a76384289c48,{},Ball,Called,{},{},0,4 - 0,5,0,0,0 - 1,1 - 0,
+361,anonymized-files-wisd/12345636_18366.jsonl,b013a8dc-1733-42c7-bbdb-0caabf14c87e,{},Strike,Foul,7d2cac56-10fc-4378-8b9e-facc6800a444,{},1,6 - 3,9,1,0,0 - 2,0 - 0,{'mlbId': 485007791}
+362,anonymized-files-wisd/12345636_18417.jsonl,5983bfdd-b922-409c-b53e-97c1d9225463,{},Ball,BallInDirt,{},{},0,6 - 2,9,0,0,2 - 2,1 - 0,
+363,anonymized-files-wisd/12345636_18532.jsonl,ec5bc7d0-d836-44fa-9e37-c64b6d157583,{},Ball,Called,{},{},0,5 - 1,8,1,0,1 - 0,1 - 0,
+364,anonymized-files-wisd/12345636_18762.jsonl,79613d01-c854-42c1-90c0-0beabbde303b,{},HitIntoPlay,{},6b385da5-3478-4f27-96a6-57b5a46e6f90,{},1,0 - 0,1,0,0,1 - 2,0 - 0,{'mlbId': 505414610}
+365,anonymized-files-wisd/12345636_18991.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,3 - 0,4,0,0,1 - 2,0 - 0,
+366,anonymized-files-wisd/12345636_19576.jsonl,b3e032a5-0362-460c-924c-119baff8e439,{},Strike,{},{},{},0,5 - 0,7,0,0,0 - 0,0 - 1,
+367,anonymized-files-wisd/12345636_19726.jsonl,092e29b2-ce71-44fe-a438-ebcd937eec3d,{},Strike,Foul,edea42da-559f-48ce-85ea-874f41caa944,{},1,6 - 3,9,1,0,0 - 1,0 - 1,{'mlbId': 485007791}
+368,anonymized-files-wisd/12345636_19837.jsonl,67481ee7-2d5d-4682-abbb-bdf3825340a7,{},Strike,Called,{},{},0,5 - 0,6,0,0,0 - 1,0 - 1,
+369,anonymized-files-wisd/12345636_1994.jsonl,f99751b1-6f48-4deb-b165-1da3b163598b,{},Strike,Called,{},{},0,5 - 1,8,1,0,0 - 0,0 - 1,
+370,anonymized-files-wisd/12345636_19977.jsonl,ac6750fd-e1c9-42c2-9232-a493a4498b6a,{},Strike,Called,{},{},0,5 - 0,6,1,0,0 - 0,0 - 1,
+371,anonymized-files-wisd/12345636_20006.jsonl,e9467cce-f96b-4bde-b191-4b50835176d0,{},Strike,Foul,{},{},0,6 - 3,9,2,0,1 - 2,0 - 0,
+372,anonymized-files-wisd/12345636_20235.jsonl,47488937-09c2-4bca-b747-f9ea86ba94ce,{},Strike,{},{},{},0,2 - 0,4,0,0,0 - 1,0 - 1,
+373,anonymized-files-wisd/12345636_20510.jsonl,9ddebf6a-3208-400b-966f-a880f3c0dea8,{},Ball,BallInDirt,{},{},0,2 - 0,4,2,0,1 - 2,1 - 0,
+374,anonymized-files-wisd/12345636_21064.jsonl,da39e7cd-a6f5-4acf-b341-32514df674d8,{},Ball,Called,{},{},0,5 - 1,8,1,0,2 - 0,1 - 0,
+375,anonymized-files-wisd/12345636_21198.jsonl,df5f2303-5370-458d-b019-1b6fc7f7660c,{},Ball,Called,{},{},0,5 - 0,6,1,0,0 - 2,1 - 0,
+376,anonymized-files-wisd/12345636_21334.jsonl,bcb57c0e-b1d7-4958-9349-1092cde076fb,{},HitIntoPlay,{},a44f0611-618d-41dd-bb9b-089140c3f317,{},1,2 - 0,4,0,0,1 - 2,0 - 0,{'mlbId': 719210239}
+377,anonymized-files-wisd/12345636_21568.jsonl,34774b88-1078-4ebb-a606-a1a2d4d8afd1,{},HitIntoPlay,{},4ac44bfc-ca74-4805-99e1-1928cd9eeee1,{},1,4 - 0,5,2,0,0 - 2,0 - 0,{'mlbId': 797957728}
+378,anonymized-files-wisd/12345636_21709.jsonl,aed7645f-a86c-4119-b47c-93681c3c5ff3,{},Strike,Foul,6798cf87-c296-4695-8bc4-743656036b3d,{},1,6 - 2,9,0,0,3 - 2,0 - 0,{'mlbId': 654287703}
+379,anonymized-files-wisd/12345636_21919.jsonl,c0a25980-87a9-4d17-aff0-86b05d49f265,{},Ball,Called,{},{},0,3 - 0,4,1,0,1 - 0,1 - 0,
+380,anonymized-files-wisd/12345636_22060.jsonl,b4849204-12ac-4492-b7bc-1e4c3f13fb3e,{},Strike,Called,{},{},0,5 - 0,8,0,1,1 - 2,0 - 1,
+381,anonymized-files-wisd/12345636_22273.jsonl,5cc5c270-3815-47c9-8e1e-8c9b233ec623,{},HitIntoPlay,{},2a03fa9b-68a4-4602-bd82-93eef7b746e0,{},1,4 - 0,5,1,1,2 - 2,0 - 0,{'mlbId': 505414610}
+382,anonymized-files-wisd/12345636_22360.jsonl,ec5d5bb0-702a-45c2-ad1c-848438bae83c,{},HitIntoPlay,{},440d19e8-caa0-48ab-a8b8-8d3bf249e399,{},1,5 - 1,8,1,0,0 - 0,0 - 0,{'mlbId': 719210239}
+383,anonymized-files-wisd/12345636_22626.jsonl,614a684b-68e1-41ee-b07c-4319f704dfca,{},Strike,{},{},{},0,4 - 0,5,1,0,0 - 0,0 - 1,
+384,anonymized-files-wisd/12345636_22657.jsonl,ae2f8cfe-934d-486d-86f9-b05b6dcc8ffb,{},Ball,Called,{},{},0,1 - 0,2,1,0,0 - 0,1 - 0,
+385,anonymized-files-wisd/12345636_227.jsonl,ae61dde1-8b05-4415-8f34-3b7490ccce2c,{},Ball,Called,{},{},0,2 - 0,3,2,0,0 - 2,1 - 0,
+386,anonymized-files-wisd/12345636_22823.jsonl,7ae42d70-67cd-4cd8-b356-245d75b0b56f,{},Ball,Called,{},{},0,2 - 0,3,1,0,0 - 0,1 - 0,
+387,anonymized-files-wisd/12345636_23052.jsonl,b07f4853-ee2d-4795-b6d3-db8bcd2a353e,{},Strike,{},{},{},0,6 - 1,8,2,1,0 - 2,0 - 1,
+388,anonymized-files-wisd/12345636_23364.jsonl,1f20f3d9-e2e9-413e-b49f-d9d99b45230a,{},Ball,Called,{},{},0,1 - 0,2,0,0,2 - 2,1 - 0,
+389,anonymized-files-wisd/12345636_23375.jsonl,446d16ca-4d7c-47cd-b29e-9d54a39b7169,{},Strike,Foul,{},{},0,1 - 0,2,1,0,0 - 0,0 - 1,
+390,anonymized-files-wisd/12345636_2354.jsonl,cca58e50-addb-45b7-9274-78b2e4902326,{},HitIntoPlay,{},93eaad69-2633-44cb-9a3f-68f05f34d5b4,{},1,6 - 1,9,0,0,1 - 1,0 - 0,{'mlbId': 290569727}
+391,anonymized-files-wisd/12345636_23696.jsonl,22e8d37b-8f76-4473-a926-395baafdc49b,{},HitIntoPlay,{},09435422-7870-44d4-9ae5-6a1613ec5ad2,{},1,4 - 0,5,1,0,1 - 0,0 - 0,{'mlbId': 654287703}
+392,anonymized-files-wisd/12345636_23742.jsonl,9b43b2f7-a2b6-481b-93b9-fd1f6bce778c,{},Strike,Called,{},{},0,1 - 0,2,0,0,0 - 0,0 - 1,
+393,anonymized-files-wisd/12345636_24009.jsonl,e3310153-6f62-4192-afc8-7f012a0892d6,{},Ball,Called,{},{},0,0 - 0,1,0,0,2 - 2,1 - 0,
+394,anonymized-files-wisd/12345636_24265.jsonl,25f2e145-de19-4790-b658-4f09828e11a3,{},Strike,{},{},{},0,5 - 0,7,1,0,0 - 0,0 - 1,
+395,anonymized-files-wisd/12345636_24470.jsonl,2ced7823-c9e2-4376-8748-9500e147a418,{},Strike,Called,{},{},0,2 - 0,4,2,0,1 - 1,0 - 1,
+396,anonymized-files-wisd/12345636_2455.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,3 - 0,4,0,0,0 - 1,0 - 0,
+397,anonymized-files-wisd/12345636_24726.jsonl,385f0e10-8943-4558-83fe-6a11e0517933,{},HitIntoPlay,{},205b74ab-0b70-4f37-92de-effc8ebcbd72,{},1,5 - 0,6,2,1,1 - 1,0 - 0,{'mlbId': 618024297}
+398,anonymized-files-wisd/12345636_24775.jsonl,e309c520-08ef-4b03-b24e-17ea1dddbdbc,{},Ball,Called,{},{},0,2 - 0,4,2,0,3 - 2,1 - 0,
+399,anonymized-files-wisd/12345636_24850.jsonl,cf620429-927d-4718-ac57-8911d388a041,{},Ball,Called,{},{},0,2 - 0,3,0,0,0 - 0,1 - 0,
+400,anonymized-files-wisd/12345636_2512.jsonl,1f4d2254-765f-4bfa-a9a8-7dd481a5ad0f,{},Ball,Called,{},{},0,4 - 0,5,1,0,0 - 0,1 - 0,
+401,anonymized-files-wisd/12345636_25287.jsonl,6bfa9ba9-75a2-46d3-91b3-65b4fe530ba5,{},Ball,BallInDirt,{},{},0,2 - 0,4,1,0,0 - 0,1 - 0,
+402,anonymized-files-wisd/12345636_25670.jsonl,98ce8f56-4cd8-4258-b965-41dec78ea9fb,{},Ball,Called,{},{},0,2 - 0,3,0,0,1 - 2,1 - 0,
+403,anonymized-files-wisd/12345636_26313.jsonl,abf7d9f3-705d-4ace-bcc4-3c5a4e2c2358,{},Ball,Called,{},{},0,0 - 0,1,0,0,0 - 1,1 - 0,
+404,anonymized-files-wisd/12345636_26384.jsonl,8a844acf-d085-4e8f-8b71-cbcd988ffecd,{},Strike,{},{},{},0,1 - 0,2,0,0,1 - 0,0 - 1,
+405,anonymized-files-wisd/12345636_26414.jsonl,aaad5d1f-09be-4876-b599-9748544810fa,{},Ball,Called,{},{},0,3 - 0,4,2,0,0 - 0,1 - 0,
+406,anonymized-files-wisd/12345636_26424.jsonl,97095bd3-06af-49d4-8641-8c660e0bbd4f,{},Strike,Foul,{},{},0,4 - 0,4,2,0,2 - 0,0 - 1,
+407,anonymized-files-wisd/12345636_26484.jsonl,5fe34b1b-30ac-4941-8f07-f48135784056,{},HitIntoPlay,{},41896f11-de02-47ca-9e86-573cfb441944,{},1,3 - 0,4,0,0,0 - 0,0 - 0,{'mlbId': 174158975}
+408,anonymized-files-wisd/12345636_26864.jsonl,a17e37d0-665d-4e73-a986-34851adfe531,{},HitIntoPlay,{},465d7cf5-6603-43cb-9d0b-f296bbf1a118,{},1,5 - 0,6,1,1,1 - 2,0 - 0,{'mlbId': 545569723}
+409,anonymized-files-wisd/12345636_26870.jsonl,596cb20e-e1eb-484f-8bb3-c55e44d3373b,{},Strike,Called,{},{},0,5 - 0,7,2,0,0 - 0,0 - 1,
+410,anonymized-files-wisd/12345636_27017.jsonl,d0535cd2-4723-48bf-a33c-cb9f47df3034,{},Ball,Called,{},{},0,0 - 0,1,2,0,0 - 0,1 - 0,
+411,anonymized-files-wisd/12345636_27062.jsonl,cd1e50b1-d55b-482d-904e-2445c72bfd1e,{},HitIntoPlay,{},e63ce70d-4d73-43d6-bd1c-7b8655045ecc,{},1,2 - 0,3,1,0,2 - 2,0 - 0,{'mlbId': 654287703}
+412,anonymized-files-wisd/12345636_27133.jsonl,50854cf9-cc76-4e64-9e05-bf93e9a737c9,{},Strike,Foul,{},{},0,0 - 0,1,0,0,1 - 2,0 - 0,
+413,anonymized-files-wisd/12345636_27200.jsonl,5fcd928e-55ce-4459-ac11-ad7c23c1010e,{},Strike,Called,{},{},0,2 - 0,3,1,0,0 - 0,0 - 1,
+414,anonymized-files-wisd/12345636_27290.jsonl,70004366-cce8-47b0-b413-f45a99643501,{},Ball,BallInDirt,{},{},0,5 - 0,7,2,0,0 - 2,1 - 0,
+415,anonymized-files-wisd/12345636_27549.jsonl,ac983c76-a8ca-4985-885e-768b4418cc4d,{},Ball,Called,{},{},0,0 - 0,1,0,0,0 - 0,1 - 0,
+416,anonymized-files-wisd/12345636_27617.jsonl,ac8e72af-858a-4c0b-a36d-f1047e360369,{},Strike,Foul,96a92e17-b382-4af5-b9ef-b10b613c551e,{},1,0 - 0,1,0,0,0 - 0,0 - 1,{'mlbId': 485007791}
+417,anonymized-files-wisd/12345636_27620.jsonl,ee7b6546-641e-4c22-94e0-121f003ad771,{},Ball,Called,{},{},0,1 - 0,2,0,0,0 - 0,1 - 0,
+418,anonymized-files-wisd/12345636_27694.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,2 - 0,3,2,0,0 - 0,0 - 0,
+419,anonymized-files-wisd/12345636_27879.jsonl,d912d30d-c6ba-4cd8-b115-cd97069b9184,{},Ball,Called,{},{},0,2 - 0,3,0,0,0 - 0,1 - 0,
+420,anonymized-files-wisd/12345636_2807.jsonl,ad7d86b0-89e2-43d1-8373-59392dff53fd,{},HitIntoPlay,{},d7fa3509-ee38-4712-89e9-60048dca36b2,{},1,5 - 0,7,2,1,2 - 0,0 - 0,{'mlbId': 590082479}
+421,anonymized-files-wisd/12345636_28131.jsonl,be97384b-f9f4-4657-96c3-4ed954e11172,{},Strike,Called,{},{},0,5 - 0,7,0,1,3 - 2,0 - 1,
+422,anonymized-files-wisd/12345636_28135.jsonl,35113921-afdb-49a6-823d-4c347ff7f0c7,{},Ball,Called,{},{},0,6 - 1,9,0,0,2 - 0,1 - 0,
+423,anonymized-files-wisd/12345636_28220.jsonl,eb5055f7-fc86-403f-8bdb-a40a9273cf09,{},Strike,Called,{},{},0,0 - 0,1,2,0,1 - 0,0 - 1,
+424,anonymized-files-wisd/12345636_28366.jsonl,09613812-5231-471b-860e-ab8b5a30b40d,{},Strike,{},{},{},0,6 - 1,8,1,0,0 - 1,0 - 1,
+425,anonymized-files-wisd/12345636_28780.jsonl,a4dd7524-f36f-4905-ba98-cb2d42ec9ea4,{},Strike,Called,{},{},0,4 - 0,5,1,0,1 - 1,0 - 1,
+426,anonymized-files-wisd/12345636_28808.jsonl,b77c0f25-9aa9-4357-af44-6972675e4541,{},Ball,Called,{},{},0,6 - 1,9,0,0,0 - 0,1 - 0,
+427,anonymized-files-wisd/12345636_29608.jsonl,c6084bdd-0dbe-47ec-a820-a78210abd06b,{},Strike,Called,{},{},0,5 - 0,7,0,0,3 - 0,0 - 1,
+428,anonymized-files-wisd/12345636_29833.jsonl,3391fbf8-bf22-44c0-b6d0-594927e41773,{},Strike,Called,{},{},0,3 - 0,4,1,0,2 - 1,0 - 1,
+429,anonymized-files-wisd/12345636_29910.jsonl,bb020cea-a8c6-431e-a1ce-e730c4776c3d,{},Strike,{},{},{},0,5 - 1,8,1,0,0 - 1,0 - 1,
+430,anonymized-files-wisd/12345636_29969.jsonl,629ed301-5a69-4dc1-bdaf-fa97df934f07,{},Ball,Called,{},{},0,2 - 0,3,0,0,2 - 2,1 - 0,
+431,anonymized-files-wisd/12345636_3001.jsonl,708fb9e2-0a83-497f-92cb-12513ba0e667,{},HitIntoPlay,{},1a2b950d-b7c7-46f1-aadf-f8c29ddc7da8,{},1,4 - 0,5,0,0,1 - 1,0 - 0,{'mlbId': 849653732}
+432,anonymized-files-wisd/12345636_30415.jsonl,daf3ba96-2698-4a9a-a19e-86b7af749917,{},HitIntoPlay,{},0e71dbe8-bde8-4cfd-bd48-ffec312b5211,{},1,2 - 0,3,0,1,2 - 0,0 - 0,{'mlbId': 451871192}
+433,anonymized-files-wisd/12345636_30488.jsonl,b19d8e79-0cdf-44ff-bcbb-3bac9c5d15dc,{},Strike,Foul,f2f58c66-ea90-42cb-8d64-2ab98fe5c64a,{},1,2 - 0,3,1,0,2 - 2,0 - 0,{'mlbId': 654287703}
+434,anonymized-files-wisd/12345636_30532.jsonl,aa6643c6-41e0-4aeb-be71-c2b549086e84,{},Ball,Called,{},{},0,5 - 0,7,1,0,0 - 0,1 - 0,
+435,anonymized-files-wisd/12345636_30712.jsonl,59519c03-e0da-4f4f-ba50-f5d5018fcf7b,{},HitIntoPlay,{},72b2d4d1-b07a-488d-80a6-35281967e2b5,{},1,5 - 0,7,1,1,2 - 2,0 - 0,{'mlbId': 451871192}
+436,anonymized-files-wisd/12345636_30800.jsonl,5a92a373-4fde-4f2b-86d1-6e2d940a4db3,{},Ball,Called,{},{},0,2 - 0,4,1,0,3 - 1,1 - 0,
+437,anonymized-files-wisd/12345636_30863.jsonl,3b15c3fb-d3c9-4616-82a0-af1217cdbef3,{},Ball,Called,{},{},0,2 - 0,4,2,0,2 - 2,1 - 0,
+438,anonymized-files-wisd/12345636_31037.jsonl,0da10a0e-60ec-4714-b086-2001c7c01ed9,{},Ball,Called,{},{},0,0 - 0,1,0,0,1 - 2,1 - 0,
+439,anonymized-files-wisd/12345636_3147.jsonl,b2b6d8df-1246-48d1-b169-a5b68e3b6dff,{},Ball,Called,{},{},0,5 - 0,7,1,0,1 - 0,1 - 0,
+440,anonymized-files-wisd/12345636_31681.jsonl,30ea9140-d982-4ba1-a0eb-948481e5434d,{},Strike,Called,{},{},0,6 - 2,9,0,0,1 - 0,0 - 1,
+441,anonymized-files-wisd/12345636_31868.jsonl,958e4023-8592-4466-a5ea-0fcb5e5f43ed,{},Ball,Called,{},{},0,5 - 1,8,2,0,0 - 0,1 - 0,
+442,anonymized-files-wisd/12345636_31887.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,5 - 0,8,0,0,1 - 2,0 - 0,
+443,anonymized-files-wisd/12345636_32247.jsonl,dcccae3c-ee78-4f41-86fc-e4f1e9bfd13e,{},Strike,Called,{},{},0,5 - 0,6,1,1,1 - 2,0 - 1,
+444,anonymized-files-wisd/12345636_32331.jsonl,e27b3fdf-6ac5-4887-b3fe-e3dec9e40e12,{},Ball,Called,{},{},0,1 - 0,1,2,0,1 - 1,1 - 0,
+445,anonymized-files-wisd/12345636_32414.jsonl,3fbf0cfd-f654-4ba6-b75f-7ab69da6449d,{},Strike,{},{},{},0,5 - 1,8,1,1,0 - 2,0 - 1,
+446,anonymized-files-wisd/12345636_32488.jsonl,74a10535-45e9-4c97-b713-39d5d69f8e39,{},Strike,Foul,8fc8d2d4-789c-4b77-b51d-844074397912,{},1,4 - 0,5,0,0,0 - 0,0 - 1,{'mlbId': 590082479}
+447,anonymized-files-wisd/12345636_32704.jsonl,e0a37b1e-5d48-4cb5-8417-4a3fcc409265,{},HitIntoPlay,{},d1c5a7d2-f550-455d-8c5d-3a1a30e8a0e3,{},1,1 - 0,1,0,2,1 - 1,0 - 0,{'mlbId': 797957728}
+448,anonymized-files-wisd/12345636_32826.jsonl,65b9aca7-3bcf-411e-bd59-b4da2ffa13de,{},Ball,Called,{},{},0,0 - 0,1,0,0,0 - 1,1 - 0,
+449,anonymized-files-wisd/12345636_32950.jsonl,fc461424-ce44-4d29-91ed-284f56ad8015,{},Ball,Called,{},{},0,5 - 0,7,2,0,1 - 0,1 - 0,
+450,anonymized-files-wisd/12345636_33067.jsonl,a5ebb705-2745-45c9-a771-173f27f73eef,{},Ball,Called,{},{},0,6 - 2,9,0,0,0 - 0,1 - 0,
+451,anonymized-files-wisd/12345636_33099.jsonl,0a948aa7-cb7e-41be-aa26-59bc1d44c89d,{},Strike,{},{},{},0,5 - 0,6,1,0,0 - 0,0 - 1,
+452,anonymized-files-wisd/12345636_33403.jsonl,4c68a565-b00d-42db-8204-278f14145cac,{},Strike,Called,{},{},0,1 - 0,2,1,0,1 - 1,0 - 1,
+453,anonymized-files-wisd/12345636_33412.jsonl,42b98398-0986-445b-bb7e-ae2671810f71,{},Ball,Called,{},{},0,2 - 0,4,0,0,0 - 1,1 - 0,
+454,anonymized-files-wisd/12345636_3349.jsonl,39060b8a-1b21-416b-89c0-ecda32425afb,{},Ball,Called,{},{},0,1 - 0,2,2,0,0 - 1,1 - 0,
+455,anonymized-files-wisd/12345636_33508.jsonl,75b2534d-cde5-46d9-9b56-f1b708f4f544,{},Strike,Called,{},{},0,5 - 1,8,1,0,0 - 0,0 - 1,
+456,anonymized-files-wisd/12345636_3364.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,1 - 0,1,0,0,1 - 0,0 - 0,
+457,anonymized-files-wisd/12345636_34049.jsonl,bfb0c7ac-590b-489e-8be7-62704841c3b2,{},Strike,Called,{},{},0,4 - 0,5,1,1,0 - 2,0 - 1,
+458,anonymized-files-wisd/12345636_34173.jsonl,f3d53919-a1d8-4b39-9404-539ecbe1f27b,{},Strike,{},{},{},0,1 - 0,2,2,0,0 - 0,0 - 1,
+459,anonymized-files-wisd/12345636_34924.jsonl,7dcc6bfa-37f5-4743-aa3c-ae7db57fbff2,{},Ball,Called,{},{},0,1 - 0,2,2,0,1 - 1,1 - 0,
+460,anonymized-files-wisd/12345636_35355.jsonl,70b7c49c-59d7-46d3-9c5e-c6da3cc970d1,{},Ball,Called,{},{},0,6 - 3,9,2,0,0 - 2,1 - 0,
+461,anonymized-files-wisd/12345636_35615.jsonl,e7a2df46-e3e0-4736-b340-a245a94dd0c5,{},HitIntoPlay,{},06a38d91-76eb-4121-b16a-17710c6229f5,{},1,2 - 0,4,1,1,2 - 0,0 - 0,{'mlbId': 545569723}
+462,anonymized-files-wisd/12345636_35800.jsonl,2e495d0d-1cd9-4855-b614-afdb279e9cfe,{},HitIntoPlay,{},86f07868-8bee-4948-8ce4-31681378d7c6,{},1,2 - 0,3,1,1,2 - 0,0 - 0,{'mlbId': 590082479}
+463,anonymized-files-wisd/12345636_35802.jsonl,794aab0f-6c24-41c5-a417-d1da1baf774c,{},Strike,{},{},{},0,2 - 0,3,2,1,1 - 2,0 - 1,
+464,anonymized-files-wisd/12345636_3582.jsonl,3c52c314-3d30-44fd-8f0a-74f2f6473176,{},Ball,Called,{},{},0,5 - 0,6,2,0,0 - 1,1 - 0,
+465,anonymized-files-wisd/12345636_35905.jsonl,08d0fb0f-3cb9-4aea-a301-65383fa49de8,{},Strike,Called,{},{},0,5 - 0,5,2,0,0 - 0,0 - 1,
+466,anonymized-files-wisd/12345636_36403.jsonl,593b021d-36aa-4590-a9aa-4a6e62ced231,{},Strike,Foul,5a64cbd6-21f6-4856-8e9a-dae9935d6656,{},1,0 - 0,1,0,0,0 - 0,0 - 1,{'mlbId': 505414610}
+467,anonymized-files-wisd/12345636_36584.jsonl,cfc7324f-0a6a-4dbd-a510-9f1a94177abe,{},HitIntoPlay,{},f485199b-d8d1-4d9b-8e9f-47984bd0e13a,{},1,2 - 0,2,1,2,0 - 2,0 - 0,{'mlbId': 617522563}
+468,anonymized-files-wisd/12345636_36620.jsonl,ecf0b2c5-9239-478f-9cdf-34a09e6dab80,{},Strike,Called,{},{},0,4 - 0,5,0,0,0 - 1,0 - 1,
+469,anonymized-files-wisd/12345636_36657.jsonl,ba0f179a-ebac-427d-a011-afb66dbed8c0,{},Strike,Foul,131cab5a-cffd-4178-9ad2-dcb013f77e1f,{},1,5 - 0,7,0,0,3 - 1,0 - 1,{'mlbId': 617522563}
+470,anonymized-files-wisd/12345636_37979.jsonl,047efacc-ff2a-49f6-b70f-5dd3f563ca92,{},Ball,Called,{},{},0,5 - 0,7,2,0,1 - 2,1 - 0,
+471,anonymized-files-wisd/12345636_38081.jsonl,70a65b4e-e31e-44b2-b789-d9f50d44c28e,{},Strike,Blocked,{},{},0,6 - 3,9,2,1,1 - 2,0 - 1,
+472,anonymized-files-wisd/12345636_38146.jsonl,ee70196b-875e-4589-8d3e-7ab6b9437a7c,{},HitIntoPlay,{},c8da40a7-b783-4111-bfb4-cb1787d0a6ec,{},1,5 - 0,6,0,1,0 - 2,0 - 0,{'mlbId': 360906992}
+473,anonymized-files-wisd/12345636_38164.jsonl,ba38b7bb-0166-4881-a350-018a329814e0,{},Ball,Called,{},{},0,4 - 0,5,0,0,0 - 2,1 - 0,
+474,anonymized-files-wisd/12345636_38196.jsonl,5caa326a-d589-445d-bf7e-50334a6c950f,{},Strike,Called,{},{},0,0 - 0,1,0,0,1 - 1,0 - 1,
+475,anonymized-files-wisd/12345636_38338.jsonl,a498cdd2-fa83-4d8b-be32-b413f931ae99,{},HitIntoPlay,{},9161f48d-16da-4be2-9f8e-5b1b5cb58bfb,{},1,6 - 1,9,0,0,3 - 1,0 - 0,{'mlbId': 451871192}
+476,anonymized-files-wisd/12345636_384.jsonl,48840b63-0cfe-4583-973a-74341a97bd00,{},Strike,{},{},{},0,5 - 1,8,0,0,1 - 1,0 - 1,
+477,anonymized-files-wisd/12345636_38605.jsonl,c073991c-d829-4028-9a3f-7f26bf18ed57,{},Strike,Foul,6197d01e-648a-467c-99ef-2ae7983b3c58,{},1,2 - 0,4,2,0,0 - 1,0 - 1,{'mlbId': 459722179}
+478,anonymized-files-wisd/12345636_3910.jsonl,09c6b77a-8a52-432f-a62f-c7d2b92d7b10,{},Ball,Called,{},{},0,5 - 1,8,2,0,1 - 0,1 - 0,
+479,anonymized-files-wisd/12345636_39107.jsonl,38e80de5-9cea-4681-9851-14cf8a7ed685,{},Strike,Called,{},{},0,5 - 0,6,0,0,0 - 1,0 - 1,
+480,anonymized-files-wisd/12345636_39131.jsonl,db171f3f-2448-4e26-a413-60cdb9ee9aaf,{},Ball,Called,{},{},0,6 - 2,9,0,0,0 - 1,1 - 0,
+481,anonymized-files-wisd/12345636_39236.jsonl,e1f8ab6a-9e2d-41cd-b8ec-fc3cb39c4f82,{},Ball,Called,{},{},0,5 - 0,7,0,0,1 - 0,1 - 0,
+482,anonymized-files-wisd/12345636_39267.jsonl,3cede647-2ebf-43aa-bede-bdb45f247205,{},Strike,Called,{},{},0,1 - 0,2,2,1,3 - 2,0 - 1,
+483,anonymized-files-wisd/12345636_3950.jsonl,f769fa47-3b72-453a-a473-9602f95e6b89,{},Ball,Called,{},{},0,1 - 0,1,2,0,0 - 1,1 - 0,
+484,anonymized-files-wisd/12345636_39577.jsonl,3fc4d468-3eb7-4647-8c0f-bef394d34a7f,{},HitIntoPlay,{},ec4e2288-6ef3-4e76-9358-d731b9e21026,{},1,5 - 0,8,1,0,0 - 0,0 - 0,{'mlbId': 765710437}
+485,anonymized-files-wisd/12345636_39584.jsonl,0010dd3f-7a7b-47ea-abd2-5314a59154dd,{},Ball,Called,{},{},0,2 - 0,4,2,0,1 - 2,1 - 0,
+486,anonymized-files-wisd/12345636_39673.jsonl,15206086-6ce4-490d-a20e-1c4241f5693c,{},Ball,Called,{},{},0,1 - 0,2,0,0,1 - 1,1 - 0,
+487,anonymized-files-wisd/12345636_39689.jsonl,8db652e5-0af9-41ca-a84c-06154029bf35,{},Ball,Called,{},{},0,5 - 0,7,2,0,0 - 0,1 - 0,
+488,anonymized-files-wisd/12345636_40197.jsonl,4d532808-44f5-4912-a905-9813ddcff65e,{},Strike,Foul,260e8f92-3469-483c-91d3-03417ee3d35e,{},1,5 - 0,6,1,0,1 - 2,0 - 0,{'mlbId': 765710437}
+489,anonymized-files-wisd/12345636_40245.jsonl,ba8a1c6f-5ea5-488a-a987-99c8fb7cc850,{},Strike,Foul,ff6a2534-469c-44cf-b779-99f8e1b361ba,{},1,1 - 0,1,2,0,0 - 0,0 - 1,{'mlbId': 719210239}
+490,anonymized-files-wisd/12345636_40395.jsonl,c0d382d5-c112-43df-bdd6-cdad694c65e0,{},Strike,Called,{},{},0,1 - 0,1,2,1,2 - 2,0 - 1,
+491,anonymized-files-wisd/12345636_4061.jsonl,ab5adaf4-e7ee-44be-a7ab-849b5474ee82,{},Strike,Foul,58c08f33-90b0-4943-9d7c-f69421e3bb67,{},1,5 - 1,8,1,0,0 - 2,0 - 0,{'mlbId': 174158975}
+492,anonymized-files-wisd/12345636_4067.jsonl,52035229-99ce-4e9c-a697-994fe63afde6,{},HitIntoPlay,{},f34c0fdc-48b9-433c-afa6-525cdd1c07f9,{},1,6 - 3,9,1,1,0 - 2,0 - 0,{'mlbId': 485007791}
+493,anonymized-files-wisd/12345636_40731.jsonl,721fce25-0ea9-4755-be93-7695840bdc93,{},Ball,Called,{},{},0,0 - 0,1,1,0,0 - 2,1 - 0,
+494,anonymized-files-wisd/12345636_410.jsonl,8ebf1f5f-730d-4250-81dd-cabf58241cf2,{},HitIntoPlay,{},{},{},0,4 - 0,4,2,1,2 - 1,0 - 0,
+495,anonymized-files-wisd/12345636_41081.jsonl,61ae1f78-47da-4549-a17b-3902fbd22b31,{},Strike,Called,{},{},0,4 - 0,5,1,0,0 - 1,0 - 1,
+496,anonymized-files-wisd/12345636_41116.jsonl,f613501a-3fc5-4483-ab5a-5f31eadfc5f5,{},Strike,Called,{},{},0,5 - 0,7,1,1,1 - 2,0 - 1,
+497,anonymized-files-wisd/12345636_41153.jsonl,86b43fd3-e410-43bb-8e43-3f0b80409a44,{},HitIntoPlay,{},d1926873-9b53-4c51-bb15-afe1e7c2c2ad,{},1,5 - 0,6,1,0,1 - 2,0 - 0,{'mlbId': 765710437}
+498,anonymized-files-wisd/12345636_41354.jsonl,4067a766-4715-47b4-9256-88353cd5ee7a,{},Strike,{},{},{},0,5 - 1,8,2,0,2 - 0,0 - 1,
+499,anonymized-files-wisd/12345636_41384.jsonl,03981e31-0555-48e8-a17d-4fc654532445,{},Ball,Called,{},{},0,5 - 1,8,0,0,0 - 1,1 - 0,
+500,anonymized-files-wisd/12345636_41587.jsonl,a5a90ead-05bc-4f1d-9944-fa299349f89b,{},Strike,Called,{},{},0,1 - 0,1,0,0,1 - 0,0 - 1,
+501,anonymized-files-wisd/12345636_41760.jsonl,6b78a035-08fc-4734-a492-fdc16d703344,{},Ball,Called,{},{},0,5 - 0,7,2,0,3 - 0,1 - 0,
+502,anonymized-files-wisd/12345636_41774.jsonl,91d39940-2eb4-4a7c-8ac3-accacafe9b33,{},Strike,Called,{},{},0,0 - 0,1,1,0,0 - 1,0 - 1,
+503,anonymized-files-wisd/12345636_42251.jsonl,0826b886-bcdd-4669-875f-ee4351c3ed2e,{},Strike,Foul,dd0d779e-2c09-40e7-926f-9f8e9ce3f699,{},1,1 - 0,2,1,0,1 - 0,0 - 1,{'mlbId': 459722179}
+504,anonymized-files-wisd/12345636_42360.jsonl,19c70589-2a8e-4641-baed-0d0cf8073e7e,{},HitIntoPlay,{},eec3954f-f557-4f0e-a7e8-5612f7ea2e5e,{},1,4 - 0,5,0,1,1 - 2,0 - 0,{'mlbId': 451871192}
+505,anonymized-files-wisd/12345636_4248.jsonl,0bd23558-cb63-4d7a-872c-e4ce4bf3d889,{},Strike,Foul,dae2bf9b-a7ba-42b4-8dbb-6c7a15ef0c14,{},1,5 - 1,8,2,0,2 - 1,0 - 1,{'mlbId': 459722179}
+506,anonymized-files-wisd/12345636_42542.jsonl,4790337e-ec63-4045-90da-5ed43fe49781,{},Strike,Called,{},{},0,3 - 0,4,1,0,2 - 0,0 - 1,
+507,anonymized-files-wisd/12345636_42779.jsonl,aac6c118-d92b-4f99-86d7-cf36797325bc,{},Strike,Foul,{},{},0,5 - 1,8,0,0,0 - 0,0 - 1,
+508,anonymized-files-wisd/12345636_42816.jsonl,a2b61564-ba7d-42b6-a6ea-683468e5dab3,{},Strike,Called,{},{},0,0 - 0,1,2,0,2 - 1,0 - 1,
+509,anonymized-files-wisd/12345636_42894.jsonl,6be54c46-bce7-48c3-947c-2727864e6e6f,{},Ball,Called,{},{},0,5 - 0,7,2,0,0 - 0,1 - 0,
+510,anonymized-files-wisd/12345636_42949.jsonl,3ad3541a-74c3-4084-bd16-4940af90a72e,{},Ball,Called,{},{},0,2 - 0,4,1,0,2 - 1,1 - 0,
+511,anonymized-files-wisd/12345636_42998.jsonl,1c20ee5f-b39e-48dc-86d5-48271d1df2ce,{},Strike,Foul,d050f921-7ac4-499a-a349-b124a48cf720,{},1,2 - 0,4,0,0,0 - 0,0 - 1,{'mlbId': 719210239}
+512,anonymized-files-wisd/12345636_43028.jsonl,4a633082-d629-4bf7-83f5-707a84bf0af6,{},Strike,{},{},{},0,6 - 1,8,2,0,0 - 1,0 - 1,
+513,anonymized-files-wisd/12345636_43144.jsonl,94c5673c-d603-43d1-a641-932018f5f5ed,{},Strike,Called,{},{},0,5 - 0,7,1,0,2 - 0,0 - 1,
+514,anonymized-files-wisd/12345636_43192.jsonl,e60971b4-8e02-4b5e-a78b-fe1bd4c7a9fd,{},Strike,Foul,ebf8d2bf-c33d-4ab4-ab50-cb27adcf27ca,{},1,2 - 0,4,0,0,1 - 2,0 - 0,{'mlbId': 719210239}
+515,anonymized-files-wisd/12345636_43229.jsonl,a129fe99-fbfc-4e7b-8574-7a9f460b36c0,{},Ball,Called,{},{},0,6 - 1,9,0,0,0 - 0,1 - 0,
+516,anonymized-files-wisd/12345636_43242.jsonl,6ae748fc-6295-4847-a890-4a2fba4b3a44,{},Strike,Foul,1e57d465-cdbe-46db-af37-3fe6cfca5039,{},1,2 - 0,3,2,0,1 - 2,0 - 0,{'mlbId': 485007791}
+517,anonymized-files-wisd/12345636_43517.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,4 - 0,5,0,0,0 - 1,0 - 0,
+518,anonymized-files-wisd/12345636_43589.jsonl,395c6d1b-0d67-49ba-b113-da889ed72576,{},Strike,{},{},{},0,5 - 0,7,2,1,2 - 2,0 - 1,
+519,anonymized-files-wisd/12345636_43626.jsonl,4b7b2fc2-79bd-4e78-96cb-11161c87811e,{},Ball,Called,{},{},0,5 - 0,7,0,0,0 - 0,1 - 0,
+520,anonymized-files-wisd/12345636_4377.jsonl,038df284-2229-427c-8b4a-f88951240f95,{},Ball,Called,{},{},0,0 - 0,1,2,0,1 - 1,1 - 0,
+521,anonymized-files-wisd/12345636_4380.jsonl,6334a42f-21fd-481c-8413-54dca8655655,{},Strike,{},{},{},0,1 - 0,2,0,1,3 - 2,0 - 1,
+522,anonymized-files-wisd/12345636_43934.jsonl,65e849c4-ffcd-4b15-9c8e-6dc00ed5d154,{},Strike,Called,{},{},0,5 - 0,6,1,0,1 - 0,0 - 1,
+523,anonymized-files-wisd/12345636_44059.jsonl,efb561fa-5979-4856-9fb3-5bef0f6fd745,{},Strike,Called,{},{},0,2 - 0,4,2,0,0 - 0,0 - 1,
+524,anonymized-files-wisd/12345636_44311.jsonl,91bcf1eb-6b47-4bbf-9cf0-22f36cbbf724,{},Strike,{},{},{},0,1 - 0,2,0,1,0 - 2,0 - 1,
+525,anonymized-files-wisd/12345636_44567.jsonl,7bb031cb-0a6b-478a-9488-a3f4f572fac6,{},Strike,{},{},{},0,5 - 0,8,0,0,1 - 0,0 - 1,
+526,anonymized-files-wisd/12345636_44568.jsonl,cbe71323-ba3b-4f3b-a7c2-89bc8bdb2d2c,{},Strike,Called,{},{},0,5 - 1,8,2,1,2 - 2,0 - 1,
+527,anonymized-files-wisd/12345636_44613.jsonl,bd054078-84b1-498d-b7b1-858b02a244a4,{},HitIntoPlay,{},{},{},0,1 - 0,2,0,0,1 - 0,0 - 0,
+528,anonymized-files-wisd/12345636_44836.jsonl,1e8517cb-6c19-457b-9fe0-4978c7fcd1d4,{},Strike,Foul,e8ddcfb8-18ce-40d6-8a93-d54ec104bb3e,{},1,5 - 1,8,1,0,0 - 1,0 - 1,{'mlbId': 174158975}
+529,anonymized-files-wisd/12345636_45060.jsonl,54b355c9-dd7e-416a-a1f5-9cf4d6356508,{},Strike,Called,{},{},0,2 - 0,3,0,1,3 - 2,0 - 1,
+530,anonymized-files-wisd/12345636_45169.jsonl,28681682-bcff-4463-a266-544ec15bf4a6,{},Strike,Called,{},{},0,4 - 0,5,2,0,0 - 0,0 - 1,
+531,anonymized-files-wisd/12345636_45294.jsonl,42dc09b1-d30a-4181-b4e1-d0484eeb1eca,{},Ball,Called,{},{},0,2 - 0,3,1,0,0 - 0,1 - 0,
+532,anonymized-files-wisd/12345636_45408.jsonl,f73f3bd5-bd72-48a6-8b1c-d60b587e1309,{},Ball,Called,{},{},0,4 - 0,5,2,0,0 - 1,1 - 0,
+533,anonymized-files-wisd/12345636_45530.jsonl,c82393ef-1515-4ca4-98e4-030cf24073b4,{},Ball,Called,{},{},0,3 - 0,4,0,0,0 - 1,1 - 0,
+534,anonymized-files-wisd/12345636_4559.jsonl,31431c04-8289-43bb-9b31-87e372735c42,{},Strike,{},{},{},0,6 - 2,9,0,0,1 - 1,0 - 1,
+535,anonymized-files-wisd/12345636_45768.jsonl,3f680f34-0408-477d-9021-078eb1fc1c94,{},Strike,Foul,{},{},0,2 - 0,3,0,0,1 - 1,0 - 1,
+536,anonymized-files-wisd/12345636_45790.jsonl,89107ecc-b34f-4d7d-a1fc-ecee16e2ad19,{},Strike,Foul,{},{},0,5 - 0,6,1,0,1 - 1,0 - 1,
+537,anonymized-files-wisd/12345636_45846.jsonl,826a24a8-86bd-4cd1-afd1-1fab524a4f78,{},Strike,Foul,{},{},0,5 - 0,7,0,0,0 - 1,0 - 1,
+538,anonymized-files-wisd/12345636_45894.jsonl,e575e054-bcde-4f72-8dd8-df12caaadb8b,{},Ball,Called,{},{},0,2 - 0,3,2,0,0 - 1,1 - 0,
+539,anonymized-files-wisd/12345636_459.jsonl,5dd9b49d-51f3-4a05-943d-adcffe403568,{},Ball,Called,{},{},0,1 - 0,2,0,0,0 - 0,1 - 0,
+540,anonymized-files-wisd/12345636_46183.jsonl,fce694da-8d82-4a69-a7e8-994ebf2b881b,{},Strike,Foul,{},{},0,2 - 0,4,0,0,0 - 0,0 - 1,
+541,anonymized-files-wisd/12345636_46435.jsonl,ff65ce32-266d-46a1-b568-61e5e4ecb581,{},Strike,Foul,{},{},0,2 - 0,4,1,0,2 - 0,0 - 1,
+542,anonymized-files-wisd/12345636_46490.jsonl,c59a8013-305a-4e0b-b3f9-97ebfadf9cb1,{},Strike,Foul,e63ac0b3-6cb5-46d7-8f24-ea1e4d0cd4a3,{},1,2 - 0,3,2,0,0 - 0,0 - 1,{'mlbId': 485007791}
+543,anonymized-files-wisd/12345636_46659.jsonl,2164bc3d-3251-4909-92a2-fbccd2e08eeb,{},Ball,Called,{},{},0,2 - 0,4,1,0,0 - 0,1 - 0,
+544,anonymized-files-wisd/12345636_46671.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,1 - 0,2,0,0,1 - 0,0 - 0,
+545,anonymized-files-wisd/12345636_46674.jsonl,0c0645a2-5587-4977-9b0d-cf9bb3ad9318,{},Strike,Foul,6b2e4088-1665-47a8-9289-9f4c1d094ed6,{},1,6 - 1,8,1,0,0 - 0,0 - 1,{'mlbId': 805688901}
+546,anonymized-files-wisd/12345636_4677.jsonl,49de4a67-b3d3-45a0-9873-e2fcddf52b0d,{},Strike,Foul,8061b917-efc9-4c13-9170-26c953beb7cf,{},1,2 - 0,3,2,0,1 - 2,0 - 0,{'mlbId': 485007791}
+547,anonymized-files-wisd/12345636_46821.jsonl,c529d3fb-bad3-4aea-b1f6-628adc55110f,{},Ball,Called,{},{},0,2 - 0,3,1,0,1 - 2,1 - 0,
+548,anonymized-files-wisd/12345636_46915.jsonl,503469b1-2f3a-4c13-872b-5ba55f183573,{},Strike,Called,{},{},0,6 - 1,9,0,0,1 - 0,0 - 1,
+549,anonymized-files-wisd/12345636_46966.jsonl,d87736bf-f148-456d-95bd-187add754a40,{},Strike,{},{},{},0,0 - 0,1,1,0,0 - 0,0 - 1,
+550,anonymized-files-wisd/12345636_47145.jsonl,5f68521a-282f-4614-aa17-96b9e3763650,{},Strike,Called,{},{},0,2 - 0,3,2,0,0 - 0,0 - 1,
+551,anonymized-files-wisd/12345636_47170.jsonl,fa00d841-3ff8-4165-b199-14c8d04e20b7,{},Strike,{},{},{},0,6 - 1,8,1,1,1 - 2,0 - 1,
+552,anonymized-files-wisd/12345636_47174.jsonl,223fe394-cc12-4007-b02e-17cfa6f23f6b,{},Strike,{},{},{},0,4 - 0,5,0,0,0 - 0,0 - 1,
+553,anonymized-files-wisd/12345636_4742.jsonl,1b856dfe-6749-4d3b-a20c-ae2682949690,{},Ball,Called,{},{},0,5 - 0,7,2,0,2 - 0,1 - 0,
+554,anonymized-files-wisd/12345636_47458.jsonl,c6c2f19d-1756-464d-8438-9a731c9e2794,{},HitIntoPlay,{},b3578cbd-444c-4e2a-a4ae-89a7ff11a12f,{},1,0 - 0,1,0,1,3 - 2,0 - 0,{'mlbId': 485007791}
+555,anonymized-files-wisd/12345636_47468.jsonl,15b4e69a-2fbe-4714-9dd9-368657442e4d,{},Ball,Called,{},{},0,2 - 0,3,2,0,1 - 1,1 - 0,
+556,anonymized-files-wisd/12345636_47643.jsonl,a05bf301-a004-489d-bcc3-bebdb5d7de98,{},Strike,Called,{},{},0,5 - 0,6,1,0,1 - 1,0 - 1,
+557,anonymized-files-wisd/12345636_47683.jsonl,9f06add9-6e4e-4e44-825a-36a588b877ba,{},Strike,Called,{},{},0,4 - 0,5,0,0,0 - 0,0 - 1,
+558,anonymized-files-wisd/12345636_47928.jsonl,6aede35c-3267-43e0-951a-308a160d948b,{},Ball,BallInDirt,{},{},0,2 - 0,4,2,0,0 - 1,1 - 0,
+559,anonymized-files-wisd/12345636_47982.jsonl,21113488-ec68-4432-99bc-d0f5319d92c4,{},Strike,Foul,5fd16cbc-f025-4e37-801a-4badd53f4add,{},1,2 - 0,3,2,0,1 - 2,0 - 0,{'mlbId': 485007791}
+560,anonymized-files-wisd/12345636_48203.jsonl,42f5691e-8f8c-4747-8adc-ef235c5fcf5f,{},Strike,Called,{},{},0,2 - 0,4,2,0,0 - 0,0 - 1,
+561,anonymized-files-wisd/12345636_48245.jsonl,ccf0dd9b-ee78-4120-8a2b-91fa6b7cd842,{},Strike,Foul,{},{},0,4 - 0,5,2,0,0 - 0,0 - 1,
+562,anonymized-files-wisd/12345636_48315.jsonl,13dc232b-f1df-4854-8c20-9b6321aaf8d1,{},HitIntoPlay,{},a782eea3-b9ad-4dbe-9654-315517958990,{},1,6 - 2,9,0,0,3 - 2,0 - 0,{'mlbId': 654287703}
+563,anonymized-files-wisd/12345636_48319.jsonl,c242719c-8445-428e-86d4-fd8365223dbd,{},Strike,Foul,{},{},0,4 - 0,5,2,0,1 - 1,0 - 1,
+564,anonymized-files-wisd/12345636_48422.jsonl,3b9f5bd4-3904-408c-806a-65f0c1b7b60b,{},HitIntoPlay,{},a781f23e-3556-43c7-9db1-fa02399413e8,{},1,3 - 0,4,1,1,3 - 2,0 - 0,{'mlbId': 618024297}
+565,anonymized-files-wisd/12345636_48484.jsonl,2b74a58e-297b-474c-801d-938306ea79ef,{},Strike,Called,{},{},0,4 - 0,5,2,1,1 - 2,0 - 1,
+566,anonymized-files-wisd/12345636_48674.jsonl,d942a14c-19f5-4e16-a2e4-7a19b9e42966,{},Ball,Called,{},{},0,4 - 0,5,1,0,1 - 2,1 - 0,
+567,anonymized-files-wisd/12345636_48687.jsonl,13d22a0e-0c2c-472c-99fc-391bb1361bc9,{},Strike,{},{},{},0,5 - 1,8,0,1,1 - 2,0 - 1,
+568,anonymized-files-wisd/12345636_48782.jsonl,027f99ad-1bcf-48ce-9271-dd987b39ba68,{},Strike,Called,{},{},0,6 - 2,9,0,0,2 - 1,0 - 1,
+569,anonymized-files-wisd/12345636_48944.jsonl,e87789a3-3521-4a5c-9885-4cb56bde8ef7,{},HitIntoPlay,{},dae4677d-2ccb-4628-9bfa-17b9ebe95ad3,{},1,0 - 0,1,0,0,1 - 0,0 - 0,{'mlbId': 590082479}
+570,anonymized-files-wisd/12345636_49257.jsonl,d9c3f71f-4cd2-4d9f-9b89-c0be2768c1b9,{},HitIntoPlay,{},9c1bcd5e-25b2-470f-9491-1662df9bd9ae,{},1,1 - 0,2,1,0,0 - 1,0 - 0,{'mlbId': 618024297}
+571,anonymized-files-wisd/12345636_49288.jsonl,bba880ba-62eb-4b7e-ae52-c2123669ad2a,{},Strike,Foul,0e6af986-e100-4a81-ad95-f303b2186c4d,{},1,1 - 0,1,2,0,2 - 1,0 - 1,{'mlbId': 719210239}
+572,anonymized-files-wisd/12345636_49545.jsonl,7a683bbb-73de-4cf2-bc9c-a2fccb46f507,{},Ball,Called,{},{},0,3 - 0,4,1,0,2 - 2,1 - 0,
+573,anonymized-files-wisd/12345636_49579.jsonl,ff6590f9-a6b8-4f3f-b495-58121a8af1a2,{},Ball,Called,{},{},0,5 - 0,6,1,0,0 - 0,1 - 0,
+574,anonymized-files-wisd/12345636_49986.jsonl,415048bc-c9f9-461c-a978-42f3425e1930,{},Strike,Foul,0b207512-d0ca-4cf5-8308-52a54aa09aae,{},1,5 - 0,5,2,0,0 - 1,0 - 1,{'mlbId': 719210239}
+575,anonymized-files-wisd/12345636_5022.jsonl,af5af816-749a-437d-b90c-440e540c4f8c,{},Ball,Called,{},{},0,6 - 1,8,1,0,0 - 2,1 - 0,
+576,anonymized-files-wisd/12345636_5054.jsonl,13cd5e9b-30f3-44f5-a60c-5d5011353756,{},Strike,Foul,{},{},0,6 - 3,9,1,0,0 - 2,0 - 0,
+577,anonymized-files-wisd/12345636_5197.jsonl,f10f7174-fe66-48d9-9628-0fd03bb1814e,{},Ball,Called,{},{},0,5 - 0,8,0,0,0 - 0,1 - 0,
+578,anonymized-files-wisd/12345636_52.jsonl,20acc526-3847-4b31-a300-50d5a6109e27,{},Strike,{},{},{},0,5 - 0,7,1,0,2 - 1,0 - 1,
+579,anonymized-files-wisd/12345636_5395.jsonl,60e1638c-4764-4e45-976e-63ac4a2b5503,{},HitIntoPlay,{},0047ef9f-28cc-4f58-820f-6a1c91cdb8b1,{},1,5 - 0,6,0,1,0 - 2,0 - 0,{'mlbId': 174158975}
+580,anonymized-files-wisd/12345636_544.jsonl,05b18627-c3a5-41e4-843d-604eead15be7,{},Strike,{},{},{},0,3 - 0,4,0,0,1 - 1,0 - 1,
+581,anonymized-files-wisd/12345636_5571.jsonl,11566800-19eb-4662-8376-e10dcca5db0d,{},Strike,Foul,{},{},0,6 - 2,9,0,0,0 - 0,0 - 1,
+582,anonymized-files-wisd/12345636_5607.jsonl,98ab0dbc-4f3e-4931-a746-7ae1ac79b73b,{},Ball,Called,{},{},0,2 - 0,4,2,0,0 - 2,1 - 0,
+583,anonymized-files-wisd/12345636_5691.jsonl,cc3b3ff9-0896-4b8e-8ebd-ac160edc7301,{},Ball,Called,{},{},0,4 - 0,5,1,0,0 - 0,1 - 0,
+584,anonymized-files-wisd/12345636_5969.jsonl,4587baef-edf2-4c1a-913a-84b6a6b764ec,{},Strike,{},{},{},0,2 - 0,4,0,1,1 - 2,0 - 1,
+585,anonymized-files-wisd/12345636_6215.jsonl,1b3e7ff0-bb34-40de-82c9-9a88d1a71390,{},Strike,{},{},{},0,3 - 0,4,0,1,1 - 2,0 - 1,
+586,anonymized-files-wisd/12345636_657.jsonl,65a57efa-b425-4092-902a-65560cf3ca80,{},Ball,Called,{},{},0,2 - 0,4,0,0,0 - 2,1 - 0,
+587,anonymized-files-wisd/12345636_6684.jsonl,fd7be9f4-721c-464f-9a26-db9f4a87f28e,{},HitIntoPlay,{},a54bc658-bd16-42b4-933c-43451e96c4bc,{},1,2 - 0,3,2,0,2 - 1,0 - 0,{'mlbId': 505414610}
+588,anonymized-files-wisd/12345636_6731.jsonl,d6454914-df06-4cc1-9b3d-bb5fcaec4c7d,{},Ball,Called,{},{},0,3 - 0,4,1,0,0 - 0,1 - 0,
+589,anonymized-files-wisd/12345636_6791.jsonl,d62af3bb-9631-4661-81cd-82fd06ea76be,{},Strike,Foul,437d516c-8050-4d47-8d9f-2cd925433be2,{},1,5 - 0,6,2,0,0 - 0,0 - 1,{'mlbId': 618024297}
+590,anonymized-files-wisd/12345636_7111.jsonl,25518c16-d122-4d49-8560-88c58b236bd7,{},Ball,Called,{},{},0,2 - 0,4,1,0,1 - 0,1 - 0,
+591,anonymized-files-wisd/12345636_7656.jsonl,032ccb15-62c7-416b-8f8d-1859cb5b4b8a,{},Strike,{},{},{},0,5 - 0,7,0,1,1 - 2,0 - 1,
+592,anonymized-files-wisd/12345636_7762.jsonl,65c64946-9f41-4028-be4f-b1c447c51378,{},Strike,{},{},{},0,4 - 0,5,1,0,1 - 0,0 - 1,
+593,anonymized-files-wisd/12345636_7793.jsonl,26975ff4-dcf5-48fb-aa59-7b2af5244670,{},Strike,{},{},{},0,0 - 0,1,1,1,1 - 2,0 - 1,
+594,anonymized-files-wisd/12345636_7957.jsonl,bb82cc28-675a-4ef9-9825-3d3a3f3ab7ef,{},Ball,Called,{},{},0,2 - 0,3,0,0,1 - 0,1 - 0,
+595,anonymized-files-wisd/12345636_8037.jsonl,d17f39a9-d852-48e1-8409-ce83f561bdeb,{},Ball,Called,{},{},0,2 - 0,4,1,0,1 - 0,1 - 0,
+596,anonymized-files-wisd/12345636_8056.jsonl,9c57a6a3-3c46-49a9-9ba2-74fbf6b42261,{},Strike,Called,{},{},0,5 - 1,8,1,0,3 - 0,0 - 1,
+597,anonymized-files-wisd/12345636_8334.jsonl,66ba7cbd-d881-4e8f-bdac-14877e8af21c,{},Strike,Called,{},{},0,6 - 3,9,1,0,0 - 0,0 - 1,
+598,anonymized-files-wisd/12345636_8336.jsonl,d012a11a-f415-40d7-8d1f-2896c8ee58d6,{},Strike,Foul,{},{},0,0 - 0,1,0,0,1 - 1,0 - 1,
+599,anonymized-files-wisd/12345636_8392.jsonl,5342e2dc-b3c2-49a2-9355-d48846b48c41,{},Ball,Called,{},{},0,1 - 0,1,0,0,0 - 0,1 - 0,
+600,anonymized-files-wisd/12345636_8414.jsonl,0f40b8b9-fc4c-4f6a-a7b3-6b5aadde0538,{},Strike,{},{},{},0,1 - 0,2,2,0,2 - 1,0 - 1,
+601,anonymized-files-wisd/12345636_8425.jsonl,ac4acffb-a250-4448-9cfc-acce133966c8,{},Strike,{},{},{},0,4 - 0,5,2,0,0 - 1,0 - 1,
+602,anonymized-files-wisd/12345636_8713.jsonl,ea972c4f-48b2-451e-963c-e8c01de02250,{},Strike,{},{},{},0,2 - 0,3,0,0,1 - 0,0 - 1,
+603,anonymized-files-wisd/12345636_8742.jsonl,daafd9bb-09de-4f37-8a81-b23976993de1,{},Strike,Called,{},{},0,5 - 0,6,0,0,0 - 0,0 - 1,
+604,anonymized-files-wisd/12345636_8770.jsonl,fddef460-b524-4121-b427-66666c4a16ef,{},Ball,Called,{},{},0,5 - 0,6,1,0,0 - 1,1 - 0,
+605,anonymized-files-wisd/12345636_9071.jsonl,5b9231dd-50dd-47c8-8653-7200b1fc873d,{},Ball,Called,{},{},0,5 - 0,7,0,0,0 - 2,1 - 0,
+606,anonymized-files-wisd/12345636_9857.jsonl,d09512e4-dd80-4b10-bd38-12d7f6b1d61c,{},Strike,Called,{},{},0,2 - 0,3,2,0,0 - 1,0 - 1,
+607,anonymized-files-wisd/12345641_10245.jsonl,a3c8bf2b-ae54-40fc-8044-4a767e30a743,{},Ball,Called,{},{},0,4 - 6,8,0,0,0 - 1,1 - 0,
+608,anonymized-files-wisd/12345641_10313.jsonl,2a6aaf59-d605-4d26-a94e-977097533047,{},Strike,Foul,{},{},0,4 - 4,8,2,0,0 - 2,0 - 0,
+609,anonymized-files-wisd/12345641_10393.jsonl,aaafdcc1-33fe-496e-b3b9-c7d673e9fe15,{},Ball,Called,{},{},0,1 - 0,3,1,0,0 - 0,1 - 0,
+610,anonymized-files-wisd/12345641_10647.jsonl,57f63ba4-837b-48b5-b558-5858dbd8b938,{},Ball,Called,{},{},0,0 - 0,2,1,0,1 - 1,1 - 0,
+611,anonymized-files-wisd/12345641_10857.jsonl,db06c08b-5300-490a-872b-ba0c6e82dd55,{},Ball,Called,{},{},0,1 - 4,7,2,0,1 - 1,1 - 0,
+612,anonymized-files-wisd/12345641_11168.jsonl,4b233276-0be2-426e-9543-4c9ea85767a8,{},Ball,Called,{},{},0,1 - 4,7,0,0,1 - 0,1 - 0,
+613,anonymized-files-wisd/12345641_1207.jsonl,50ce6e02-809a-4cca-b3f6-d9c76123cdcc,{},Strike,{},{},{},0,0 - 0,2,2,0,1 - 0,0 - 1,
+614,anonymized-files-wisd/12345641_1215.jsonl,815dea2c-1b4d-4ea9-960b-7c61c58e915e,{},Ball,Called,{},{},0,1 - 0,6,1,0,0 - 0,1 - 0,
+615,anonymized-files-wisd/12345641_12235.jsonl,e926d191-cc17-4e99-a97e-47a10dad0a0b,{},Strike,Foul,2c1ae280-40cd-44f7-b63d-516cf808f6bf,{},1,4 - 6,9,2,0,2 - 2,0 - 0,{'mlbId': 432216743}
+616,anonymized-files-wisd/12345641_12259.jsonl,31199a15-9c6b-471b-a242-1e0d2271960c,{},Strike,Called,{},{},0,1 - 0,6,0,0,0 - 1,0 - 1,
+617,anonymized-files-wisd/12345641_12316.jsonl,1e465e25-2c1e-466e-9453-539513d4895c,{},Ball,Called,{},{},0,1 - 0,6,2,0,2 - 2,1 - 0,
+618,anonymized-files-wisd/12345641_12559.jsonl,877469d2-9895-4f60-b1cb-86c9509db9dc,{},Ball,Called,{},{},0,1 - 3,7,2,0,3 - 2,1 - 0,
+619,anonymized-files-wisd/12345641_12588.jsonl,d1670b84-b747-4b8b-9042-9e6b7b025fd8,{},Ball,Called,{},{},0,0 - 0,3,1,0,0 - 1,1 - 0,
+620,anonymized-files-wisd/12345641_12872.jsonl,61c458c2-dd5c-4c3c-84d8-92a740cd0f85,{},Strike,Foul,968093b1-0ffe-4782-96ae-58cc48de6fe8,{},1,4 - 6,9,0,0,1 - 2,0 - 0,{'mlbId': 459722179}
+621,anonymized-files-wisd/12345641_13452.jsonl,57d1edbb-7e8e-4da1-9f72-9366a7a36e14,{},Ball,Called,{},{},0,0 - 0,1,2,0,1 - 2,1 - 0,
+622,anonymized-files-wisd/12345641_13572.jsonl,24208912-42a1-4109-bc09-16c2701cbf57,{},Ball,Called,{},{},0,0 - 0,2,0,0,3 - 2,1 - 0,
+623,anonymized-files-wisd/12345641_13663.jsonl,270efb7c-fb94-4d67-8a39-fb86e80c3248,{},Ball,Called,{},{},0,4 - 4,8,1,0,0 - 0,1 - 0,
+624,anonymized-files-wisd/12345641_14015.jsonl,3be0bca0-9b3c-46f6-a9b8-0f45bf745d2e,{},Ball,Called,{},{},0,4 - 6,8,2,0,1 - 2,1 - 0,
+625,anonymized-files-wisd/12345641_14026.jsonl,6e596511-b01b-477d-ac13-a67aa867910d,{},Strike,Called,{},{},0,0 - 0,1,2,0,1 - 1,0 - 1,
+626,anonymized-files-wisd/12345641_1414.jsonl,b3c2606d-5b9b-47db-b1e8-65ac11b137d7,{},Ball,Called,{},{},0,1 - 0,4,1,0,2 - 1,1 - 0,
+627,anonymized-files-wisd/12345641_14167.jsonl,fa477ea8-bbc5-450b-a233-4bccf9983d0a,{},Strike,Called,{},{},0,0 - 0,2,1,0,0 - 0,0 - 1,
+628,anonymized-files-wisd/12345641_14252.jsonl,71ba8d9d-efba-4a8b-b475-e9d13fc4384d,{},Strike,Foul,cb6193f0-5786-4db0-bab2-5488306d99c4,{},1,0 - 0,1,0,0,1 - 1,0 - 1,{'mlbId': 174158975}
+629,anonymized-files-wisd/12345641_14335.jsonl,0d12412e-1543-418d-b7a1-f9c7579f5f85,{},Strike,Foul,cf6672c0-c89f-4df7-a96d-c6724363cfcc,{},1,0 - 0,1,2,0,2 - 1,0 - 1,{'mlbId': 797957728}
+630,anonymized-files-wisd/12345641_14494.jsonl,bc9dda21-798f-4064-9713-9eadefa54cc2,{},HitIntoPlay,{},7b367b70-9ee3-4ff1-ba5e-991cf161722b,{},1,0 - 0,3,1,1,1 - 1,0 - 0,{'mlbId': 360906992}
+631,anonymized-files-wisd/12345641_14556.jsonl,f6f7cb44-0323-476e-b7ab-9325fdf43ebe,{},HitIntoPlay,{},061aecfa-8a45-4298-aa5e-25ee23dfd860,{},1,0 - 0,1,1,0,1 - 0,0 - 0,{'mlbId': 412098649}
+632,anonymized-files-wisd/12345641_14565.jsonl,cd7f4808-b033-4909-a199-c4a249569cbe,{},Strike,{},{},{},0,4 - 6,8,1,0,0 - 1,0 - 1,
+633,anonymized-files-wisd/12345641_14608.jsonl,2afb0bfb-4a6c-48b9-b40f-3d733ed5a377,{},Strike,Called,{},{},0,1 - 0,6,2,0,0 - 0,0 - 1,
+634,anonymized-files-wisd/12345641_14707.jsonl,21608c27-4874-44e0-9d88-6ede9cee31c2,{},HitIntoPlay,{},9095ea85-dc9b-4f1f-9f1d-1fe68f179659,{},1,1 - 0,4,2,1,0 - 0,0 - 0,{'mlbId': 719146721}
+635,anonymized-files-wisd/12345641_14711.jsonl,dc6cc786-9e75-480a-87f9-041b10f1252a,{},HitIntoPlay,{},34870f3c-4e01-4385-a078-e969186df47d,{},1,0 - 0,1,2,1,3 - 2,0 - 0,{'mlbId': 545569723}
+636,anonymized-files-wisd/12345641_14766.jsonl,7a0f9893-5ac4-45fd-bf1a-15f14ffa930f,{},Ball,HitByPitch,{},{},0,2 - 4,7,1,0,1 - 2,1 - 0,
+637,anonymized-files-wisd/12345641_14899.jsonl,d411b959-2420-4d0d-bfaa-6eb610aa875e,{},Strike,{},{},{},0,4 - 6,9,2,1,1 - 2,0 - 1,
+638,anonymized-files-wisd/12345641_14906.jsonl,04cb1b32-06be-4bd9-823f-778aee34476a,{},Strike,Foul,d5023fd6-2906-411c-b530-9a8bcfa30b58,{},1,4 - 6,9,2,0,0 - 1,0 - 1,{'mlbId': 174158975}
+639,anonymized-files-wisd/12345641_15506.jsonl,05f2bcf2-daba-48ce-ae90-91120dc05045,{},HitIntoPlay,{},2c9ab32d-cb25-43e9-937a-1fc906f0bd4a,{},1,0 - 0,3,0,0,1 - 1,0 - 0,{'mlbId': 854238128}
+640,anonymized-files-wisd/12345641_15512.jsonl,dce2face-70da-4de8-bf3b-8684c1752a3d,{},HitIntoPlay,{},f5053d1b-4960-4881-8bf1-60e10797b2df,{},1,0 - 0,3,1,0,2 - 1,0 - 0,{'mlbId': 617522563}
+641,anonymized-files-wisd/12345641_15725.jsonl,719e1136-4d8e-43dd-800b-d3d9645a77bd,{},Ball,Called,{},{},0,1 - 0,7,0,0,0 - 2,1 - 0,
+642,anonymized-files-wisd/12345641_1575.jsonl,2c88698e-c0d4-4719-aa57-6d0f6f5f564e,{},Strike,Foul,9a036957-007b-45fb-b8fd-56187a564534,{},1,1 - 0,6,1,0,1 - 1,0 - 1,{'mlbId': 412098649}
+643,anonymized-files-wisd/12345641_1616.jsonl,e29eb524-3d7d-4f39-9592-d29d7743298a,{},Strike,Called,{},{},0,1 - 0,7,0,0,0 - 0,0 - 1,
+644,anonymized-files-wisd/12345641_16539.jsonl,58e88a96-6f8a-4d37-894c-2f57ebad50e8,{},Ball,Called,{},{},0,1 - 3,7,2,0,2 - 2,1 - 0,
+645,anonymized-files-wisd/12345641_17546.jsonl,1af7a115-e40c-4bfd-a754-dc6452a1a685,{},HitIntoPlay,{},ecedfa9a-c898-4e79-827b-2c0c60b22077,{},1,0 - 0,3,0,1,3 - 2,0 - 0,{'mlbId': 172804761}
+646,anonymized-files-wisd/12345641_17554.jsonl,ee9e0e20-fc8d-4823-bc06-3c138492bfb9,{},HitIntoPlay,{},{},{},0,1 - 0,7,1,0,0 - 1,0 - 0,
+647,anonymized-files-wisd/12345641_17635.jsonl,e1df9237-f115-4b3a-99bb-baa7733ad3ae,{},Ball,Called,{},{},0,1 - 0,5,0,0,1 - 2,1 - 0,
+648,anonymized-files-wisd/12345641_17725.jsonl,16124f87-153c-47a5-b08b-84467a3c3de8,{},Ball,Called,{},{},0,0 - 0,2,2,0,0 - 0,1 - 0,
+649,anonymized-files-wisd/12345641_17881.jsonl,4765dd60-a0b6-47d2-99ae-905d59a37c8c,{},Ball,Called,{},{},0,1 - 0,3,2,0,3 - 1,1 - 0,
+650,anonymized-files-wisd/12345641_17938.jsonl,52881fec-7ab0-4c54-841f-d0977cfdd2f6,{},Strike,Foul,870d19ce-2b52-490b-8324-554d8e940cd2,{},1,1 - 4,7,0,0,3 - 2,0 - 0,{'mlbId': 568527038}
+651,anonymized-files-wisd/12345641_18045.jsonl,669a7831-de57-4378-ae4a-100fac3afa98,{},Strike,Foul,{},{},0,1 - 4,7,1,0,0 - 0,0 - 1,
+652,anonymized-files-wisd/12345641_18162.jsonl,1413cd78-3ca9-4c69-9db3-963dc598f3c7,{},Strike,Foul,{},{},0,4 - 6,9,2,0,1 - 2,0 - 0,
+653,anonymized-files-wisd/12345641_18190.jsonl,462408f6-520a-49e8-a988-8802141f9e30,{},Ball,Called,{},{},0,4 - 4,8,2,0,0 - 2,1 - 0,
+654,anonymized-files-wisd/12345641_18225.jsonl,4647f4f2-8436-4b0b-8903-a3a17e0d810d,{},Ball,Called,{},{},0,1 - 0,5,1,0,0 - 1,1 - 0,
+655,anonymized-files-wisd/12345641_18440.jsonl,b353e0d5-b2da-499e-a80f-fbc58124abe7,{},Ball,Called,{},{},0,1 - 4,7,1,0,3 - 1,1 - 0,
+656,anonymized-files-wisd/12345641_18501.jsonl,46b5629d-9766-408f-a3cd-2ce5b666d29d,{},Strike,Called,{},{},0,1 - 4,7,0,0,2 - 0,0 - 1,
+657,anonymized-files-wisd/12345641_1854.jsonl,69ca2979-d1a4-4008-b96f-bfb946f72e93,{},HitIntoPlay,{},84f349af-827f-4227-bc51-2f84f60984c4,{},1,0 - 0,2,2,1,1 - 1,0 - 0,{'mlbId': 568527038}
+658,anonymized-files-wisd/12345641_18637.jsonl,47648a8b-b5f9-4616-b061-ecc77ad09f1d,{},Strike,Called,{},{},0,1 - 0,5,1,0,0 - 0,0 - 1,
+659,anonymized-files-wisd/12345641_18667.jsonl,eec6e53b-f4f0-47f3-b680-debdae2d4d5d,{},Strike,Called,{},{},0,0 - 0,2,1,0,3 - 0,0 - 1,
+660,anonymized-files-wisd/12345641_18775.jsonl,db7854bd-eb31-439b-a6bf-01af163d2d9c,{},Ball,Called,{},{},0,0 - 0,2,0,0,1 - 2,1 - 0,
+661,anonymized-files-wisd/12345641_18941.jsonl,a1c9b7de-848d-4cfb-b604-09a3d6058faf,{},Ball,Called,{},{},0,0 - 0,2,0,0,0 - 2,1 - 0,
+662,anonymized-files-wisd/12345641_19027.jsonl,6b782244-8471-4374-9b12-fac46b2b58bc,{},Ball,BallInDirt,{},{},0,2 - 4,7,1,0,0 - 2,1 - 0,
+663,anonymized-files-wisd/12345641_19090.jsonl,c292711d-7f56-482e-9ff3-e14f6a12f106,{},Ball,Called,{},{},0,0 - 0,2,0,0,1 - 0,1 - 0,
+664,anonymized-files-wisd/12345641_19452.jsonl,55628ff5-b83d-4258-96d7-003429635b34,{},Ball,BallInDirt,{},{},0,3 - 4,7,1,0,0 - 0,1 - 0,
+665,anonymized-files-wisd/12345641_19696.jsonl,7fb2544b-32ff-469a-beb3-97f85f008e94,{},Strike,Foul,7215d5e8-8aaa-413e-97fb-910130edf61d,{},1,1 - 0,6,1,0,0 - 0,0 - 1,{'mlbId': 545569723}
+666,anonymized-files-wisd/12345641_19729.jsonl,4cbe1eaf-6353-42b4-8698-b001d5d392aa,{},Strike,{},{},{},0,0 - 0,2,1,0,1 - 0,0 - 1,
+667,anonymized-files-wisd/12345641_19806.jsonl,01a1486e-0629-47b0-ab90-8c9137d9451d,{},Ball,Called,{},{},0,0 - 0,2,1,0,2 - 0,1 - 0,
+668,anonymized-files-wisd/12345641_19821.jsonl,9169cd11-8921-459d-af69-ccc6ed1967ac,{},Strike,Foul,14f1ba13-bc2c-463d-861b-aacc17389c9c,{},1,1 - 4,7,1,0,1 - 1,0 - 1,{'mlbId': 518481551}
+669,anonymized-files-wisd/12345641_19857.jsonl,a4ad3e05-62a4-48d3-b4b3-f8620fe8738c,{},Strike,{},{},{},0,1 - 4,7,2,0,0 - 0,0 - 1,
+670,anonymized-files-wisd/12345641_19892.jsonl,4fbacab4-11b2-4e57-b7bd-7724d22b5277,{},Strike,Foul,{},{},0,4 - 6,9,2,0,0 - 1,0 - 1,
+671,anonymized-files-wisd/12345641_20055.jsonl,7ea39fbf-1c93-49c5-80fa-34686953fa47,{},Strike,Called,{},{},0,1 - 0,5,1,0,1 - 0,0 - 1,
+672,anonymized-files-wisd/12345641_20072.jsonl,58181e61-159c-437e-b62f-eb149c7cde32,{},Strike,Called,{},{},0,4 - 6,9,0,0,0 - 0,0 - 1,
+673,anonymized-files-wisd/12345641_20140.jsonl,4c552891-5c90-466d-bb0f-89183d974568,{},Ball,Called,{},{},0,4 - 6,9,0,0,0 - 2,1 - 0,
+674,anonymized-files-wisd/12345641_202.jsonl,75b34509-324a-40fa-9441-39196520169a,{},Ball,Called,{},{},0,0 - 0,3,1,0,1 - 0,1 - 0,
+675,anonymized-files-wisd/12345641_20215.jsonl,e56044c2-519f-4b0d-833f-de2b34fa5dd6,{},HitIntoPlay,{},28121524-7092-4bc4-bc2c-ed83a3029968,{},1,4 - 4,8,0,0,0 - 2,0 - 0,{'mlbId': 451871192}
+676,anonymized-files-wisd/12345641_20346.jsonl,1c66ea8b-0276-4184-be41-588134e4906e,{},Strike,FoulTip,{},{},0,1 - 0,6,0,0,1 - 1,0 - 1,
+677,anonymized-files-wisd/12345641_20563.jsonl,8ef2d0dd-c276-413b-8f00-8a456671e889,{},Ball,Called,{},{},0,1 - 0,3,2,0,2 - 1,1 - 0,
+678,anonymized-files-wisd/12345641_20745.jsonl,85363584-09c3-4231-b4e4-e8b7a2dbb7ff,{},HitIntoPlay,{},600e9418-f1ed-4758-a3ed-3997419817a6,{},1,0 - 0,2,1,1,3 - 2,0 - 0,{'mlbId': 805688901}
+679,anonymized-files-wisd/12345641_20918.jsonl,0ef5e5f5-d7a0-4f3f-af3e-ce7944f6d5e4,{},Ball,HitByPitch,{},{},0,1 - 0,7,1,0,1 - 1,1 - 0,
+680,anonymized-files-wisd/12345641_2096.jsonl,bfe4c1eb-b71b-4f30-934b-e1c5aa906efa,{},Ball,Called,{},{},0,0 - 0,2,0,1,2 - 2,1 - 0,
+681,anonymized-files-wisd/12345641_21137.jsonl,2b68e4b1-d139-42cf-9b45-58efb10daad4,{},Strike,Called,{},{},0,4 - 4,8,1,0,1 - 0,0 - 1,
+682,anonymized-files-wisd/12345641_21139.jsonl,7dfaff81-bbad-4cf3-91fa-b3947cf161dd,{},Ball,Called,{},{},0,0 - 0,2,0,0,2 - 2,1 - 0,
+683,anonymized-files-wisd/12345641_21226.jsonl,9a94587f-e910-4086-b37e-bf853dfdff16,{},Strike,{},{},{},0,4 - 6,8,0,0,0 - 0,0 - 1,
+684,anonymized-files-wisd/12345641_21268.jsonl,3d3e1eb6-2c4f-4837-b2a8-e2229d379228,{},Strike,{},{},{},0,1 - 0,5,2,0,0 - 0,0 - 1,
+685,anonymized-files-wisd/12345641_21525.jsonl,6a82c4cd-de25-4967-8646-910ee2c9f4ff,{},Strike,Called,{},{},0,1 - 0,7,1,0,0 - 1,0 - 1,
+686,anonymized-files-wisd/12345641_21577.jsonl,398e5796-6263-4169-b9d8-dfd11d4e58a1,{},Strike,Foul,{},{},0,1 - 0,6,0,0,1 - 0,0 - 1,
+687,anonymized-files-wisd/12345641_21765.jsonl,f50ade1e-0b80-4726-be0a-f916cec7f4c1,{},Ball,Called,{},{},0,0 - 0,2,1,0,3 - 1,1 - 0,
+688,anonymized-files-wisd/12345641_21948.jsonl,159fb7a2-c280-4b0f-a6b7-d2ee97c00916,{},Strike,Called,{},{},0,1 - 0,7,0,1,1 - 2,0 - 1,
+689,anonymized-files-wisd/12345641_21986.jsonl,3ea48958-75db-41c5-a95a-e5c342d22433,{},Strike,Foul,3a393967-b344-40b9-beea-1d04b384ceab,{},1,4 - 6,9,2,0,2 - 2,0 - 0,{'mlbId': 432216743}
+690,anonymized-files-wisd/12345641_22043.jsonl,00e9c632-e349-406b-885f-faa0fed76567,{},Strike,{},{},{},0,4 - 4,7,2,1,1 - 2,0 - 1,
+691,anonymized-files-wisd/12345641_22045.jsonl,946e3e37-9207-40e6-8833-d76413e6f23f,{},Ball,BallInDirt,{},{},0,1 - 4,7,2,0,0 - 1,1 - 0,
+692,anonymized-files-wisd/12345641_2211.jsonl,f02ac3aa-6d84-42d0-ac4f-b99d7d98fb08,{},Strike,Called,{},{},0,1 - 0,6,1,0,1 - 0,0 - 1,
+693,anonymized-files-wisd/12345641_22399.jsonl,3ed4b7e5-1b3a-4a91-aa5d-08f80f832724,{},Ball,Called,{},{},0,1 - 0,7,1,0,0 - 0,1 - 0,
+694,anonymized-files-wisd/12345641_22489.jsonl,076a5e04-f946-475e-b4e3-c8f50b8ec969,{},HitIntoPlay,{},cd9f6af2-c365-4676-8251-45e2b3e2977f,{},1,1 - 0,5,1,0,1 - 1,0 - 0,{'mlbId': 432216743}
+695,anonymized-files-wisd/12345641_22553.jsonl,c515a500-fce3-4fa0-b05a-94066c9b5886,{},Strike,Foul,{},{},0,4 - 4,8,0,0,0 - 1,0 - 1,
+696,anonymized-files-wisd/12345641_22598.jsonl,7cb1c0a8-7747-4c49-a854-200887ed25aa,{},HitIntoPlay,{},57d6343f-cdae-4517-acb4-ea73b838e2e9,{},1,1 - 0,4,1,1,3 - 1,0 - 0,{'mlbId': 459722179}
+697,anonymized-files-wisd/12345641_22669.jsonl,26a05d0e-1ed5-4bde-89af-e9ec5a1dadf0,{},Strike,{},{},{},0,1 - 0,7,1,1,0 - 2,0 - 1,
+698,anonymized-files-wisd/12345641_22862.jsonl,be85133a-aa7d-496d-8a1c-8a4176b3947d,{},Strike,Foul,835d225f-b29f-4b50-a08d-8e33dda87037,{},1,2 - 4,7,1,0,0 - 0,0 - 1,{'mlbId': 412098649}
+699,anonymized-files-wisd/12345641_22963.jsonl,cc8b5317-881e-428c-a03a-6f3063d35fdf,{},Ball,Called,{},{},0,1 - 0,7,1,0,1 - 0,1 - 0,
+700,anonymized-files-wisd/12345641_2307.jsonl,980fd364-ec07-44de-88d5-4f12a7f6c7a9,{},HitIntoPlay,{},57096962-3a01-4a79-bb05-0ecaddbc45d3,{},1,1 - 0,4,1,2,0 - 0,0 - 0,{'mlbId': 568527038}
+701,anonymized-files-wisd/12345641_23436.jsonl,3387d18b-0151-4d2d-b347-bef1259c64fe,{},Strike,Foul,baeef605-4df4-460d-8eb7-56791dfdc189,{},1,0 - 0,2,1,0,2 - 1,0 - 1,{'mlbId': 719146721}
+702,anonymized-files-wisd/12345641_23481.jsonl,6824bac1-038c-48c0-87ae-71fbf93ef3fb,{},Strike,Foul,{},{},0,4 - 6,8,2,0,1 - 0,0 - 1,
+703,anonymized-files-wisd/12345641_23623.jsonl,3e6bdd2e-0a77-4816-9098-02d71aec7317,{},Ball,Called,{},{},0,4 - 4,8,2,0,2 - 1,1 - 0,
+704,anonymized-files-wisd/12345641_23732.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,1 - 0,6,2,0,0 - 1,0 - 0,
+705,anonymized-files-wisd/12345641_23948.jsonl,7a9da16f-25ef-446d-a272-c2476df622d9,{},Strike,Foul,ffb41041-4ebd-4352-ade5-6f5dc5ac8f5b,{},1,0 - 0,2,0,0,2 - 0,0 - 1,{'mlbId': 459722179}
+706,anonymized-files-wisd/12345641_24018.jsonl,7520f27c-3f57-4666-bbe1-17fbe83fa9d6,{},Strike,Called,{},{},0,1 - 0,6,2,0,0 - 0,0 - 1,
+707,anonymized-files-wisd/12345641_24035.jsonl,b7230062-1e75-41c2-9bd2-1514a7215d0d,{},Ball,Called,{},{},0,1 - 0,7,1,0,2 - 0,1 - 0,
+708,anonymized-files-wisd/12345641_2405.jsonl,8da26112-fc94-429d-b97e-9981f3eb7bf0,{},Strike,Called,{},{},0,4 - 4,8,2,0,3 - 1,0 - 1,
+709,anonymized-files-wisd/12345641_24073.jsonl,cbebfc8c-5757-4e13-812e-01387c18a9e4,{},Strike,Called,{},{},0,1 - 0,3,1,0,1 - 0,0 - 1,
+710,anonymized-files-wisd/12345641_24104.jsonl,78673f27-456a-4579-bf5a-1643a1df9359,{},Strike,Called,{},{},0,4 - 6,9,2,0,0 - 0,0 - 1,
+711,anonymized-files-wisd/12345641_24198.jsonl,72ae6770-93b0-4a4d-b127-1f6b48752bba,{},Ball,Called,{},{},0,4 - 4,7,2,0,0 - 2,1 - 0,
+712,anonymized-files-wisd/12345641_24432.jsonl,a26b8b2f-dfce-421f-b445-e728158a7cd4,{},Ball,Called,{},{},0,1 - 0,5,1,0,0 - 0,1 - 0,
+713,anonymized-files-wisd/12345641_2455.jsonl,fe803c79-aed6-4b4d-b9d8-f15264b5e64e,{},Strike,{},{},{},0,1 - 0,6,2,1,0 - 2,0 - 1,
+714,anonymized-files-wisd/12345641_24587.jsonl,fe450cf2-4cb9-40f1-bb99-6d2c175f8c6b,{},Ball,Called,{},{},0,1 - 0,5,0,0,0 - 0,1 - 0,
+715,anonymized-files-wisd/12345641_24613.jsonl,b6de0a60-ba5a-462f-9fac-9ab4df0186fc,{},HitIntoPlay,{},6bcb5a3c-d20f-4c09-acaf-0d076619de51,{},1,1 - 4,7,1,0,2 - 2,0 - 0,{'mlbId': 518481551}
+716,anonymized-files-wisd/12345641_24759.jsonl,aaa17685-1981-4fa3-81a8-5d44debdced6,{},Strike,Foul,22e09e69-7567-4834-94c2-59445fd1c3ce,{},1,1 - 2,7,2,0,0 - 0,0 - 1,{'mlbId': 545569723}
+717,anonymized-files-wisd/12345641_24810.jsonl,8a58f0ba-5dd6-4e9e-9281-c417914027d6,{},Strike,{},{},{},0,0 - 0,1,1,1,1 - 2,0 - 1,
+718,anonymized-files-wisd/12345641_25005.jsonl,6521a44e-cb10-4619-bcae-c980b18d0b1f,{},Ball,Called,{},{},0,1 - 0,4,0,0,0 - 0,1 - 0,
+719,anonymized-files-wisd/12345641_25065.jsonl,4c2f56af-9530-4f49-8228-4f6c2b69079c,{},Strike,Called,{},{},0,1 - 0,7,1,0,0 - 0,0 - 1,
+720,anonymized-files-wisd/12345641_25144.jsonl,2ddd5dc5-10b5-4757-96a5-fed372cc2ca5,{},Ball,Called,{},{},0,1 - 0,6,2,0,1 - 2,1 - 0,
+721,anonymized-files-wisd/12345641_25244.jsonl,63c62aa1-048d-456d-966e-fd3c834b31aa,{},HitIntoPlay,{},2a9a7901-016b-48a0-8dd6-f3c949e3a50d,{},1,1 - 0,5,2,0,0 - 0,0 - 0,{'mlbId': 172804761}
+722,anonymized-files-wisd/12345641_25526.jsonl,de71ec29-7657-47f8-8c60-6e4413c77dd5,{},HitIntoPlay,{},78c5e12b-e133-46aa-815b-bff8851fe026,{},1,1 - 0,4,0,1,1 - 0,0 - 0,{'mlbId': 545569723}
+723,anonymized-files-wisd/12345641_2577.jsonl,72eeae68-bed9-47ad-ad95-94c44438c8de,{},Strike,Called,{},{},0,0 - 0,1,0,0,0 - 0,0 - 1,
+724,anonymized-files-wisd/12345641_26096.jsonl,de1b6ba4-3182-48ce-a1ad-b89c2e1a5809,{},Ball,BallInDirt,{},{},0,0 - 0,2,0,0,0 - 2,1 - 0,
+725,anonymized-files-wisd/12345641_26120.jsonl,c63eba6d-3e02-4581-85b0-2c9914f27703,{},Ball,Called,{},{},0,0 - 0,2,1,0,1 - 1,1 - 0,
+726,anonymized-files-wisd/12345641_27004.jsonl,f1b76450-1b38-4620-8de4-cf0266f9a3d6,{},Ball,Called,{},{},0,0 - 0,1,1,0,0 - 0,1 - 0,
+727,anonymized-files-wisd/12345641_27368.jsonl,046beb5f-08c5-421a-a6b1-4811bd203af0,{},Strike,{},{},{},0,4 - 4,7,2,0,0 - 0,0 - 1,
+728,anonymized-files-wisd/12345641_27564.jsonl,109146ac-d3cb-4f6f-8634-024e406b7994,{},Strike,{},{},{},0,1 - 0,5,1,0,0 - 0,0 - 1,
+729,anonymized-files-wisd/12345641_27761.jsonl,a3e42a7e-38df-4816-b8f2-8395d0ba45b2,{},Strike,Foul,f66faad7-2bfb-4d02-bcff-775fbf99780e,{},1,0 - 0,2,1,0,1 - 0,0 - 1,{'mlbId': 719146721}
+730,anonymized-files-wisd/12345641_27980.jsonl,454e6e9b-2a0d-44e6-b8cf-28a159852a87,{},Strike,Foul,473bd0ca-e6da-4218-bc44-527502848811,{},1,4 - 4,8,2,0,0 - 1,0 - 1,{'mlbId': 172804761}
+731,anonymized-files-wisd/12345641_27991.jsonl,f995e8e5-05ab-46f9-ba91-27b7521ec5a9,{},Ball,Called,{},{},0,1 - 4,7,1,0,1 - 0,1 - 0,
+732,anonymized-files-wisd/12345641_28029.jsonl,5ff7f392-8827-413f-a107-046c551791ab,{},Strike,Foul,{},{},0,1 - 3,7,2,0,3 - 2,0 - 0,
+733,anonymized-files-wisd/12345641_28040.jsonl,1a0b94be-ed04-4518-9552-7069efe8355b,{},Strike,Foul,7f547fae-407a-4cf0-8c28-5f4045529edb,{},1,1 - 0,5,0,0,1 - 2,0 - 0,{'mlbId': 451871192}
+734,anonymized-files-wisd/12345641_28093.jsonl,f9be139a-6fb9-400a-8d58-38c755d8d84f,{},Ball,Called,{},{},0,1 - 0,7,1,0,0 - 1,1 - 0,
+735,anonymized-files-wisd/12345641_28172.jsonl,7896c00f-8fa7-4110-b12a-88e0a173dc0a,{},HitIntoPlay,{},dbed0bf5-30c5-4f8c-acbb-1ab7f73912b3,{},1,1 - 0,6,2,1,1 - 1,0 - 0,{'mlbId': 459722179}
+736,anonymized-files-wisd/12345641_28544.jsonl,3e83719a-d9dd-41cb-b194-88ff4fc7536b,{},Strike,Called,{},{},0,1 - 0,5,0,0,1 - 1,0 - 1,
+737,anonymized-files-wisd/12345641_28566.jsonl,69088e81-8437-4036-ad64-cf436dd4064f,{},Ball,Called,{},{},0,0 - 0,2,1,0,3 - 1,1 - 0,
+738,anonymized-files-wisd/12345641_28574.jsonl,b8d40474-a78c-4dc1-b77f-c7435ffa1296,{},Strike,Called,{},{},0,1 - 0,7,1,0,3 - 1,0 - 1,
+739,anonymized-files-wisd/12345641_28583.jsonl,c037442b-712f-4d27-8408-bc934cb3a331,{},Ball,Called,{},{},0,1 - 4,7,1,0,2 - 0,1 - 0,
+740,anonymized-files-wisd/12345641_28684.jsonl,9a4f22ae-8f91-47ba-8289-a74a856c2d5d,{},Strike,Foul,{},{},0,4 - 6,9,0,0,0 - 1,0 - 1,
+741,anonymized-files-wisd/12345641_28731.jsonl,c5f4a1ec-1381-42f7-82b0-bca1fff1ba8c,{},Strike,Foul,45360a71-c56e-4d7d-a7f7-3a26568c9a4c,{},1,2 - 4,7,1,0,0 - 2,0 - 0,{'mlbId': 412098649}
+742,anonymized-files-wisd/12345641_28864.jsonl,e5bb0c95-dc82-42bf-9b80-5806dc4faecc,{},Ball,Called,{},{},0,1 - 0,6,2,0,2 - 0,1 - 0,
+743,anonymized-files-wisd/12345641_29012.jsonl,b9966b99-98ee-4d8c-a233-bbe778695aa0,{},Ball,Called,{},{},0,1 - 4,7,1,0,2 - 0,1 - 0,
+744,anonymized-files-wisd/12345641_29233.jsonl,15eb0cfd-a2bd-4af1-951b-de55f644c9eb,{},Ball,Called,{},{},0,1 - 0,7,2,0,0 - 0,1 - 0,
+745,anonymized-files-wisd/12345641_29372.jsonl,63822663-138e-4e33-b844-f0ca5595eb4b,{},Strike,Foul,fa81372d-4fd5-419a-9ae1-3a897d568a6f,{},1,0 - 0,1,0,0,0 - 1,0 - 1,{'mlbId': 172804761}
+746,anonymized-files-wisd/12345641_29447.jsonl,cc931621-be8a-4809-9d92-e13e576d74ff,{},Strike,{},{},{},0,1 - 0,5,0,0,0 - 0,0 - 1,
+747,anonymized-files-wisd/12345641_29683.jsonl,e0b92c15-7bca-4771-b0b8-2707a6731872,{},HitIntoPlay,{},384f746c-97e1-4be8-9628-0a84be46b941,{},1,1 - 0,5,2,1,2 - 0,0 - 0,{'mlbId': 360906992}
+748,anonymized-files-wisd/12345641_29850.jsonl,d9f4fb1b-9df3-4ed8-8c9a-a2e2831a68ad,{},HitIntoPlay,{},fe4e61d8-6c67-4793-a2f3-7df5f4a6c978,{},1,0 - 0,1,2,1,3 - 2,0 - 0,{'mlbId': 797957728}
+749,anonymized-files-wisd/12345641_29870.jsonl,c51e339b-b08c-4f79-a267-1210a1d0669b,{},HitIntoPlay,{},352747b2-e925-4fd7-b6d0-fe7ab4f079b1,{},1,1 - 0,6,2,0,3 - 2,0 - 0,{'mlbId': 352830460}
+750,anonymized-files-wisd/12345641_29875.jsonl,2e43530d-573a-4a39-b9f2-b1986c6ec7a5,{},Strike,Called,{},{},0,3 - 4,7,1,0,1 - 0,0 - 1,
+751,anonymized-files-wisd/12345641_29968.jsonl,67e54493-f5b4-4ff0-9fd4-238505ea8a8c,{},Strike,Foul,{},{},0,0 - 0,1,1,0,1 - 0,0 - 1,
+752,anonymized-files-wisd/12345641_29975.jsonl,317eb370-774d-4773-b4c3-6082ddad5e52,{},Strike,Called,{},{},0,0 - 0,3,2,0,0 - 1,0 - 1,
+753,anonymized-files-wisd/12345641_29985.jsonl,55b34e5e-5af7-489a-8149-ddab646208b0,{},Ball,Called,{},{},0,1 - 4,7,0,0,0 - 0,1 - 0,
+754,anonymized-files-wisd/12345641_30041.jsonl,12f8e73c-ebf6-495d-979e-5404c828088c,{},Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+755,anonymized-files-wisd/12345641_30048.jsonl,62162c9d-94cf-4134-879f-79e1ea801359,{},Ball,Called,{},{},0,0 - 0,1,1,0,0 - 0,1 - 0,
+756,anonymized-files-wisd/12345641_30180.jsonl,4cb9a85a-a950-4a02-aa0d-6d7293e5f24f,{},Strike,Foul,22bbbb39-7c26-468d-a4cd-8a23e34204b9,{},1,1 - 0,6,1,0,1 - 2,0 - 0,{'mlbId': 412098649}
+757,anonymized-files-wisd/12345641_30462.jsonl,ac737a7a-4276-4f59-acb7-ef13dc78e73f,{},Ball,Called,{},{},0,4 - 6,9,2,0,0 - 2,1 - 0,
+758,anonymized-files-wisd/12345641_30556.jsonl,11f8f670-4503-4d2c-834b-0d294b528c79,{},Strike,Foul,1af5c8ed-7c85-409f-9bf4-1a90e3147540,{},1,1 - 4,7,2,0,2 - 2,0 - 0,{'mlbId': 719146721}
+759,anonymized-files-wisd/12345641_30693.jsonl,16f21ab4-56a3-41d2-a9f6-0ff87b7eeeba,{},Strike,Called,{},{},0,1 - 0,3,2,0,1 - 0,0 - 1,
+760,anonymized-files-wisd/12345641_30710.jsonl,31eace79-8e4c-49d2-bc85-5e6203e8ca0c,{},Ball,Called,{},{},0,0 - 0,2,0,0,0 - 0,1 - 0,
+761,anonymized-files-wisd/12345641_30745.jsonl,2667f036-15fb-4d25-b643-5185bbae47d3,{},Ball,Called,{},{},0,0 - 0,1,1,0,0 - 0,1 - 0,
+762,anonymized-files-wisd/12345641_30949.jsonl,bffeb886-ade9-41e4-bb0d-51a491f63ed1,{},Ball,Called,{},{},0,1 - 3,7,2,0,0 - 0,1 - 0,
+763,anonymized-files-wisd/12345641_31157.jsonl,70b02658-d30c-45a7-9f19-e96aa85fd1b4,{},Strike,Called,{},{},0,1 - 1,7,2,0,0 - 0,0 - 1,
+764,anonymized-files-wisd/12345641_31194.jsonl,082c71c1-f231-42b6-be8b-ff9bf652e08e,{},HitIntoPlay,{},f1b00112-0b54-44a4-9444-26e5d9a6bce5,{},1,1 - 0,4,0,1,1 - 0,0 - 0,{'mlbId': 352830460}
+765,anonymized-files-wisd/12345641_3139.jsonl,ce631eb3-a82e-4d58-a5c4-ce7bc3b916a1,{},Strike,Foul,7cd33ea2-b07d-47cf-9e44-932d19f776e1,{},1,1 - 4,7,2,0,2 - 2,0 - 0,{'mlbId': 719146721}
+766,anonymized-files-wisd/12345641_31439.jsonl,73cba6b8-ca9e-42af-a251-025c5968f2e4,{},Ball,Called,{},{},0,1 - 3,7,2,0,3 - 2,1 - 0,
+767,anonymized-files-wisd/12345641_31477.jsonl,75b6b0dd-8d05-4daf-84b3-e44cd2d5907a,{},Strike,Foul,3ae89820-39c2-44ba-93a7-8b51ec8606db,{},1,4 - 6,9,0,0,0 - 2,0 - 0,{'mlbId': 459722179}
+768,anonymized-files-wisd/12345641_31670.jsonl,0db28dcb-d18c-4528-9a36-fc3ac15ab0ca,{},Strike,Foul,{},{},0,1 - 0,7,0,0,0 - 1,0 - 1,
+769,anonymized-files-wisd/12345641_31701.jsonl,931a478a-6bdf-44c4-b958-150abab2ae5d,{},Ball,Called,{},{},0,1 - 0,6,1,0,0 - 1,1 - 0,
+770,anonymized-files-wisd/12345641_31712.jsonl,caa5d6ca-df7b-47c2-ae3e-f3b406669c3d,{},Strike,Foul,8740a527-41eb-456e-9033-15eb3ad2d557,{},1,0 - 0,1,0,0,2 - 2,0 - 0,{'mlbId': 174158975}
+771,anonymized-files-wisd/12345641_31789.jsonl,1ba2c427-9355-42d7-b194-5df52eabffdd,{},Strike,{},{},{},0,0 - 0,2,0,0,0 - 1,0 - 1,
+772,anonymized-files-wisd/12345641_31882.jsonl,cd577ad7-e8f3-4174-8270-91dad2c35526,{},Ball,Called,{},{},0,1 - 0,5,0,0,1 - 1,1 - 0,
+773,anonymized-files-wisd/12345641_320.jsonl,a9648c9d-c1c7-4285-8116-8099afb3ed36,{},Strike,Foul,4617e4cf-f9e1-427e-929e-0f29f909a97b,{},1,2 - 4,7,1,0,1 - 2,0 - 0,{'mlbId': 412098649}
+774,anonymized-files-wisd/12345641_32139.jsonl,6b46712a-ff57-44df-8206-80c65ae49769,{},Strike,Called,{},{},0,4 - 6,8,1,0,0 - 0,0 - 1,
+775,anonymized-files-wisd/12345641_32149.jsonl,fab74f1a-add4-4e60-8bef-c9b04546b2b6,{},Ball,Called,{},{},0,4 - 6,8,1,0,1 - 2,1 - 0,
+776,anonymized-files-wisd/12345641_32156.jsonl,f17e20f9-44ee-4d85-a92e-f4c50ba76931,{},Ball,Called,{},{},0,1 - 4,7,1,0,3 - 0,1 - 0,
+777,anonymized-files-wisd/12345641_32452.jsonl,92d5395a-d051-47c0-a2ac-2977183bf74e,{},Ball,Called,{},{},0,0 - 0,1,0,0,1 - 2,1 - 0,
+778,anonymized-files-wisd/12345641_32491.jsonl,bbc41212-b1d8-426e-9e7d-ed8b7cbdcaec,{},Ball,Called,{},{},0,1 - 0,6,2,0,3 - 0,1 - 0,
+779,anonymized-files-wisd/12345641_32670.jsonl,77df19e6-7ecf-413f-bf4a-d4fb096f1089,{},Strike,{},{},{},0,0 - 0,1,0,1,2 - 2,0 - 1,
+780,anonymized-files-wisd/12345641_32828.jsonl,2d94325c-2879-4a8c-97f5-95d1903c89af,{},Strike,Called,{},{},0,0 - 0,2,0,0,0 - 0,0 - 1,
+781,anonymized-files-wisd/12345641_32978.jsonl,4eb25314-27c9-4004-8df8-018efd1524b7,{},Strike,{},{},{},0,1 - 0,3,1,1,1 - 2,0 - 1,
+782,anonymized-files-wisd/12345641_33146.jsonl,074c4334-59fb-47c3-bad6-ff8cee828a00,{},Ball,Called,{},{},0,0 - 0,3,0,0,2 - 2,1 - 0,
+783,anonymized-files-wisd/12345641_33151.jsonl,92e85774-130f-4e2c-a692-e7099ac47951,{},Ball,Called,{},{},0,1 - 4,7,1,0,0 - 1,1 - 0,
+784,anonymized-files-wisd/12345641_33275.jsonl,f3f2197f-b623-4472-807f-79c04379703c,{},Strike,Foul,{},{},0,2 - 4,7,1,0,0 - 1,0 - 1,
+785,anonymized-files-wisd/12345641_33506.jsonl,24dc00bd-8489-46f3-a3bf-44358d3a0722,{},Ball,HitByPitch,{},{},0,1 - 1,7,2,0,0 - 1,1 - 0,
+786,anonymized-files-wisd/12345641_33510.jsonl,a278f2bc-a22a-40a0-86e5-ec37075426de,{},HitIntoPlay,{},e522f927-c72f-49cb-94a3-23c3147f731e,{},1,0 - 0,2,1,0,2 - 2,0 - 0,{'mlbId': 719146721}
+787,anonymized-files-wisd/12345641_33516.jsonl,0f4c7c48-d39c-49a1-bb15-79cdb8ecff4c,{},Strike,Called,{},{},0,0 - 0,3,0,0,0 - 0,0 - 1,
+788,anonymized-files-wisd/12345641_33555.jsonl,d6f1582c-3a91-4d5f-867f-d1053f7f8131,{},Ball,Called,{},{},0,0 - 0,2,0,0,1 - 2,1 - 0,
+789,anonymized-files-wisd/12345641_33671.jsonl,acbe335f-705a-40b1-abf3-755cc1166274,{},HitIntoPlay,{},27704efd-7583-4a8d-81a1-e28a1c5b8450,{},1,4 - 6,9,0,1,0 - 1,0 - 0,{'mlbId': 518481551}
+790,anonymized-files-wisd/12345641_33741.jsonl,6dc4fca4-9bc4-4456-b53a-909ef0bf7a40,{},Strike,Called,{},{},0,1 - 4,7,1,0,0 - 0,0 - 1,
+791,anonymized-files-wisd/12345641_33786.jsonl,959c1cab-1d8b-4446-a862-bae69dbe72dc,{},Ball,Called,{},{},0,0 - 0,3,0,0,1 - 2,1 - 0,
+792,anonymized-files-wisd/12345641_33789.jsonl,7975f192-f27c-4830-97c3-8f54913028f9,{},Strike,Foul,624344b7-353a-44d1-b1d6-f906cb7e6b40,{},1,4 - 6,8,0,0,1 - 1,0 - 1,{'mlbId': 805688901}
+793,anonymized-files-wisd/12345641_34035.jsonl,f2270674-c3ef-48a4-aa64-a73ddbfbc287,{},Strike,Called,{},{},0,0 - 0,2,0,0,0 - 0,0 - 1,
+794,anonymized-files-wisd/12345641_34187.jsonl,20b2fe48-6fdf-4260-9343-fbce8bca2b84,{},Strike,Called,{},{},0,1 - 4,7,0,0,2 - 1,0 - 1,
+795,anonymized-files-wisd/12345641_34389.jsonl,45513677-75e0-48ef-9be3-8b2b6fe8896f,{},Strike,{},{},{},0,1 - 0,6,0,1,2 - 2,0 - 1,
+796,anonymized-files-wisd/12345641_34465.jsonl,7e78552a-4ab3-4667-a748-024841d6f9cc,{},Ball,Called,{},{},0,1 - 0,4,1,0,0 - 0,1 - 0,
+797,anonymized-files-wisd/12345641_34642.jsonl,62e4fd5c-16aa-43ad-a6ee-ddeea2d75f42,{},HitIntoPlay,{},0f70d65f-f241-4d92-98cf-e390aab5e12e,{},1,4 - 6,9,1,1,1 - 0,0 - 0,{'mlbId': 719146721}
+798,anonymized-files-wisd/12345641_34737.jsonl,7a112028-23d0-4434-af56-5105746e6dfd,{},Strike,{},{},{},0,4 - 6,9,2,0,0 - 0,0 - 1,
+799,anonymized-files-wisd/12345641_35170.jsonl,0141df1a-6dde-4e34-8319-da96b67d8dd4,{},HitIntoPlay,{},2c6c5b1d-31b2-4df3-aeac-42fc77a19b0d,{},1,1 - 0,4,1,0,0 - 0,0 - 0,{'mlbId': 805688901}
+800,anonymized-files-wisd/12345641_35218.jsonl,948da019-19fc-47bd-8886-fa5f4a097885,{},Ball,Called,{},{},0,1 - 0,5,2,0,0 - 0,1 - 0,
+801,anonymized-files-wisd/12345641_35350.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,1 - 0,6,2,0,0 - 1,0 - 0,
+802,anonymized-files-wisd/12345641_35492.jsonl,8444c001-fcbe-4c0d-b0dd-1e324a5d95ff,{},Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+803,anonymized-files-wisd/12345641_35512.jsonl,9ef3fdd8-8426-4483-a9a9-f60cef25f0a3,{},Strike,{},{},{},0,4 - 6,9,0,1,1 - 2,0 - 1,
+804,anonymized-files-wisd/12345641_35535.jsonl,8e5f9662-a169-417a-ae8c-297689daea1a,{},Ball,BallInDirt,{},{},0,3 - 4,7,1,0,1 - 1,1 - 0,
+805,anonymized-files-wisd/12345641_35758.jsonl,6698a560-fae3-4295-9160-2d6194c3c917,{},Strike,Foul,118a909d-70b1-4d15-b0d0-f17ede9419f6,{},1,1 - 0,6,2,0,0 - 1,0 - 1,{'mlbId': 352830460}
+806,anonymized-files-wisd/12345641_35812.jsonl,a664f348-d99b-42ac-8228-5655106445c2,{},Strike,Foul,1a2326b4-40d2-40c4-8654-34f21b4e3434,{},1,4 - 6,8,1,0,1 - 2,0 - 0,{'mlbId': 568527038}
+807,anonymized-files-wisd/12345641_35937.jsonl,94bc2ca1-bffd-4bea-8ff0-0e91bba4d983,{},Strike,Foul,813e75c9-e475-4b99-9d25-f78d9a37de7a,{},1,4 - 4,7,2,0,0 - 2,0 - 0,{'mlbId': 352830460}
+808,anonymized-files-wisd/12345641_36255.jsonl,44a28400-9185-4d95-a6f2-9c339698aed6,{},Strike,Foul,5985d86e-b415-4e94-8811-e9a3cc807335,{},1,1 - 4,7,2,0,2 - 2,0 - 0,{'mlbId': 719146721}
+809,anonymized-files-wisd/12345641_36283.jsonl,3a74b0db-a8c3-4b61-9ecf-682ef6ba153c,{},HitIntoPlay,{},2ab4506b-1a79-45bb-b656-87d1857c8220,{},1,1 - 0,5,0,1,2 - 2,0 - 0,{'mlbId': 451871192}
+810,anonymized-files-wisd/12345641_36286.jsonl,c6d532c5-39d3-4ea1-a78e-01b74e1f2d36,{},HitIntoPlay,{},876b3db6-bc19-4d0d-863f-fdcabad59b94,{},1,1 - 4,7,2,1,3 - 2,0 - 0,{'mlbId': 719146721}
+811,anonymized-files-wisd/12345641_36678.jsonl,dea835c8-155c-43b0-b180-e557d54d521c,{},Ball,Called,{},{},0,0 - 0,1,1,1,1 - 0,1 - 0,
+812,anonymized-files-wisd/12345641_3671.jsonl,b10ff783-fbdd-4eff-ab1a-ee5fffec4d13,{},Strike,Called,{},{},0,1 - 0,7,1,0,3 - 0,0 - 1,
+813,anonymized-files-wisd/12345641_36820.jsonl,04d42a0c-889e-4b8e-8511-20a584971c03,{},Ball,Called,{},{},0,4 - 6,9,2,0,1 - 2,1 - 0,
+814,anonymized-files-wisd/12345641_36829.jsonl,04dec80c-a92f-4ba9-8010-99ce25b6be40,{},Strike,Called,{},{},0,4 - 6,8,2,0,1 - 1,0 - 1,
+815,anonymized-files-wisd/12345641_36899.jsonl,5d5fb07f-ffe2-4e3e-8475-31003396a374,{},HitIntoPlay,{},40d58305-bf04-48c8-aeef-9e8ad6e365d2,{},1,0 - 0,3,0,1,0 - 1,0 - 0,{'mlbId': 518481551}
+816,anonymized-files-wisd/12345641_37044.jsonl,12253653-1d6d-47a6-b443-df106e38d504,{},Strike,Called,{},{},0,0 - 0,3,1,0,2 - 0,0 - 1,
+817,anonymized-files-wisd/12345641_37049.jsonl,6d8ab7e5-e203-492b-b870-6798a5249c7c,{},Strike,Foul,{},{},0,4 - 4,8,0,0,0 - 2,0 - 0,
+818,anonymized-files-wisd/12345641_37153.jsonl,951d5ade-12cc-40e9-9f84-e7eeca4804e0,{},Ball,Called,{},{},0,1 - 0,4,0,0,0 - 0,1 - 0,
+819,anonymized-files-wisd/12345641_37380.jsonl,31ceca6e-f25e-4f22-91cf-c8a03a041285,{},Strike,Foul,4db72f21-3bf6-4b74-bb2c-ab9d01d0f9ac,{},1,1 - 0,6,0,0,2 - 2,0 - 0,{'mlbId': 765710437}
+820,anonymized-files-wisd/12345641_37480.jsonl,5a19ea99-7723-4fef-96f7-9462ba91d0c8,{},Ball,Called,{},{},0,4 - 6,9,1,0,0 - 0,1 - 0,
+821,anonymized-files-wisd/12345641_37796.jsonl,b65a1a76-02de-42c0-9c09-b9d23d13951b,{},HitIntoPlay,{},4683191d-823c-474e-aaff-42f7e19c779b,{},1,3 - 4,7,1,1,2 - 1,0 - 0,{'mlbId': 797957728}
+822,anonymized-files-wisd/12345641_38041.jsonl,5bbea04b-03b6-4938-ae19-aa2f3b3b53cf,{},Ball,Called,{},{},0,0 - 0,2,1,0,0 - 0,1 - 0,
+823,anonymized-files-wisd/12345641_38136.jsonl,61dbe6e0-aa92-47ca-9c0c-acaf663d6d59,{},Strike,{},{},{},0,1 - 0,5,1,1,1 - 2,0 - 1,
+824,anonymized-files-wisd/12345641_38263.jsonl,c5128044-4360-457f-80cc-6ddd2d58e62d,{},Strike,Called,{},{},0,0 - 0,3,0,0,0 - 0,0 - 1,
+825,anonymized-files-wisd/12345641_3847.jsonl,eac73a5a-daa8-47dd-bc03-ae12d53455b4,{},HitIntoPlay,{},49dbbf90-93de-48c3-ac45-be1525e29a15,{},1,4 - 6,9,2,0,1 - 1,0 - 0,{'mlbId': 451871192}
+826,anonymized-files-wisd/12345641_38517.jsonl,f01fba21-39dd-42d6-aaaf-66ecb14a6c70,{},Ball,Called,{},{},0,1 - 0,5,2,0,0 - 1,1 - 0,
+827,anonymized-files-wisd/12345641_38539.jsonl,2b55eaf4-735b-4d79-8d07-6acc4e517260,{},Ball,Called,{},{},0,1 - 0,6,0,0,0 - 0,1 - 0,
+828,anonymized-files-wisd/12345641_38561.jsonl,30c551b0-b49b-4388-8ca8-268d40068116,{},Ball,Called,{},{},0,0 - 0,3,0,0,0 - 1,1 - 0,
+829,anonymized-files-wisd/12345641_38790.jsonl,9ab1af6b-dc50-48ef-8fc2-96158d7b96b6,{},Strike,Foul,37b1731a-17be-48cb-9bb4-9eb39147786f,{},1,4 - 4,8,0,0,0 - 0,0 - 1,{'mlbId': 432216743}
+830,anonymized-files-wisd/12345641_39110.jsonl,c8fcc393-b0ac-4bdb-92ef-d5c19f6fdf71,{},Ball,Called,{},{},0,1 - 4,7,0,0,2 - 2,1 - 0,
+831,anonymized-files-wisd/12345641_39239.jsonl,82e0e806-9682-4b58-947a-a995e00a3a32,{},Strike,Called,{},{},0,1 - 0,5,2,0,1 - 1,0 - 1,
+832,anonymized-files-wisd/12345641_39998.jsonl,f3a13ccf-f8dd-439c-8ab9-46cea29dd097,{},Strike,{},{},{},0,4 - 6,9,2,1,2 - 2,0 - 1,
+833,anonymized-files-wisd/12345641_40164.jsonl,67c57890-8a01-449c-a83d-3a25002334d6,{},HitIntoPlay,{},002980ef-9ebc-4a27-beb9-de9f0482eff5,{},1,4 - 6,8,2,1,0 - 1,0 - 0,{'mlbId': 545569723}
+834,anonymized-files-wisd/12345641_40399.jsonl,1be5f19d-621c-4ee2-9678-43188cc66a0b,{},Strike,Foul,d408180a-2343-4553-b6bf-89341b8a72ae,{},1,4 - 4,8,0,0,0 - 2,0 - 0,{'mlbId': 432216743}
+835,anonymized-files-wisd/12345641_40486.jsonl,c5f90f36-7cb8-473c-96e0-7ddd1c3ab9ed,{},Strike,{},{},{},0,1 - 0,5,1,0,1 - 1,0 - 1,
+836,anonymized-files-wisd/12345641_40588.jsonl,fbf16c0a-a0be-49e1-bd87-e69000b10c75,{},Ball,Called,{},{},0,1 - 0,5,2,0,1 - 2,1 - 0,
+837,anonymized-files-wisd/12345641_40602.jsonl,70ff9b3e-2c78-448c-83c7-3c733e16340a,{},Ball,Called,{},{},0,4 - 6,8,2,0,0 - 0,1 - 0,
+838,anonymized-files-wisd/12345641_40688.jsonl,96d90886-1c44-4704-b119-4df622adea94,{},Ball,Called,{},{},0,1 - 0,6,2,0,0 - 1,1 - 0,
+839,anonymized-files-wisd/12345641_4085.jsonl,07b2fef8-b96f-4fcb-87f4-87ee20ecca06,{},Ball,BallInDirt,{},{},0,1 - 4,7,2,0,2 - 2,1 - 0,
+840,anonymized-files-wisd/12345641_40901.jsonl,8289ff7d-f0c2-4763-9a89-2195a530eccf,{},Strike,Called,{},{},0,1 - 0,6,2,0,0 - 0,0 - 1,
+841,anonymized-files-wisd/12345641_41092.jsonl,7ff86e8b-7a4f-4aa4-bf5d-ec11c242d538,{},Strike,Called,{},{},0,1 - 0,6,2,0,0 - 1,0 - 1,
+842,anonymized-files-wisd/12345641_41499.jsonl,a8b1f3ab-f9eb-4a08-a8c1-023e001989d1,{},Ball,Called,{},{},0,1 - 0,7,2,0,3 - 0,1 - 0,
+843,anonymized-files-wisd/12345641_41594.jsonl,c4360923-f0d8-489b-84b0-fa0b7bec2b58,{},Strike,{},{},{},0,4 - 4,8,0,1,0 - 2,0 - 1,
+844,anonymized-files-wisd/12345641_41758.jsonl,852f9aad-85c4-474d-bd51-92394bfdefd9,{},Ball,BallInDirt,{},{},0,0 - 0,2,1,0,2 - 1,1 - 0,
+845,anonymized-files-wisd/12345641_41764.jsonl,ff1fbd5e-b2f0-45c4-8fbc-d0c957225d22,{},Strike,{},{},{},0,4 - 6,9,0,0,0 - 0,0 - 1,
+846,anonymized-files-wisd/12345641_41789.jsonl,3139896e-1021-4542-a907-63cbcc2c0f39,{},Ball,Called,{},{},0,1 - 0,6,2,0,0 - 2,1 - 0,
+847,anonymized-files-wisd/12345641_42159.jsonl,a4d1f61d-8968-4f81-b098-144ca7558add,{},Ball,Called,{},{},0,1 - 0,4,1,0,1 - 1,1 - 0,
+848,anonymized-files-wisd/12345641_42497.jsonl,dd7feeaf-f748-4dcf-985f-90f73e674ce2,{},Ball,Called,{},{},0,4 - 6,9,2,0,0 - 1,1 - 0,
+849,anonymized-files-wisd/12345641_42578.jsonl,c34f860e-e6aa-4002-ba5b-d407db394f95,{},Strike,Called,{},{},0,4 - 4,8,0,0,0 - 0,0 - 1,
+850,anonymized-files-wisd/12345641_42643.jsonl,2a6d052c-b98b-4879-9268-bc21a6b95238,{},Ball,Called,{},{},0,1 - 4,7,1,0,1 - 0,1 - 0,
+851,anonymized-files-wisd/12345641_42670.jsonl,9cec1f9b-7efb-4136-ab0b-b38d4547eb70,{},Strike,{},{},{},0,1 - 0,7,1,0,0 - 0,0 - 1,
+852,anonymized-files-wisd/12345641_42679.jsonl,d27e890a-af3d-418d-b5fc-a530447d46f3,{},Ball,Called,{},{},0,0 - 0,1,0,0,0 - 1,1 - 0,
+853,anonymized-files-wisd/12345641_42872.jsonl,4c627232-50e3-477c-ae59-8748228b4f50,{},Strike,Foul,afcc070e-a040-4d1c-829d-6ac3ddbf1eaa,{},1,1 - 0,5,1,0,2 - 2,0 - 0,{'mlbId': 558675411}
+854,anonymized-files-wisd/12345641_42914.jsonl,19b2de36-bbf9-4ec1-8120-9faa23e68518,{},Ball,Called,{},{},0,1 - 4,7,1,0,0 - 0,1 - 0,
+855,anonymized-files-wisd/12345641_43119.jsonl,c98e1d6c-6e45-4eb8-91d4-f2d59573c168,{},Ball,Called,{},{},0,4 - 6,8,0,0,2 - 2,1 - 0,
+856,anonymized-files-wisd/12345641_43187.jsonl,3babc462-3880-4995-be49-53f1e948592a,{},Strike,Foul,3641202a-9067-4db2-8c79-b8bd9240856f,{},1,2 - 4,7,1,0,0 - 2,0 - 0,{'mlbId': 412098649}
+857,anonymized-files-wisd/12345641_43210.jsonl,11c4386f-89c6-4a5e-8b83-16f2d509fed6,{},Strike,{},{},{},0,0 - 0,3,1,0,0 - 0,0 - 1,
+858,anonymized-files-wisd/12345641_43245.jsonl,ceda5ed0-d1ff-4c82-a466-19a07ce1cabb,{},Ball,Called,{},{},0,1 - 0,7,2,0,2 - 0,1 - 0,
+859,anonymized-files-wisd/12345641_43310.jsonl,40fbc194-8e5f-4071-ad0b-b4fe821f36f7,{},Ball,Called,{},{},0,4 - 6,9,2,0,0 - 2,1 - 0,
+860,anonymized-files-wisd/12345641_43738.jsonl,143f4180-4c71-4250-b367-cb6bc9af6004,{},Ball,Called,{},{},0,1 - 4,7,1,0,0 - 0,1 - 0,
+861,anonymized-files-wisd/12345641_43753.jsonl,b571f66b-7703-4369-8d07-aeaf675ffcd0,{},Strike,Called,{},{},0,1 - 4,7,0,1,3 - 2,0 - 1,
+862,anonymized-files-wisd/12345641_43883.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,0 - 0,1,1,0,1 - 0,0 - 0,
+863,anonymized-files-wisd/12345641_44126.jsonl,0c18aa01-d5fe-4b58-bd38-cdb33959e590,{},Strike,Called,{},{},0,1 - 2,7,2,0,0 - 1,0 - 1,
+864,anonymized-files-wisd/12345641_4429.jsonl,f7ff8d57-9223-481b-a7f9-7cbde117c44b,{},Strike,Foul,{},{},0,0 - 0,1,1,0,1 - 2,0 - 0,
+865,anonymized-files-wisd/12345641_44375.jsonl,247429ed-78b2-4d83-b46b-72b14211707f,{},HitIntoPlay,{},7129db79-34f0-46bb-bcbc-f7ab55d94104,{},1,4 - 6,8,0,1,3 - 2,0 - 0,{'mlbId': 805688901}
+866,anonymized-files-wisd/12345641_44440.jsonl,a2bd2e7b-e1fb-4130-aa0f-b961422a97af,{},Strike,Called,{},{},0,0 - 0,1,0,0,0 - 0,0 - 1,
+867,anonymized-files-wisd/12345641_44686.jsonl,d58364e3-e5ac-40ec-9513-14627975c109,{},Ball,Called,{},{},0,1 - 3,7,2,0,2 - 1,1 - 0,
+868,anonymized-files-wisd/12345641_45189.jsonl,b1c530b8-daa0-4741-8f81-47858c74a999,{},Ball,Called,{},{},0,1 - 3,7,2,0,1 - 0,1 - 0,
+869,anonymized-files-wisd/12345641_45276.jsonl,f8a7b6ac-4261-42e8-bd3b-1ebbfcbe77ac,{},HitIntoPlay,{},0297ae38-7b69-41da-87ec-1a095e7d2cb5,{},1,4 - 5,8,2,0,0 - 1,0 - 0,{'mlbId': 765710437}
+870,anonymized-files-wisd/12345641_45352.jsonl,5eb00470-6e54-46ee-ab0e-b8418a80f28f,{},Ball,Called,{},{},0,0 - 0,3,1,0,0 - 0,1 - 0,
+871,anonymized-files-wisd/12345641_45384.jsonl,8131599e-2025-4108-9c26-84c01814eee8,{},Ball,Called,{},{},0,1 - 0,7,1,0,3 - 2,1 - 0,
+872,anonymized-files-wisd/12345641_45802.jsonl,abc5e965-ee55-4562-afe4-7a79be88007e,{},HitIntoPlay,{},798a2148-30a8-43e6-b3f4-8989a43268b0,{},1,1 - 4,7,1,0,0 - 1,0 - 0,{'mlbId': 854238128}
+873,anonymized-files-wisd/12345641_45961.jsonl,01c5945a-1e9d-44a1-a886-a4150c1a2117,{},Ball,Called,{},{},0,0 - 0,1,2,0,0 - 0,1 - 0,
+874,anonymized-files-wisd/12345641_46.jsonl,230ac6b9-fe7e-4739-89d8-0a96c3335d0f,{},Strike,Foul,30e10af6-30b9-4cea-ab8c-390cbabad67f,{},1,1 - 0,6,2,0,2 - 2,0 - 0,{'mlbId': 352830460}
+875,anonymized-files-wisd/12345641_46511.jsonl,dd26a5b7-90e3-42b6-bcdd-5e23bcf523fd,{},HitIntoPlay,{},a1bc5e6d-ff1c-4d7b-afe4-08a719eb0a39,{},1,0 - 0,2,0,1,2 - 1,0 - 0,{'mlbId': 459722179}
+876,anonymized-files-wisd/12345641_46605.jsonl,e6bc017f-a796-46d3-94aa-e2211287c089,{},Strike,Foul,6de8bc5f-79f5-429c-a29a-636bae3c8083,{},1,4 - 4,7,2,0,0 - 1,0 - 1,{'mlbId': 352830460}
+877,anonymized-files-wisd/12345641_46673.jsonl,4d7973b5-6c98-4327-bbb2-01bcceb8d9c3,{},Ball,Called,{},{},0,1 - 0,6,2,0,0 - 0,1 - 0,
+878,anonymized-files-wisd/12345641_4699.jsonl,46ecfc03-1c9d-406b-854f-64967c441fce,{},Ball,Called,{},{},0,1 - 0,5,2,0,1 - 0,1 - 0,
+879,anonymized-files-wisd/12345641_47080.jsonl,0a86f921-43e9-4a17-8041-75b7b20631b1,{},HitIntoPlay,{},da164f6d-1bc3-4aa4-8014-e7e24b46e45d,{},1,1 - 0,5,2,1,2 - 2,0 - 0,{'mlbId': 617522563}
+880,anonymized-files-wisd/12345641_47203.jsonl,ec35278f-6081-41c7-b7a7-4702d62075a2,{},Ball,Called,{},{},0,1 - 2,7,2,0,0 - 2,1 - 0,
+881,anonymized-files-wisd/12345641_47211.jsonl,7baae5d4-4761-452b-8e6e-1fe668f9ce64,{},Ball,Called,{},{},0,4 - 6,8,1,0,0 - 2,1 - 0,
+882,anonymized-files-wisd/12345641_47367.jsonl,b598ccdc-75c2-4ac6-a8be-0150a82f30b0,{},Ball,Called,{},{},0,1 - 0,5,1,0,1 - 1,1 - 0,
+883,anonymized-files-wisd/12345641_47582.jsonl,0a57c0a0-96fb-45d5-9e03-a40b8dce96fc,{},Strike,Foul,9508ab44-a989-4c39-ae91-f115a7775c9b,{},1,1 - 0,4,1,0,1 - 0,0 - 1,{'mlbId': 459722179}
+884,anonymized-files-wisd/12345641_47646.jsonl,e452c3f2-09c7-4a68-9bef-1b41dda76341,{},Strike,Foul,19613d7c-c4a6-4690-bb0f-c0130265c737,{},1,1 - 3,7,2,0,2 - 0,0 - 1,{'mlbId': 459722179}
+885,anonymized-files-wisd/12345641_47648.jsonl,584d9916-d111-4c5c-981b-42c94c0b3b08,{},Strike,FoulTip,{},{},0,1 - 0,5,1,0,2 - 1,0 - 1,
+886,anonymized-files-wisd/12345641_4770.jsonl,ecfe4028-f4c2-4eed-b358-660a4a9ca07f,{},Ball,Called,{},{},0,0 - 0,1,2,0,2 - 2,1 - 0,
+887,anonymized-files-wisd/12345641_47821.jsonl,1fa29fd1-c6f8-4e1f-9176-01d1bed313a7,{},HitIntoPlay,{},205d07dd-cd3d-4efc-8d38-6ed058966c13,{},1,0 - 0,1,0,0,0 - 2,0 - 0,{'mlbId': 172804761}
+888,anonymized-files-wisd/12345641_47853.jsonl,ac2b290a-1b28-4fba-9bad-119a9e9b5e81,{},Strike,Foul,3fd4d198-a90e-4fb2-8f91-32ee76212a14,{},1,1 - 3,7,2,0,3 - 1,0 - 1,{'mlbId': 459722179}
+889,anonymized-files-wisd/12345641_47943.jsonl,d752d4f2-b9ff-4fb5-a7e0-759938584683,{},Strike,Called,{},{},0,4 - 6,8,2,1,2 - 2,0 - 1,
+890,anonymized-files-wisd/12345641_4797.jsonl,ea762692-9d1e-42bb-b24f-f490c0ad35f0,{},Strike,Called,{},{},0,0 - 0,3,0,0,0 - 0,0 - 1,
+891,anonymized-files-wisd/12345641_4798.jsonl,49dc1114-c569-4d69-a251-f789d08c34f4,{},Strike,{},{},{},0,0 - 0,1,2,0,1 - 0,0 - 1,
+892,anonymized-files-wisd/12345641_48020.jsonl,a5829b77-00ed-437c-86df-99479853a2f6,{},Ball,Called,{},{},0,4 - 4,8,1,0,1 - 1,1 - 0,
+893,anonymized-files-wisd/12345641_48134.jsonl,9a10416e-5039-4896-b9c3-101bcb55ca3f,{},HitIntoPlay,{},ae6d8738-4098-4684-8b38-2e0931475e1d,{},1,0 - 0,2,1,2,1 - 1,0 - 0,{'mlbId': 558675411}
+894,anonymized-files-wisd/12345641_4829.jsonl,153e56ae-308c-4fd9-8d55-c57c82089f6d,{},Strike,Called,{},{},0,4 - 5,8,2,0,0 - 0,0 - 1,
+895,anonymized-files-wisd/12345641_48449.jsonl,7a542a6e-395a-4a14-a045-294d9ce15709,{},Strike,Called,{},{},0,4 - 4,8,2,0,0 - 0,0 - 1,
+896,anonymized-files-wisd/12345641_48452.jsonl,a97b2bdd-b64d-4ef2-8b31-84ac1342970b,{},Ball,Called,{},{},0,4 - 4,8,2,0,3 - 2,1 - 0,
+897,anonymized-files-wisd/12345641_49114.jsonl,70a24e45-fc7e-465b-97f7-5f32b6196965,{},Strike,{},{},{},0,1 - 0,5,1,1,2 - 2,0 - 1,
+898,anonymized-files-wisd/12345641_49240.jsonl,a8c2be38-91ec-4ff5-a524-10ee0b6df59c,{},HitIntoPlay,{},62fdaf08-96b6-4634-aa9c-372f33331add,{},1,0 - 0,1,0,1,0 - 0,0 - 0,{'mlbId': 360906992}
+899,anonymized-files-wisd/12345641_49255.jsonl,239dbda6-d51a-4359-8d8b-b3439fd479af,{},Ball,Called,{},{},0,0 - 0,3,0,0,0 - 2,1 - 0,
+900,anonymized-files-wisd/12345641_49339.jsonl,87ab55d1-09b5-473e-9c3d-38098724f19e,{},Ball,Called,{},{},0,1 - 3,7,2,0,1 - 2,1 - 0,
+901,anonymized-files-wisd/12345641_49375.jsonl,35508f34-5e17-4a23-9455-bdcb6e80958e,{},Strike,{},{},{},0,1 - 0,3,1,0,1 - 1,0 - 1,
+902,anonymized-files-wisd/12345641_49383.jsonl,91c63d65-9ce7-442a-b170-9df771890de7,{},HitIntoPlay,{},72696c4b-e7b4-4de4-8cda-0a0c24fe508f,{},1,4 - 4,8,2,0,1 - 2,0 - 0,{'mlbId': 172804761}
+903,anonymized-files-wisd/12345641_49546.jsonl,f7b9c388-7b2d-4f0b-adef-e8cc4734a9b5,{},Strike,{},{},{},0,0 - 0,2,0,0,0 - 1,0 - 1,
+904,anonymized-files-wisd/12345641_49642.jsonl,0f58445e-bd1e-4089-861f-8263b728fdb9,{},Strike,Called,{},{},0,4 - 6,9,2,0,0 - 0,0 - 1,
+905,anonymized-files-wisd/12345641_4990.jsonl,86bb2037-df8e-43cf-9160-9d1c289823ca,{},Strike,Called,{},{},0,1 - 4,7,1,0,3 - 0,0 - 1,
+906,anonymized-files-wisd/12345641_49952.jsonl,1b2a29e3-f7be-4294-8785-40afed9c5d7f,{},Strike,{},{},{},0,0 - 0,3,2,1,0 - 2,0 - 1,
+907,anonymized-files-wisd/12345641_5048.jsonl,dde47d00-1be4-4d9c-92bc-3ca944989c88,{},Ball,Called,{},{},0,0 - 0,1,2,0,2 - 2,1 - 0,
+908,anonymized-files-wisd/12345641_5282.jsonl,d49cdb94-c3df-4e7c-9398-d0517caed875,{},Ball,Called,{},{},0,0 - 0,2,1,0,0 - 1,1 - 0,
+909,anonymized-files-wisd/12345641_5383.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,0 - 0,2,0,0,2 - 2,0 - 0,
+910,anonymized-files-wisd/12345641_5512.jsonl,d44e497a-419a-4564-9d58-a9e8bb1fb6db,{},Strike,Foul,{},{},0,0 - 0,3,0,0,0 - 1,0 - 1,
+911,anonymized-files-wisd/12345641_5846.jsonl,01e3dcc9-69cc-49be-9fe2-6ea498b1e07c,{},Strike,Called,{},{},0,4 - 6,8,2,0,0 - 0,0 - 1,
+912,anonymized-files-wisd/12345641_5865.jsonl,8cf1cc0e-36a6-493c-a092-ce91ccfc1542,{},Ball,Called,{},{},0,1 - 0,6,2,0,1 - 0,1 - 0,
+913,anonymized-files-wisd/12345641_6112.jsonl,ada4d845-4c40-4037-bedb-666da9397f2a,{},Strike,Called,{},{},0,0 - 0,1,2,0,2 - 0,0 - 1,
+914,anonymized-files-wisd/12345641_644.jsonl,d79f14eb-853c-4c49-ab47-60eeb1ed68b0,{},Strike,Called,{},{},0,0 - 0,3,2,0,0 - 0,0 - 1,
+915,anonymized-files-wisd/12345641_6660.jsonl,cc637e4e-2053-43f0-8177-3645afc85cd2,{},Strike,Foul,{},{},0,1 - 0,7,1,0,0 - 0,0 - 1,
+916,anonymized-files-wisd/12345641_6716.jsonl,ca71f044-89ea-4397-b51c-7a8e89a0d452,{},Strike,Called,{},{},0,1 - 0,5,0,0,1 - 0,0 - 1,
+917,anonymized-files-wisd/12345641_6811.jsonl,b120cf14-305c-442c-a739-c499bf61eec8,{},HitIntoPlay,{},22560b81-5e95-4221-9036-60b1b20ca497,{},1,4 - 6,9,1,1,0 - 0,0 - 0,{'mlbId': 617522563}
+918,anonymized-files-wisd/12345641_7142.jsonl,04ddc484-e0cc-460f-b434-2ca8745c13cb,{},Ball,Called,{},{},0,4 - 6,8,0,0,1 - 2,1 - 0,
+919,anonymized-files-wisd/12345641_7391.jsonl,ff267e4d-51c0-4d6f-89eb-77f90c8f2703,{},Ball,Called,{},{},0,1 - 0,7,2,0,1 - 0,1 - 0,
+920,anonymized-files-wisd/12345641_7601.jsonl,19f633a8-59b0-4879-84aa-f9d2b9eca2af,{},Strike,Called,{},{},0,4 - 6,8,1,1,2 - 2,0 - 1,
+921,anonymized-files-wisd/12345641_7727.jsonl,4a62399e-ed29-451c-8d60-a3026ca37de3,{},HitIntoPlay,{},037268fa-cd9a-4989-aac0-e85235e5b976,{},1,1 - 0,6,1,1,1 - 1,0 - 0,{'mlbId': 545569723}
+922,anonymized-files-wisd/12345641_786.jsonl,ea0c805c-9122-4680-bd4f-29ca9d4d37c8,{},Ball,Called,{},{},0,1 - 0,5,0,0,0 - 1,1 - 0,
+923,anonymized-files-wisd/12345641_8201.jsonl,7da8f0d3-6ef4-43ab-a804-f681a6ed3879,{},Ball,Called,{},{},0,1 - 0,3,2,0,0 - 0,1 - 0,
+924,anonymized-files-wisd/12345641_8212.jsonl,a49ea59f-0b05-47c2-83d7-e421d0a287ba,{},HitIntoPlay,{},31b6d4db-d3d9-49f4-a8c4-2a2e6ba7808e,{},1,1 - 0,5,0,1,2 - 1,0 - 0,{'mlbId': 854238128}
+925,anonymized-files-wisd/12345641_8377.jsonl,5d11280e-30f7-45df-8883-d4afcfddf44e,{},HitIntoPlay,{},cba187a9-127c-4a89-9a66-b85d1ae491d2,{},1,1 - 0,3,2,1,0 - 0,0 - 0,{'mlbId': 797957728}
+926,anonymized-files-wisd/12345641_8880.jsonl,2ace1f97-fc7f-432e-b552-8912314b3568,{},Ball,Called,{},{},0,1 - 0,5,1,0,0 - 1,1 - 0,
+927,anonymized-files-wisd/12345641_9022.jsonl,aae7c34d-9191-4aaa-b37b-b5884a7d91b5,{},Strike,{},{},{},0,1 - 0,6,0,0,0 - 0,0 - 1,
+928,anonymized-files-wisd/12345641_9097.jsonl,46bc56a5-9102-4786-8c2d-c56203caf67e,{},Strike,FoulTip,{},{},0,1 - 0,6,1,1,1 - 2,0 - 1,
+929,anonymized-files-wisd/12345641_9139.jsonl,d3a58aa3-0bfc-40c1-85a0-0691a11bdf80,{},Strike,Foul,a1134bab-2f7f-41ea-8100-2c068e95fae7,{},1,4 - 4,8,2,0,3 - 2,0 - 0,{'mlbId': 558675411}
+930,anonymized-files-wisd/12345641_9399.jsonl,2768e054-803e-4d9d-a28a-ed089a63239c,{},Strike,Called,{},{},0,1 - 4,7,2,0,2 - 1,0 - 1,
+931,anonymized-files-wisd/12345641_9533.jsonl,92dfa0cd-8452-49c4-a2d4-47fc74c01e90,{},Strike,Blocked,{},{},0,1 - 0,6,0,1,0 - 2,0 - 1,
+932,anonymized-files-wisd/12345641_9975.jsonl,1bf1ce5b-1b36-4921-8e14-bb1bfae30951,{},Strike,Called,{},{},0,4 - 4,8,0,0,0 - 1,0 - 1,
+933,anonymized-files-wisd/12345645_10074.jsonl,b4cc2a99-4b62-4c73-8be1-499f92657059,{},Ball,Called,{},{},0,0 - 3,4,0,0,1 - 1,1 - 0,
+934,anonymized-files-wisd/12345645_10114.jsonl,ede552ca-233d-4630-a3d6-4961cb718319,{},Ball,Called,{},{},0,2 - 8,5,0,0,1 - 0,1 - 0,
+935,anonymized-files-wisd/12345645_10251.jsonl,7d1d1c43-9bea-4198-8fdc-6f6b75f89cfb,{},Strike,Foul,2d56b270-cbbc-4840-bc7c-56025e791fec,{},1,0 - 2,2,2,0,2 - 1,0 - 1,{'mlbId': 686425745}
+936,anonymized-files-wisd/12345645_10461.jsonl,8cf50420-0be5-4c3e-8c03-267aac6cd8a5,{},Ball,Called,{},{},0,6 - 8,6,2,0,2 - 2,1 - 0,
+937,anonymized-files-wisd/12345645_10733.jsonl,e3b3f98b-cef7-4ea9-9e87-56283dd0f895,{},Ball,Called,{},{},0,0 - 2,3,1,0,0 - 1,1 - 0,
+938,anonymized-files-wisd/12345645_10763.jsonl,fa72f08c-a026-40da-8620-a0a7fcebfcec,{},Ball,Called,{},{},0,0 - 2,3,0,0,0 - 0,1 - 0,
+939,anonymized-files-wisd/12345645_10950.jsonl,5b8d89be-f819-4516-ab39-8eecbae6981b,{},HitIntoPlay,{},b0d4aad3-34bd-4e18-b197-b977dab76cbd,{},1,2 - 3,4,2,1,1 - 1,0 - 0,{'mlbId': 568527038}
+940,anonymized-files-wisd/12345645_11221.jsonl,68558ad2-7ea6-453f-ba0f-aa2dd344c2e8,{},Strike,Called,{},{},0,7 - 8,7,1,0,2 - 1,0 - 1,
+941,anonymized-files-wisd/12345645_11235.jsonl,7c33222a-6ae7-4304-b3ed-b8411bac811c,{},Strike,{},{},{},0,2 - 5,5,1,1,0 - 2,0 - 1,
+942,anonymized-files-wisd/12345645_11261.jsonl,73423e2f-f146-4679-9bed-15bf456d9360,{},HitIntoPlay,{},17c9d2f8-6a57-4687-81d9-fc577b696abd,{},1,2 - 4,5,0,0,2 - 1,0 - 0,{'mlbId': 290569727}
+943,anonymized-files-wisd/12345645_11318.jsonl,9182dc7e-fc68-45bc-89a4-b6867a125e8d,{},Strike,Called,{},{},0,0 - 2,4,0,0,0 - 1,0 - 1,
+944,anonymized-files-wisd/12345645_1162.jsonl,a8a90aac-f778-4550-b73d-62eee1564a8e,{},Ball,Called,{},{},0,7 - 9,9,1,0,2 - 0,1 - 0,
+945,anonymized-files-wisd/12345645_11645.jsonl,0db5ec1c-bfeb-4403-a169-c318132efc02,{},Strike,Foul,c160ef2b-d134-47a0-87ed-ec59d60affff,{},1,0 - 2,2,1,0,1 - 1,0 - 1,{'mlbId': 558675411}
+946,anonymized-files-wisd/12345645_11769.jsonl,14a6ea54-14f7-4044-9ee2-434ac4527e32,{},Ball,Called,{},{},0,7 - 9,9,1,0,0 - 0,1 - 0,
+947,anonymized-files-wisd/12345645_11848.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,5 - 8,6,2,0,0 - 1,0 - 0,
+948,anonymized-files-wisd/12345645_11971.jsonl,d948a912-fb98-4ffa-a579-8e27c83ad993,{},HitIntoPlay,{},ad35245d-2603-4e4d-b04b-1b3b54e5d7c6,{},1,0 - 0,1,1,2,1 - 2,0 - 0,{'mlbId': 797957728}
+949,anonymized-files-wisd/12345645_11981.jsonl,cdb1eaf9-7e49-4dab-945e-7e37c1d5eac2,{},Ball,Called,{},{},0,0 - 2,2,0,0,0 - 0,1 - 0,
+950,anonymized-files-wisd/12345645_12163.jsonl,5851c277-7240-4e80-a60a-8c2937e9c2c8,{},Ball,Called,{},{},0,7 - 9,9,1,0,3 - 2,1 - 0,
+951,anonymized-files-wisd/12345645_12533.jsonl,e68b38dd-d6f8-433a-a0c5-efb676244649,{},Ball,Called,{},{},0,3 - 8,6,0,0,0 - 0,1 - 0,
+952,anonymized-files-wisd/12345645_12702.jsonl,31d11853-9d2b-4d18-a4b8-96fc44a2a72f,{},Strike,Foul,0f6dbc89-6d74-4eb1-8fa2-53c5cd1fb4ca,{},1,2 - 8,5,1,0,0 - 1,0 - 1,{'mlbId': 590082479}
+953,anonymized-files-wisd/12345645_12865.jsonl,04cf7eb8-271f-4ac1-894d-f4259dfb4ada,{},HitIntoPlay,{},d7a81060-036f-4f46-b173-9e7b8af54e92,{},1,7 - 8,7,1,2,0 - 0,0 - 0,{'mlbId': 223971350}
+954,anonymized-files-wisd/12345645_12927.jsonl,11e9aa9e-bf46-4d66-9786-b1b6b6c29e1b,{},Ball,Called,{},{},0,5 - 8,6,2,0,0 - 0,1 - 0,
+955,anonymized-files-wisd/12345645_12969.jsonl,d12c5da6-46c1-4ae7-a791-4d52bde86c14,{},Ball,Called,{},{},0,7 - 8,7,1,0,1 - 1,1 - 0,
+956,anonymized-files-wisd/12345645_12973.jsonl,6e8371f0-38b8-4a10-949c-3ccbdab544b7,{},Strike,Foul,{},{},0,0 - 2,4,1,0,0 - 0,0 - 1,
+957,anonymized-files-wisd/12345645_12978.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,0 - 2,4,1,0,3 - 2,0 - 0,
+958,anonymized-files-wisd/12345645_13391.jsonl,0af928c3-6d9e-4d22-8bb4-ca64a8292e5e,{},Ball,Called,{},{},0,7 - 8,8,2,0,2 - 1,1 - 0,
+959,anonymized-files-wisd/12345645_13503.jsonl,ae9ffce2-6abf-4bec-affd-86c54c7b06a2,{},Ball,Called,{},{},0,1 - 3,4,0,0,0 - 0,1 - 0,
+960,anonymized-files-wisd/12345645_13583.jsonl,b8882ad4-5da0-40ea-9a88-9051375d980d,{},Strike,{},{},{},0,2 - 5,5,0,1,1 - 2,0 - 1,
+961,anonymized-files-wisd/12345645_13605.jsonl,28928baf-ac99-44ee-82c3-5a44e4d93fb6,{},Ball,Called,{},{},0,2 - 4,5,0,0,0 - 0,1 - 0,
+962,anonymized-files-wisd/12345645_13673.jsonl,14909757-257b-410e-9d90-386ca0ea5596,{},Ball,Called,{},{},0,2 - 7,5,2,0,1 - 0,1 - 0,
+963,anonymized-files-wisd/12345645_13771.jsonl,9e5b8076-6ae9-4ea9-9de8-0b8deee7d97a,{},Strike,Foul,46965ff6-cded-49e9-86f8-57c50364b3b1,{},1,0 - 2,2,0,0,1 - 1,0 - 1,{'mlbId': 352830460}
+964,anonymized-files-wisd/12345645_13824.jsonl,fb3adea5-b292-4dc6-ac8a-dd26b224d71a,{},HitIntoPlay,{},3cf58297-bb6f-4ba4-973a-56b849926fcb,{},1,0 - 0,1,0,1,1 - 2,0 - 0,{'mlbId': 563942271}
+965,anonymized-files-wisd/12345645_13844.jsonl,777460a2-08c5-4734-aa21-5d7696eb4294,{},Strike,Foul,2ddb2ca4-51e0-4dc7-82db-1d297114c3c7,{},1,7 - 8,7,2,0,0 - 1,0 - 1,{'mlbId': 568527038}
+966,anonymized-files-wisd/12345645_13920.jsonl,251b7aaa-baaa-4ca6-83e9-72f0dac19140,{},Strike,Foul,b9894389-5781-441c-ae6e-af96923bc3e6,{},1,0 - 2,4,1,0,2 - 1,0 - 1,{'mlbId': 223971350}
+967,anonymized-files-wisd/12345645_14076.jsonl,1091705f-eb72-4f2e-9c09-4a4b89da5292,{},Strike,FoulTip,{},{},0,0 - 2,2,2,1,3 - 2,0 - 1,
+968,anonymized-files-wisd/12345645_1464.jsonl,0b4047cd-caf6-4d8b-a852-036a460b5bea,{},Strike,FoulTip,{},{},0,0 - 2,3,2,0,0 - 0,0 - 1,
+969,anonymized-files-wisd/12345645_14675.jsonl,461d2c2f-e91c-4fb1-91ff-fdd79f7a8f60,{},Ball,Called,{},{},0,2 - 8,5,1,0,0 - 0,1 - 0,
+970,anonymized-files-wisd/12345645_14708.jsonl,9725c7c7-2509-4763-9b06-6f17514f6a16,{},Ball,Called,{},{},0,7 - 9,9,1,0,1 - 0,1 - 0,
+971,anonymized-files-wisd/12345645_14818.jsonl,26158924-a34c-44f2-a470-7f2327f2a8d9,{},Ball,Called,{},{},0,2 - 4,5,0,0,0 - 0,1 - 0,
+972,anonymized-files-wisd/12345645_14914.jsonl,144bf0d1-7d9a-4099-93b6-9bbc2b68d4d4,{},Strike,Foul,{},{},0,2 - 5,5,0,0,0 - 0,0 - 1,
+973,anonymized-files-wisd/12345645_15019.jsonl,c33bca3f-61f1-48e3-b0cc-4654cd279187,{},Ball,Called,{},{},0,7 - 9,8,0,0,1 - 2,1 - 0,
+974,anonymized-files-wisd/12345645_15225.jsonl,3b01fcda-3f7a-4682-8583-d2efa9d23d7c,{},Strike,{},{},{},0,7 - 9,9,1,0,3 - 1,0 - 1,
+975,anonymized-files-wisd/12345645_15436.jsonl,4336aa56-e940-4988-a2f9-e5bdf92b2f30,{},Strike,Foul,7674c9f7-ee4f-40f1-8098-b69990e8b6c5,{},1,0 - 0,1,1,0,1 - 2,0 - 0,{'mlbId': 797957728}
+976,anonymized-files-wisd/12345645_15476.jsonl,9a730a6d-b052-4255-af65-9bada312abd3,{},Ball,Called,{},{},0,0 - 2,4,1,0,2 - 2,1 - 0,
+977,anonymized-files-wisd/12345645_15555.jsonl,5e6e57e8-6899-4e03-8454-270fbda61ebe,{},Strike,Called,{},{},0,7 - 8,7,0,0,0 - 0,0 - 1,
+978,anonymized-files-wisd/12345645_15606.jsonl,b2096eb8-2088-445e-bf4c-52bf82263eeb,{},HitIntoPlay,{},91f2d531-83c3-4fcc-bde1-72c118992288,{},1,0 - 2,3,1,1,3 - 2,0 - 0,{'mlbId': 854238128}
+979,anonymized-files-wisd/12345645_15784.jsonl,c38d9fb6-c524-4fe2-bf15-4320c3946804,{},Strike,Foul,21a3714d-e622-4980-b0b9-0db70be6c577,{},1,7 - 8,7,0,0,1 - 1,0 - 1,{'mlbId': 352830460}
+980,anonymized-files-wisd/12345645_15817.jsonl,62510d2c-bee3-4df7-8a66-fd7bce8380a0,{},HitIntoPlay,{},e1de6808-0d71-4adc-ac82-2e69f2b58d6e,{},1,0 - 2,4,1,1,0 - 2,0 - 0,{'mlbId': 485007791}
+981,anonymized-files-wisd/12345645_16587.jsonl,5f90c41b-c9f2-4377-8b2b-e332dae189a1,{},Ball,Called,{},{},0,2 - 8,5,0,0,3 - 0,1 - 0,
+982,anonymized-files-wisd/12345645_16702.jsonl,f6fc5bbe-d0e8-44d7-ae4e-dbc7d38ad2ea,{},Strike,FoulTip,{},{},0,7 - 8,7,2,0,0 - 0,0 - 1,
+983,anonymized-files-wisd/12345645_16839.jsonl,51a8791b-c8ec-4878-af7d-254cd25f10b7,{},Strike,{},{},{},0,0 - 0,1,0,1,0 - 2,0 - 1,
+984,anonymized-files-wisd/12345645_16863.jsonl,2c3eacf3-cdba-4472-87cd-8b83690c621c,{},Strike,Called,{},{},0,0 - 2,2,0,0,1 - 0,0 - 1,
+985,anonymized-files-wisd/12345645_16946.jsonl,94faf151-ca88-4a94-a084-27fbbddd24db,{},Strike,FoulTip,{},{},0,7 - 8,7,0,1,1 - 2,0 - 1,
+986,anonymized-files-wisd/12345645_17059.jsonl,5b997bde-a8e7-4f4c-bf31-4a1b1b8fb3c4,{},Ball,Called,{},{},0,7 - 8,8,2,0,3 - 2,1 - 0,
+987,anonymized-files-wisd/12345645_17099.jsonl,56d024f9-4c6d-4764-aba9-c714be583b5d,{},Strike,Called,{},{},0,1 - 3,4,1,0,0 - 0,0 - 1,
+988,anonymized-files-wisd/12345645_17240.jsonl,cd514504-b63a-48c9-ad68-437f986de1f5,{},Strike,Foul,{},{},0,0 - 0,2,0,0,1 - 0,0 - 1,
+989,anonymized-files-wisd/12345645_17482.jsonl,a8a76fd6-fc17-4029-9445-a5e2efbd7286,{},Ball,Called,{},{},0,7 - 8,7,2,0,1 - 2,1 - 0,
+990,anonymized-files-wisd/12345645_17561.jsonl,6c7e4f23-4351-4486-a9aa-ce855e98b352,{},Ball,Called,{},{},0,2 - 4,5,0,0,1 - 0,1 - 0,
+991,anonymized-files-wisd/12345645_17713.jsonl,e8a04747-7765-4d4a-af22-e81120194280,{},Strike,Foul,2f1cdaea-128c-47de-b4ca-03b55d1aedd2,{},1,0 - 2,3,1,0,1 - 2,0 - 0,{'mlbId': 719146721}
+992,anonymized-files-wisd/12345645_17913.jsonl,13ccffc0-6a65-4b01-a8dd-f1be0ba949f4,{},Strike,Called,{},{},0,0 - 0,1,2,0,0 - 0,0 - 1,
+993,anonymized-files-wisd/12345645_18035.jsonl,90e96b72-4de0-4be5-94da-2970a165d959,{},Strike,Called,{},{},0,0 - 2,4,1,0,0 - 0,0 - 1,
+994,anonymized-files-wisd/12345645_18037.jsonl,f29bef80-0d18-48f2-8166-af878293ff6a,{},Strike,Foul,dd160dac-ea71-4c95-8299-29750937c1b1,{},1,7 - 8,8,2,0,1 - 1,0 - 1,{'mlbId': 719146721}
+995,anonymized-files-wisd/12345645_18047.jsonl,e0882e0a-b3fd-411d-a3ab-ab5b6faeae64,{},Strike,{},{},{},0,4 - 8,6,1,0,1 - 0,0 - 1,
+996,anonymized-files-wisd/12345645_18108.jsonl,e78f0940-c707-4d49-9410-1589e4bd4d2b,{},Ball,Called,{},{},0,2 - 8,5,0,0,0 - 0,1 - 0,
+997,anonymized-files-wisd/12345645_18215.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,0 - 2,2,1,0,1 - 1,0 - 0,
+998,anonymized-files-wisd/12345645_18443.jsonl,84c0e7d5-cce6-4936-8654-9d3b6ba392da,{},HitIntoPlay,{},fcdeded8-0b21-4d8d-974d-2354106f8f3c,{},1,0 - 0,1,2,1,1 - 1,0 - 0,{'mlbId': 719146721}
+999,anonymized-files-wisd/12345645_18693.jsonl,51c813da-7ef3-4589-b986-491334b873b8,{},Ball,Called,{},{},0,0 - 2,3,1,0,0 - 0,1 - 0,
+1000,anonymized-files-wisd/12345645_18923.jsonl,07baa351-0bde-4ab9-bf6b-12216e98c359,{},Ball,Called,{},{},0,2 - 4,5,0,0,1 - 0,1 - 0,
+1001,anonymized-files-wisd/12345645_19015.jsonl,535bb7c3-1cc1-4a57-9afa-00bf4121f709,{},Strike,{},{},{},0,0 - 2,2,1,1,1 - 2,0 - 1,
+1002,anonymized-files-wisd/12345645_19178.jsonl,d1e5db53-dfd7-430e-9bd4-819556384ca7,{},HitIntoPlay,{},b80c79df-c16c-40cb-9d82-f663d1d2fb97,{},1,0 - 2,4,0,0,0 - 2,0 - 0,{'mlbId': 290569727}
+1003,anonymized-files-wisd/12345645_19338.jsonl,487ea54c-60ee-4c51-98eb-9f58bee01084,{},Strike,Called,{},{},0,2 - 7,5,2,0,3 - 0,0 - 1,
+1004,anonymized-files-wisd/12345645_19545.jsonl,c08857b0-3647-42db-8162-e5fd1731bce0,{},Ball,Called,{},{},0,0 - 0,2,0,0,2 - 0,1 - 0,
+1005,anonymized-files-wisd/12345645_19581.jsonl,881aa33d-01e2-45ce-9465-215e6d1f3762,{},Strike,FoulTip,{},{},0,0 - 2,2,2,0,2 - 1,0 - 1,
+1006,anonymized-files-wisd/12345645_19679.jsonl,33ff0921-fc7c-4a60-ab89-8db13361b326,{},Strike,Called,{},{},0,7 - 9,8,2,0,0 - 0,0 - 1,
+1007,anonymized-files-wisd/12345645_19758.jsonl,69e388cd-09c1-4968-9152-428e5e9043af,{},Ball,Called,{},{},0,0 - 2,2,0,0,1 - 2,1 - 0,
+1008,anonymized-files-wisd/12345645_19872.jsonl,e4f6e7c4-cf97-4e3b-bf01-0ecbb3282573,{},Strike,{},{},{},0,7 - 8,7,0,1,1 - 2,0 - 1,
+1009,anonymized-files-wisd/12345645_19971.jsonl,99dee0c5-f4f2-440d-8f23-60b3e53aabd8,{},HitIntoPlay,{},{},{},0,7 - 8,8,2,0,1 - 0,0 - 0,
+1010,anonymized-files-wisd/12345645_20353.jsonl,9f40f22d-06f4-420b-b5b9-9acbeed4cfde,{},HitIntoPlay,{},6be87ed7-dc87-42bf-bbf4-d8f507e9427c,{},1,2 - 8,5,0,1,2 - 1,0 - 0,{'mlbId': 618024297}
+1011,anonymized-files-wisd/12345645_20372.jsonl,4c9ea229-f674-4402-a6d5-b38f956e4af9,{},Ball,Called,{},{},0,0 - 2,3,2,0,0 - 2,1 - 0,
+1012,anonymized-files-wisd/12345645_20666.jsonl,1fb0e7f0-26d4-4199-9143-75a25ba5c2d7,{},Ball,BallInDirt,{},{},0,7 - 8,8,2,0,0 - 0,1 - 0,
+1013,anonymized-files-wisd/12345645_20735.jsonl,613c80da-d07b-4294-9133-e66faa780a8f,{},Ball,Called,{},{},0,0 - 3,4,0,0,0 - 0,1 - 0,
+1014,anonymized-files-wisd/12345645_20756.jsonl,93675193-3e66-4841-88e4-6a2b006e8153,{},Strike,{},{},{},0,7 - 9,9,1,0,3 - 0,0 - 1,
+1015,anonymized-files-wisd/12345645_21001.jsonl,9ccdc99c-b703-4a46-a7dd-f7b7ede5c194,{},Strike,{},{},{},0,7 - 9,9,2,0,2 - 0,0 - 1,
+1016,anonymized-files-wisd/12345645_21158.jsonl,e7ee5198-12f3-46d6-a060-04f1d60cd894,{},Ball,Called,{},{},0,7 - 8,8,2,0,1 - 0,1 - 0,
+1017,anonymized-files-wisd/12345645_21206.jsonl,6402e53e-d246-470b-ba37-741ab438ae4b,{},Ball,Called,{},{},0,5 - 8,6,2,0,1 - 0,1 - 0,
+1018,anonymized-files-wisd/12345645_21263.jsonl,3b98f75f-2977-4679-af03-e884bdd045ba,{},Ball,Called,{},{},0,7 - 9,9,1,0,1 - 0,1 - 0,
+1019,anonymized-files-wisd/12345645_21289.jsonl,d260d20e-d52e-4359-9df6-6cebceb2cb8f,{},Strike,Foul,{},{},0,0 - 2,3,1,0,1 - 2,0 - 0,
+1020,anonymized-files-wisd/12345645_21333.jsonl,5d01ec88-74c0-4ffe-925a-c86e93e70b89,{},Ball,Called,{},{},0,0 - 2,2,2,0,2 - 2,1 - 0,
+1021,anonymized-files-wisd/12345645_21538.jsonl,5841dfe1-84df-484d-8211-0042b13d25ee,{},Ball,Called,{},{},0,0 - 2,4,2,0,0 - 2,1 - 0,
+1022,anonymized-files-wisd/12345645_21568.jsonl,157671ff-1793-4365-a162-bcc4de34d99c,{},Ball,Called,{},{},0,7 - 8,8,1,0,0 - 0,1 - 0,
+1023,anonymized-files-wisd/12345645_22379.jsonl,a827fbe1-8b65-47e9-b83e-69a25eb716c3,{},Ball,Called,{},{},0,4 - 8,6,0,0,0 - 0,1 - 0,
+1024,anonymized-files-wisd/12345645_22454.jsonl,79e029fa-de58-4a42-8745-59704159687f,{},Strike,Called,{},{},0,0 - 2,4,1,0,0 - 1,0 - 1,
+1025,anonymized-files-wisd/12345645_22569.jsonl,64463f64-c7b3-4e63-8ce6-c5c16fa124f4,{},Ball,Called,{},{},0,0 - 2,2,1,0,0 - 0,1 - 0,
+1026,anonymized-files-wisd/12345645_22746.jsonl,3e7bd4d3-d3d9-411d-9ff0-b45627d05db5,{},HitIntoPlay,{},4317aa9d-8bb8-4c8a-b091-7a85afad7df5,{},1,7 - 9,9,0,1,1 - 2,0 - 0,{'mlbId': 290569727}
+1027,anonymized-files-wisd/12345645_22892.jsonl,366b0982-fd7e-4215-a590-490f2534be33,{},Ball,Called,{},{},0,0 - 2,4,1,0,1 - 1,1 - 0,
+1028,anonymized-files-wisd/12345645_23493.jsonl,d6cb3f01-ccc2-4619-96a3-eb1f1bfaeaa3,{},Ball,HitByPitch,07563e84-9f9d-481e-8753-9d17fb0177b2,{},1,3 - 8,6,0,0,1 - 2,1 - 0,{'mlbId': 174158975}
+1029,anonymized-files-wisd/12345645_23494.jsonl,4e5ac6d2-3e58-4f5a-94e7-50d81769b946,{},Ball,Called,{},{},0,0 - 3,4,0,0,0 - 0,1 - 0,
+1030,anonymized-files-wisd/12345645_23619.jsonl,a58f41dd-ab5b-461c-913c-22cc830ff561,{},Strike,Called,{},{},0,0 - 0,1,0,0,0 - 0,0 - 1,
+1031,anonymized-files-wisd/12345645_23732.jsonl,8b035d71-85fb-4ae5-be6b-3e363bd37387,{},Strike,Foul,f39bcd62-6a7e-42b6-bba4-0c46f8e051fe,{},1,0 - 0,2,0,0,2 - 1,0 - 1,{'mlbId': 290569727}
+1032,anonymized-files-wisd/12345645_23744.jsonl,fe35b851-b82c-4c4b-91a5-6b30a6dce94c,{},Ball,Called,{},{},0,4 - 8,6,1,0,0 - 0,1 - 0,
+1033,anonymized-files-wisd/12345645_2398.jsonl,536f1a53-4fc6-4a09-8977-25336a218ab8,{},Ball,BallInDirt,{},{},0,4 - 8,6,0,0,1 - 0,1 - 0,
+1034,anonymized-files-wisd/12345645_24067.jsonl,043ae129-28d4-46b3-a1bc-c98b859cc776,{},Ball,Called,d2093734-cd5a-4c58-9705-91186c0e61a7,{},1,0 - 0,2,0,0,2 - 2,1 - 0,{'mlbId': 223971350}
+1035,anonymized-files-wisd/12345645_24121.jsonl,8ee4e5cd-c8eb-4ecf-a0f2-9dbdb097d0f5,{},Strike,FoulTip,{},{},0,2 - 3,4,2,0,0 - 0,0 - 1,
+1036,anonymized-files-wisd/12345645_24333.jsonl,cf3f6ba5-24f5-405c-94df-9ae5ea9431ae,{},Strike,Foul,7812cb8e-f66e-4f21-b376-48a42fa24024,{},1,0 - 0,2,0,0,1 - 1,0 - 1,{'mlbId': 474808052}
+1037,anonymized-files-wisd/12345645_24400.jsonl,0b3ae8bc-8ba1-4830-86cb-c0123582c39d,{},HitIntoPlay,{},43c9623d-637d-4781-bbf0-a6cf0d994b1a,{},1,4 - 8,6,1,1,3 - 2,0 - 0,{'mlbId': 618024297}
+1038,anonymized-files-wisd/12345645_24456.jsonl,889ca813-f099-4a84-a9a4-0a483f672c30,{},Ball,Called,{},{},0,0 - 2,3,0,0,1 - 0,1 - 0,
+1039,anonymized-files-wisd/12345645_24682.jsonl,ab7957b9-8015-453f-a57e-1437899b6907,{},HitIntoPlay,{},1313752d-d1c5-4102-a472-5f0b520476b8,{},1,1 - 3,4,0,1,0 - 0,0 - 0,{'mlbId': 174158975}
+1040,anonymized-files-wisd/12345645_24766.jsonl,19de12b5-b825-49e1-a92c-a9efd3687639,{},Strike,{},{},{},0,2 - 8,5,2,0,0 - 0,0 - 1,
+1041,anonymized-files-wisd/12345645_24796.jsonl,5981efee-a497-4212-aaa2-1842a47dba6f,{},Strike,Called,{},{},0,0 - 3,4,0,0,1 - 0,0 - 1,
+1042,anonymized-files-wisd/12345645_2486.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,4 - 8,6,0,0,0 - 2,0 - 0,
+1043,anonymized-files-wisd/12345645_25179.jsonl,b3b15656-6c03-4514-bdd8-75757fafd75f,{},Strike,Foul,b8345a53-b1a0-4d27-9329-41e7d63ecd3f,{},1,2 - 8,5,1,0,0 - 0,0 - 1,{'mlbId': 590082479}
+1044,anonymized-files-wisd/12345645_25229.jsonl,a0ad581e-520b-4948-90e2-c6f344ed9606,{},Strike,Called,{},{},0,0 - 0,2,0,0,1 - 0,0 - 1,
+1045,anonymized-files-wisd/12345645_25255.jsonl,b6302ed1-1625-4bc2-ac10-8892b019d04d,{},Strike,{},{},{},0,0 - 2,3,0,0,2 - 1,0 - 1,
+1046,anonymized-files-wisd/12345645_25935.jsonl,88b04642-db1c-44ba-900b-4a8ddb0017e4,{},Strike,Called,{},{},0,7 - 9,9,1,0,0 - 0,0 - 1,
+1047,anonymized-files-wisd/12345645_26024.jsonl,3e9ddc8e-9afb-4218-998b-6c235c97bb85,{},Ball,Called,{},{},0,7 - 9,9,1,0,0 - 0,1 - 0,
+1048,anonymized-files-wisd/12345645_26126.jsonl,8725129b-5af8-4c08-bb71-132e412bf3c3,{},Strike,Called,{},{},0,4 - 8,6,0,0,0 - 0,0 - 1,
+1049,anonymized-files-wisd/12345645_2641.jsonl,e7613bf2-2ad9-4f5b-9b08-e4c536d43274,{},Ball,Called,{},{},0,2 - 8,5,0,0,1 - 0,1 - 0,
+1050,anonymized-files-wisd/12345645_2676.jsonl,1112a694-fd27-4676-9138-787a1d6061f9,{},HitIntoPlay,{},711ad06d-ffb0-43d9-be63-9bee71c2d4ce,{},1,1 - 3,4,1,1,1 - 1,0 - 0,{'mlbId': 686425745}
+1051,anonymized-files-wisd/12345645_26812.jsonl,ea003317-6a63-44ac-b1a7-3e526388d0ac,{},Strike,{},{},{},0,0 - 1,2,1,0,0 - 0,0 - 1,
+1052,anonymized-files-wisd/12345645_2687.jsonl,ea4223d8-6bbf-46dc-9963-5fda09338b05,{},Strike,Called,{},{},0,0 - 0,2,0,0,0 - 0,0 - 1,
+1053,anonymized-files-wisd/12345645_26891.jsonl,93b8f30d-bbdf-472a-af39-4ad888c70c5c,{},Strike,FoulTip,{},{},0,0 - 0,1,2,0,1 - 0,0 - 1,
+1054,anonymized-files-wisd/12345645_26995.jsonl,16cb0e30-178d-436f-8715-12c9ecec8678,{},Strike,Called,{},{},0,7 - 8,8,2,0,3 - 1,0 - 1,
+1055,anonymized-files-wisd/12345645_27159.jsonl,1bdd54cd-7eb8-4128-9248-0e978358b8a2,{},Strike,FoulTip,{},{},0,7 - 9,8,2,1,0 - 2,0 - 1,
+1056,anonymized-files-wisd/12345645_27372.jsonl,b364d28a-0409-4fe7-8b58-3a9968c3da82,{},Ball,Called,{},{},0,2 - 8,5,1,0,0 - 2,1 - 0,
+1057,anonymized-files-wisd/12345645_27446.jsonl,efd2f9df-2958-445f-807c-740a9ebcdd55,{},Ball,Called,{},{},0,7 - 9,9,1,0,0 - 0,1 - 0,
+1058,anonymized-files-wisd/12345645_27780.jsonl,900403a4-2c29-457f-8fef-ea32116d85ba,{},Strike,Foul,c15fef4b-e8dc-46e4-9a6f-e9319cf8f247,{},1,0 - 3,4,2,0,0 - 0,0 - 1,{'mlbId': 172804761}
+1059,anonymized-files-wisd/12345645_27838.jsonl,03254021-5a09-4f6a-949c-d538229b94a7,{},Strike,Called,{},{},0,0 - 2,3,2,1,2 - 2,0 - 1,
+1060,anonymized-files-wisd/12345645_27844.jsonl,045031a9-1c7a-4459-af81-172493841453,{},HitIntoPlay,{},0851f842-10f0-482f-827c-2606fb04b184,{},1,7 - 8,7,2,0,0 - 0,0 - 0,{'mlbId': 686425745}
+1061,anonymized-files-wisd/12345645_27892.jsonl,97c3960b-ed4a-4873-b425-9109bbe42985,{},Ball,Called,{},{},0,7 - 9,9,2,0,1 - 0,1 - 0,
+1062,anonymized-files-wisd/12345645_27907.jsonl,e06f487d-77b4-49e5-970d-79caf83b771f,{},Ball,Called,{},{},0,0 - 2,3,1,0,1 - 2,1 - 0,
+1063,anonymized-files-wisd/12345645_28062.jsonl,4587a4b1-6e42-44d0-9cbd-d8b1c731b713,{},Strike,{},{},{},0,0 - 0,1,0,0,0 - 1,0 - 1,
+1064,anonymized-files-wisd/12345645_28554.jsonl,51c4a4a9-9678-4569-b9b5-308cf9951f0f,{},HitIntoPlay,{},d9885fe7-1797-4b4a-a898-daf79e986381,{},1,0 - 0,1,0,0,0 - 1,0 - 0,{'mlbId': 412098649}
+1065,anonymized-files-wisd/12345645_28621.jsonl,d48da8e8-373d-44f7-bd16-9e0cac9269b4,{},Strike,Called,{},{},0,0 - 2,3,0,1,2 - 2,0 - 1,
+1066,anonymized-files-wisd/12345645_28664.jsonl,bc931647-1c73-407d-9bb7-cfb96b2506c4,{},Ball,Called,{},{},0,2 - 5,5,0,0,0 - 2,1 - 0,
+1067,anonymized-files-wisd/12345645_28930.jsonl,d155d720-3450-4e9c-b896-d994304087ed,{},Strike,{},{},{},0,7 - 9,8,2,0,0 - 1,0 - 1,
+1068,anonymized-files-wisd/12345645_29004.jsonl,f7534458-f030-4d46-9862-5064aa68bba2,{},Strike,Called,{},{},0,7 - 9,9,1,0,3 - 0,0 - 1,
+1069,anonymized-files-wisd/12345645_29307.jsonl,aba15524-4a7b-44f5-be60-8baf0f28d08c,{},Ball,Called,{},{},0,7 - 9,8,2,0,0 - 1,1 - 0,
+1070,anonymized-files-wisd/12345645_29414.jsonl,010eb5e1-89d0-49fa-9b33-7b717b8a0ec9,{},Ball,Called,{},{},0,0 - 3,4,0,0,2 - 1,1 - 0,
+1071,anonymized-files-wisd/12345645_29502.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,0 - 2,3,2,0,2 - 2,0 - 0,
+1072,anonymized-files-wisd/12345645_29599.jsonl,95360bc4-83bf-4c74-b0e7-9580d7f9d834,{},Strike,{},{},{},0,0 - 2,2,1,0,1 - 0,0 - 1,
+1073,anonymized-files-wisd/12345645_29891.jsonl,5ab86a62-9126-415e-bf88-5012ab331bca,{},HitIntoPlay,{},0d222582-40e7-41e4-84e2-437fb0469c3c,{},1,7 - 8,6,2,1,0 - 0,0 - 0,{'mlbId': 797957728}
+1074,anonymized-files-wisd/12345645_29895.jsonl,f1f58222-d881-4dd7-a893-0d6997084941,{},Strike,Called,{},{},0,3 - 8,6,0,0,1 - 0,0 - 1,
+1075,anonymized-files-wisd/12345645_30020.jsonl,c5dce925-7fe3-426b-a849-96b5fcc38a33,{},HitIntoPlay,{},1214bb0e-c636-47f9-a6cc-12a6ab36d5e0,{},1,0 - 0,2,0,0,2 - 2,0 - 0,{'mlbId': 290569727}
+1076,anonymized-files-wisd/12345645_30045.jsonl,5aaea792-6d8a-461b-8fd4-4274501293ed,{},Ball,Called,{},{},0,0 - 2,3,0,0,1 - 0,1 - 0,
+1077,anonymized-files-wisd/12345645_30114.jsonl,9e47e981-277c-4243-9cca-f2aa9eaf2262,{},Strike,Foul,b37e8033-1dc5-4d70-a67f-14f82bd89a53,{},1,0 - 2,4,0,0,0 - 0,0 - 1,{'mlbId': 290569727}
+1078,anonymized-files-wisd/12345645_30176.jsonl,96e4ebfc-70fd-4caf-a167-c0833ccda5e1,{},Strike,{},{},{},0,0 - 2,3,1,0,1 - 1,0 - 1,
+1079,anonymized-files-wisd/12345645_3032.jsonl,728c5216-0b80-487b-891f-20e3d7e8b5b8,{},Ball,Called,{},{},0,0 - 3,4,0,0,1 - 1,1 - 0,
+1080,anonymized-files-wisd/12345645_30412.jsonl,022cc2a1-3973-439b-8f37-fc1513d27941,{},Strike,Called,{},{},0,7 - 9,8,2,0,0 - 0,0 - 1,
+1081,anonymized-files-wisd/12345645_30511.jsonl,0fbda70e-260b-47a5-828e-46fac534f479,{},Ball,Pitchout,{},{},0,0 - 0,1,0,0,0 - 1,1 - 0,
+1082,anonymized-files-wisd/12345645_30860.jsonl,9077ef14-525f-4aa3-b32d-b8fff9e63135,{},Strike,Called,{},{},0,0 - 2,3,2,0,2 - 1,0 - 1,
+1083,anonymized-files-wisd/12345645_31469.jsonl,b634637e-5899-4834-911e-2217b7da56ce,{},Strike,Foul,cedcc52a-31ea-4629-a89b-8de271ae8def,{},1,3 - 8,6,0,0,0 - 2,0 - 0,{'mlbId': 174158975}
+1084,anonymized-files-wisd/12345645_31540.jsonl,f5d7ae8f-7ac2-4c01-a264-08eec18a0164,{},Ball,BallInDirt,{},{},0,0 - 2,4,1,0,0 - 1,1 - 0,
+1085,anonymized-files-wisd/12345645_31605.jsonl,3f82f405-b83f-4b8a-8ee9-c6cb3196e837,{},Strike,{},{},{},0,7 - 9,9,0,0,0 - 1,0 - 1,
+1086,anonymized-files-wisd/12345645_31841.jsonl,55fba964-a03d-47f4-8186-c4086d94df2a,{},Ball,Called,{},{},0,2 - 8,5,0,0,0 - 0,1 - 0,
+1087,anonymized-files-wisd/12345645_31866.jsonl,10b34ee5-e34b-41e2-9fbd-8a5c443fb1ea,{},Strike,Called,{},{},0,5 - 8,6,2,0,0 - 1,0 - 1,
+1088,anonymized-files-wisd/12345645_31873.jsonl,4c6a750e-3dde-43be-9b33-927516a15f7f,{},Ball,Called,{},{},0,7 - 8,8,1,0,0 - 0,1 - 0,
+1089,anonymized-files-wisd/12345645_31954.jsonl,af30690d-1402-4c43-8c8e-59d08d0121e6,{},HitIntoPlay,{},2456988f-b712-40e1-85a0-b9233fd70bf4,{},1,0 - 2,4,2,0,1 - 2,0 - 0,{'mlbId': 558675411}
+1090,anonymized-files-wisd/12345645_3201.jsonl,f5462d07-63b7-47d7-9a15-694b9faa730c,{},Ball,Called,{},{},0,0 - 2,2,2,0,1 - 1,1 - 0,
+1091,anonymized-files-wisd/12345645_32224.jsonl,aa4dd8b3-9ec3-4b8b-ad74-d4c1e4257ae0,{},Strike,{},{},{},0,2 - 5,5,0,0,0 - 1,0 - 1,
+1092,anonymized-files-wisd/12345645_32398.jsonl,8295a0df-db9f-4e97-9aad-3d296ea468c0,{},Strike,Called,{},{},0,0 - 0,1,0,0,0 - 0,0 - 1,
+1093,anonymized-files-wisd/12345645_32505.jsonl,d4c123b4-af7d-4ce1-97d4-8854d748419b,{},Strike,Foul,9b099b4c-9b23-4838-aaa1-f8563069f4a5,{},1,2 - 4,5,0,0,2 - 0,0 - 1,{'mlbId': 290569727}
+1094,anonymized-files-wisd/12345645_32595.jsonl,25498048-e5b3-412b-8d31-649e6e4449e8,{},Strike,{},{},{},0,4 - 8,6,0,1,0 - 2,0 - 1,
+1095,anonymized-files-wisd/12345645_32671.jsonl,367a1e41-efd2-497a-ac04-1d97e1eb0581,{},Strike,Foul,{},{},0,7 - 9,8,0,0,0 - 0,0 - 1,
+1096,anonymized-files-wisd/12345645_32733.jsonl,903f7896-2a74-4375-a95c-a56410908ad1,{},Strike,{},{},{},0,7 - 8,7,1,0,1 - 0,0 - 1,
+1097,anonymized-files-wisd/12345645_32819.jsonl,fb2c7cb4-6909-4a5c-8af7-87d25d80a933,{},Strike,{},{},{},0,7 - 9,9,1,1,0 - 2,0 - 1,
+1098,anonymized-files-wisd/12345645_32945.jsonl,91e71541-af08-4079-a72a-44ef5435467a,{},HitIntoPlay,{},56031619-9fba-4204-af50-9a98a8eaa746,{},1,7 - 8,7,1,0,0 - 0,0 - 0,{'mlbId': 474808052}
+1099,anonymized-files-wisd/12345645_33141.jsonl,902b5298-9dbc-4b3a-8d05-61a71f4ee36b,{},Strike,Called,{},{},0,0 - 2,3,2,0,0 - 0,0 - 1,
+1100,anonymized-files-wisd/12345645_33331.jsonl,d6d45db2-a1c7-4066-b0bd-ea68c8ee5b70,{},Strike,FoulTip,{},{},0,4 - 8,6,0,0,0 - 1,0 - 1,
+1101,anonymized-files-wisd/12345645_33395.jsonl,d435e77f-e143-4782-881d-465b0e7e86b6,{},Strike,Foul,632d786c-d7b4-4c64-8655-cace0da0e314,{},1,0 - 2,3,2,0,0 - 1,0 - 1,{'mlbId': 451871192}
+1102,anonymized-files-wisd/12345645_3353.jsonl,fb1f2115-c529-44ce-9653-c8b06e9af4f2,{},Strike,{},{},{},0,7 - 9,9,2,0,3 - 1,0 - 1,
+1103,anonymized-files-wisd/12345645_33851.jsonl,5db6ee72-a221-40e5-a936-526cc0a4fed1,{},Strike,FoulTip,{},{},0,0 - 1,2,0,1,3 - 2,0 - 1,
+1104,anonymized-files-wisd/12345645_3395.jsonl,cfedf3b4-b104-4d19-b22a-79131f9e2423,{},HitIntoPlay,{},31605ec5-6a70-4b43-8dee-595a15192464,{},1,2 - 8,6,2,1,0 - 0,0 - 0,{'mlbId': 451871192}
+1105,anonymized-files-wisd/12345645_34700.jsonl,86ece85c-fed9-40d6-98ee-a89bcd01c934,{},Strike,Called,{},{},0,2 - 8,5,0,0,2 - 0,0 - 1,
+1106,anonymized-files-wisd/12345645_34859.jsonl,37224456-32e4-4b11-8d9d-0c0ff372151f,{},HitIntoPlay,{},1ba2cecd-6fa7-4751-90a3-96dd0872f5b6,{},1,0 - 3,4,2,1,0 - 1,0 - 0,{'mlbId': 172804761}
+1107,anonymized-files-wisd/12345645_35197.jsonl,e579068f-323d-4d27-baab-4ecc100211c4,{},Strike,Called,{},{},0,0 - 0,2,0,0,1 - 1,0 - 1,
+1108,anonymized-files-wisd/12345645_35248.jsonl,89cec77e-110c-4590-b365-25bdebca836d,{},Strike,Called,{},{},0,0 - 0,1,2,0,0 - 1,0 - 1,
+1109,anonymized-files-wisd/12345645_35481.jsonl,fe21bbcc-0304-4930-8086-499ddc47483d,{},Strike,Foul,166495f3-7ba2-4e3a-8cb3-c071e8816b88,{},1,2 - 8,5,2,0,0 - 1,0 - 1,{'mlbId': 797957728}
+1110,anonymized-files-wisd/12345645_35756.jsonl,5652e3bd-b481-4d8d-bcb2-999b066593c5,{},Strike,Foul,276d909f-4847-46aa-8ffd-1e0638ed110e,{},1,0 - 0,2,0,0,1 - 2,0 - 0,{'mlbId': 474808052}
+1111,anonymized-files-wisd/12345645_36120.jsonl,a05985e4-5c77-4c89-b168-02528b90c70e,{},HitIntoPlay,{},6b1c89e3-9f68-48fa-9b2a-2c72b959b421,{},1,0 - 0,1,2,0,0 - 2,0 - 0,{'mlbId': 765710437}
+1112,anonymized-files-wisd/12345645_36127.jsonl,169aaac6-50cf-43f8-86d9-5cdd46a9cd37,{},Ball,Called,{},{},0,7 - 8,7,1,0,0 - 0,1 - 0,
+1113,anonymized-files-wisd/12345645_36149.jsonl,3955ec2d-b581-4984-81dd-bf880e5a510e,{},Strike,Called,{},{},0,7 - 9,9,2,1,3 - 2,0 - 1,
+1114,anonymized-files-wisd/12345645_36242.jsonl,64881c66-2f87-48e4-b9df-4bd9aa2103c5,{},Ball,Called,{},{},0,7 - 8,8,1,0,1 - 0,1 - 0,
+1115,anonymized-files-wisd/12345645_36392.jsonl,270f6a69-f086-4a86-97b1-4ab4f94238d7,{},Ball,Called,{},{},0,1 - 3,4,0,0,1 - 0,1 - 0,
+1116,anonymized-files-wisd/12345645_36594.jsonl,b78f04bb-c218-4b95-bcec-864966ab03e4,{},Strike,{},{},{},0,2 - 8,6,0,0,0 - 0,0 - 1,
+1117,anonymized-files-wisd/12345645_36716.jsonl,f460b63c-6612-480e-802f-1fe3f54c30ad,{},HitIntoPlay,{},b83c3e90-4ee8-4766-8f1d-2833855ccc6f,{},1,2 - 5,5,2,0,2 - 0,0 - 0,{'mlbId': 485007791}
+1118,anonymized-files-wisd/12345645_36908.jsonl,c1f52163-f15c-4b42-9c61-ae1173ee2a4e,{},Strike,Called,{},{},0,0 - 2,2,2,0,2 - 0,0 - 1,
+1119,anonymized-files-wisd/12345645_37152.jsonl,7981818c-d3d2-411d-9f15-a5470bad86e8,{},Ball,HitByPitch,7a1ca6a9-4b55-4690-bba5-20edd8deef7e,{},1,2 - 3,5,0,0,0 - 0,1 - 0,{'mlbId': 765710437}
+1120,anonymized-files-wisd/12345645_37188.jsonl,ab586b56-b909-483d-b880-002736888729,{},Strike,Called,{},{},0,5 - 8,6,2,0,0 - 0,0 - 1,
+1121,anonymized-files-wisd/12345645_37398.jsonl,5b997a3d-03b8-47fe-b368-23ee89834388,{},Ball,Called,{},{},0,0 - 0,2,0,0,0 - 0,1 - 0,
+1122,anonymized-files-wisd/12345645_37399.jsonl,a9b8427e-31a5-46fc-a76d-46549a5e44fa,{},Strike,Called,{},{},0,2 - 8,5,2,0,0 - 0,0 - 1,
+1123,anonymized-files-wisd/12345645_37818.jsonl,5505aa9d-49bb-4377-8c2d-9262110ea0a7,{},Ball,Called,{},{},0,1 - 3,4,0,0,2 - 0,1 - 0,
+1124,anonymized-files-wisd/12345645_38027.jsonl,26073378-56da-454b-a0e8-fd5c5e24357d,{},HitIntoPlay,{},2228c28e-e341-46a5-a9a3-95698b4a4851,{},1,0 - 0,1,1,1,1 - 1,0 - 0,{'mlbId': 172804761}
+1125,anonymized-files-wisd/12345645_38158.jsonl,21d46ad8-640a-4805-b8ca-3de4661dc5ef,{},Strike,Foul,7fe37bbf-34f7-4224-a001-d01cea2d09d6,{},1,0 - 2,2,2,0,1 - 0,0 - 1,{'mlbId': 686425745}
+1126,anonymized-files-wisd/12345645_38171.jsonl,9cd55f9a-adfd-4c2f-8530-59e56a858d99,{},HitIntoPlay,{},e25f8da4-a2d2-489c-934c-bc8a865e66bb,{},1,0 - 2,3,0,1,2 - 0,0 - 0,{'mlbId': 568527038}
+1127,anonymized-files-wisd/12345645_38302.jsonl,e2d658a8-ee25-46b8-b6bd-1c2e3cbaca61,{},HitIntoPlay,{},2aa1d374-31f1-4906-b354-40daefcf47f5,{},1,2 - 8,5,1,0,1 - 1,0 - 0,{'mlbId': 412098649}
+1128,anonymized-files-wisd/12345645_38807.jsonl,ba1e1acc-3046-401d-98b7-81a47ea75751,{},Ball,Called,{},{},0,0 - 2,3,0,0,0 - 0,1 - 0,
+1129,anonymized-files-wisd/12345645_38844.jsonl,e43a4ad0-759c-4eab-a59b-c27b8a4ef127,{},Strike,{},{},{},0,0 - 2,4,2,0,0 - 0,0 - 1,
+1130,anonymized-files-wisd/12345645_39179.jsonl,73c49847-a0b4-4ad7-8518-2dd36b846d3a,{},HitIntoPlay,{},b2da270b-a211-4c79-88ad-645c044bb84b,{},1,0 - 2,2,1,1,1 - 0,0 - 0,{'mlbId': 174158975}
+1131,anonymized-files-wisd/12345645_39205.jsonl,cd5d871a-2443-44bd-bb7f-eb9a3c3303fc,{},Strike,Foul,3e44fa91-77bb-4ad9-80ce-0cda4576ae8e,{},1,0 - 0,1,1,0,1 - 1,0 - 1,{'mlbId': 797957728}
+1132,anonymized-files-wisd/12345645_39210.jsonl,7ad25a94-feac-49bf-8332-eabe2c44d40c,{},Strike,Called,{},{},0,0 - 0,1,1,0,1 - 0,0 - 1,
+1133,anonymized-files-wisd/12345645_39767.jsonl,f9cff767-76f0-4231-bfff-868b2ec0e6ba,{},HitIntoPlay,{},07fd832f-f598-4605-9f34-b7bd0e67cc0e,{},1,7 - 9,8,1,1,0 - 0,0 - 0,{'mlbId': 618024297}
+1134,anonymized-files-wisd/12345645_39787.jsonl,c03f0be7-485e-4e44-9c28-3a495835a286,{},Strike,{},{},{},0,0 - 2,3,1,1,1 - 2,0 - 1,
+1135,anonymized-files-wisd/12345645_39809.jsonl,8fc0bd6c-190d-4a43-8787-4cbd5fe243b7,{},Ball,HitByPitch,ac6b7d49-ae15-4c34-9038-b51643d7a7bb,{},1,0 - 0,2,0,0,1 - 2,1 - 0,{'mlbId': 474808052}
+1136,anonymized-files-wisd/12345645_39826.jsonl,06cb1f56-8f87-41a2-8d11-07910bfc09bf,{},Strike,Foul,5a25134b-4b2e-4abb-8cbc-96e8e1b8d7f0,{},1,7 - 8,8,2,0,2 - 2,0 - 0,{'mlbId': 719146721}
+1137,anonymized-files-wisd/12345645_40018.jsonl,88b9341f-c9de-4b0d-a5e7-97c6ae009746,{},HitIntoPlay,{},6b18ae51-f12e-474e-b5a1-857a32e0c2eb,{},1,2 - 8,5,2,1,0 - 1,0 - 0,{'mlbId': 172804761}
+1138,anonymized-files-wisd/12345645_40049.jsonl,4c559df2-e870-45c3-afe2-41882c0878dc,{},Ball,Called,{},{},0,7 - 8,7,0,0,0 - 0,1 - 0,
+1139,anonymized-files-wisd/12345645_40081.jsonl,e47221c5-b660-4f75-9019-0cac94abae4d,{},HitIntoPlay,{},4c0f275c-9658-4b2e-8fcf-40ee8f0d130d,{},1,2 - 7,5,2,0,3 - 1,0 - 0,{'mlbId': 558675411}
+1140,anonymized-files-wisd/12345645_40175.jsonl,7f34399f-a780-48ea-8187-8f9f1eb40cf5,{},Ball,Called,{},{},0,7 - 9,9,0,0,0 - 2,1 - 0,
+1141,anonymized-files-wisd/12345645_40251.jsonl,0c54c065-4e78-406e-aa54-9a7cc2eb17c3,{},Ball,Called,{},{},0,2 - 5,5,2,0,0 - 0,1 - 0,
+1142,anonymized-files-wisd/12345645_40255.jsonl,779dc25e-62f9-4823-98ac-cb3da0cc6180,{},Ball,Called,{},{},0,0 - 0,2,0,0,3 - 1,1 - 0,
+1143,anonymized-files-wisd/12345645_4046.jsonl,202b5ca7-596c-4ced-bb09-d69a1c0ac1e6,{},HitIntoPlay,{},d362f398-cc43-4ca3-82cb-9683d9aa4e85,{},1,7 - 9,9,2,1,0 - 0,0 - 0,{'mlbId': 174158975}
+1144,anonymized-files-wisd/12345645_40643.jsonl,3471d310-3ec0-407e-b34e-b4c67b8b339b,{},Ball,Called,{},{},0,5 - 8,6,2,0,3 - 0,1 - 0,
+1145,anonymized-files-wisd/12345645_40801.jsonl,5833fa22-ab0d-4edd-abaf-d118e27500c8,{},Strike,Called,{},{},0,0 - 2,3,2,0,1 - 0,0 - 1,
+1146,anonymized-files-wisd/12345645_41648.jsonl,4d36ad7f-05b7-4903-9380-ac1b6d59d298,{},Ball,Called,{},{},0,7 - 9,9,0,0,0 - 0,1 - 0,
+1147,anonymized-files-wisd/12345645_41975.jsonl,393ef430-746a-4a82-a58c-23b23e8da590,{},Strike,Foul,{},{},0,0 - 2,4,2,0,0 - 1,0 - 1,
+1148,anonymized-files-wisd/12345645_42016.jsonl,d9c600eb-405c-4f81-8858-7b42305c2910,{},Strike,{},{},{},0,7 - 9,9,1,0,3 - 1,0 - 1,
+1149,anonymized-files-wisd/12345645_42099.jsonl,1b465298-0e08-4bb8-b197-3b7632de12c1,{},Strike,Called,{},{},0,0 - 0,2,0,0,3 - 0,0 - 1,
+1150,anonymized-files-wisd/12345645_42191.jsonl,5f960b4c-a040-4dce-afb5-b20588a7a5a0,{},Strike,Foul,55011e53-c86f-43ab-a406-ba267a01b833,{},1,0 - 0,1,0,0,0 - 0,0 - 1,{'mlbId': 558675411}
+1151,anonymized-files-wisd/12345645_42215.jsonl,63fd12bc-d014-4714-a171-3242d64c07ad,{},Ball,Called,{},{},0,2 - 8,5,0,0,2 - 0,1 - 0,
+1152,anonymized-files-wisd/12345645_42255.jsonl,44694110-8d4f-4251-bc29-065e161b826f,{},Ball,Called,{},{},0,7 - 9,8,0,0,0 - 2,1 - 0,
+1153,anonymized-files-wisd/12345645_42478.jsonl,153a8ee5-5b08-4bca-9d78-68e02b385a36,{},Ball,Called,{},{},0,0 - 0,1,1,0,0 - 0,1 - 0,
+1154,anonymized-files-wisd/12345645_42534.jsonl,316e05cc-c370-4243-a0a2-60ef48b2c5d3,{},Ball,Called,{},{},0,0 - 2,3,2,0,1 - 1,1 - 0,
+1155,anonymized-files-wisd/12345645_42567.jsonl,d816e513-2dde-4876-862a-3129a9e8d48d,{},HitIntoPlay,{},74b2cc0d-bba9-4670-b94c-f4e3dd8ed514,{},1,2 - 3,5,0,0,0 - 0,0 - 0,{'mlbId': 719146721}
+1156,anonymized-files-wisd/12345645_42594.jsonl,83e07473-82c3-4f3b-8c44-0353a0e2e26f,{},Ball,Called,{},{},0,0 - 2,2,1,0,0 - 0,1 - 0,
+1157,anonymized-files-wisd/12345645_42735.jsonl,a7e74623-8520-44e9-933a-abef82aa054b,{},Ball,Called,{},{},0,2 - 4,5,0,0,2 - 0,1 - 0,
+1158,anonymized-files-wisd/12345645_4352.jsonl,7ffebc01-ab86-4619-a4c3-e1013ee407c3,{},HitIntoPlay,{},c129e845-9222-4296-965a-7434f5d420ac,{},1,7 - 8,7,2,1,2 - 2,0 - 0,{'mlbId': 568527038}
+1159,anonymized-files-wisd/12345645_43592.jsonl,13580a47-fd4c-4557-b09e-930bcd29a017,{},HitIntoPlay,{},31bb6c52-2ca4-4d5c-a377-d09476387e11,{},1,7 - 9,9,1,1,3 - 2,0 - 0,{'mlbId': 352830460}
+1160,anonymized-files-wisd/12345645_43934.jsonl,c65a29fd-9719-4290-bb88-b780abbaf1a5,{},Ball,Called,{},{},0,7 - 8,8,1,0,3 - 0,1 - 0,
+1161,anonymized-files-wisd/12345645_44376.jsonl,827af4fc-c6bf-4bd8-8905-c387dcbb7491,{},Ball,Called,{},{},0,0 - 2,2,2,0,1 - 0,1 - 0,
+1162,anonymized-files-wisd/12345645_44444.jsonl,a3acd844-86d4-4d7a-9053-979053921b8d,{},Strike,Foul,ff61103c-3272-4eff-b76c-b1452cb6a6c6,{},1,0 - 0,1,2,0,0 - 2,0 - 0,{'mlbId': 765710437}
+1163,anonymized-files-wisd/12345645_44473.jsonl,5187fd09-9188-4f00-888a-ca2782a27fef,{},Strike,Foul,cb07eb4b-6b46-4a5f-ae9a-6efcce6d0464,{},1,0 - 2,3,1,0,1 - 0,0 - 1,{'mlbId': 719146721}
+1164,anonymized-files-wisd/12345645_44478.jsonl,ac2b4992-63c8-4167-8eb8-986ad5396c44,{},Strike,Called,{},{},0,7 - 9,8,2,0,1 - 1,0 - 1,
+1165,anonymized-files-wisd/12345645_44514.jsonl,c0b14465-a71e-466b-aaf9-e1ccc3458d80,{},Ball,Called,{},{},0,5 - 8,6,2,0,2 - 0,1 - 0,
+1166,anonymized-files-wisd/12345645_44676.jsonl,5a139233-8fa7-4be4-b378-2b1485e37a00,{},Ball,Called,{},{},0,2 - 7,5,2,0,0 - 0,1 - 0,
+1167,anonymized-files-wisd/12345645_44719.jsonl,10e8f096-5d72-4bbf-aca5-25f21fde4423,{},HitIntoPlay,{},9a9a949d-9855-411c-990d-b00811f6475c,{},1,2 - 8,6,0,2,2 - 0,0 - 0,{'mlbId': 719146721}
+1168,anonymized-files-wisd/12345645_45027.jsonl,e3e168cd-8ced-410d-84d5-a986e5ff48ff,{},Ball,Called,{},{},0,7 - 9,9,2,0,0 - 0,1 - 0,
+1169,anonymized-files-wisd/12345645_4512.jsonl,983a6faf-ccbb-48e3-8028-c6d6ec571527,{},Ball,BallInDirt,{},{},0,7 - 8,8,2,0,0 - 0,1 - 0,
+1170,anonymized-files-wisd/12345645_4525.jsonl,872570dc-9bbf-4714-8d91-68d583ab0cdf,{},Strike,Foul,d8fed740-46f8-4fb9-97b2-a7c946dd484b,{},1,7 - 9,9,1,0,3 - 2,0 - 0,{'mlbId': 797957728}
+1171,anonymized-files-wisd/12345645_45380.jsonl,56190b4b-ae93-4475-80c2-7beffab2af34,{},Ball,Called,{},{},0,7 - 9,9,2,0,2 - 1,1 - 0,
+1172,anonymized-files-wisd/12345645_45401.jsonl,0911c9c0-0a2e-47f1-808c-c6aeff3e4442,{},Strike,Called,{},{},0,0 - 2,3,1,0,1 - 1,0 - 1,
+1173,anonymized-files-wisd/12345645_45453.jsonl,e2d1e222-7c00-4c47-a598-2382ec7e30e1,{},Ball,Called,{},{},0,7 - 8,8,2,0,1 - 2,1 - 0,
+1174,anonymized-files-wisd/12345645_45462.jsonl,f33e44e0-e9f6-49c0-bc76-b6ebb642ecf0,{},HitIntoPlay,{},5fbf979d-ac7a-4f41-9498-2f94507ecba1,{},1,0 - 3,4,0,0,3 - 2,0 - 0,{'mlbId': 590082479}
+1175,anonymized-files-wisd/12345645_45552.jsonl,b41c961f-3936-4f45-ad86-03ab58c10f1b,{},Ball,Called,{},{},0,0 - 0,2,0,0,1 - 1,1 - 0,
+1176,anonymized-files-wisd/12345645_4576.jsonl,66ef34dd-5da5-4521-930d-217909eeff2d,{},Ball,Called,{},{},0,7 - 9,9,1,0,1 - 0,1 - 0,
+1177,anonymized-files-wisd/12345645_45761.jsonl,124e55c2-2a10-4ea4-8f3a-53522db92640,{},Strike,Called,{},{},0,7 - 9,9,0,0,0 - 0,0 - 1,
+1178,anonymized-files-wisd/12345645_45812.jsonl,961cf814-a5f6-49a4-a242-ffe3944146a7,{},Ball,BallInDirt,{},{},0,0 - 0,2,0,0,0 - 0,1 - 0,
+1179,anonymized-files-wisd/12345645_4590.jsonl,07340c48-ff22-4102-8862-bcd5001e46ac,{},Strike,Called,{},{},0,0 - 0,1,1,0,1 - 0,0 - 1,
+1180,anonymized-files-wisd/12345645_4613.jsonl,40d4415b-37bd-484a-aae9-0c955a15d69f,{},Strike,Foul,64525e77-e56b-4f12-9ef3-4bb55cd543f7,{},1,0 - 2,3,1,0,0 - 0,0 - 1,{'mlbId': 854238128}
+1181,anonymized-files-wisd/12345645_46244.jsonl,f473dfe9-426b-4cbe-bddc-35ef7208f4b7,{},Strike,Foul,e012e9d3-a552-417a-8bc0-206ccf60d12d,{},1,0 - 3,4,0,0,1 - 0,0 - 1,{'mlbId': 590082479}
+1182,anonymized-files-wisd/12345645_46364.jsonl,{},{},Pickoff,ThrowToFirst,{},{},0,5 - 8,6,2,0,0 - 1,0 - 0,
+1183,anonymized-files-wisd/12345645_46375.jsonl,a8de5ddd-dbc2-4973-8211-146c8499518e,{},Strike,{},{},{},0,7 - 9,8,2,1,1 - 2,0 - 1,
+1184,anonymized-files-wisd/12345645_46468.jsonl,680444a5-2458-442e-9b16-db1ab56f3959,{},Ball,Called,{},{},0,2 - 5,5,2,0,1 - 0,1 - 0,
+1185,anonymized-files-wisd/12345645_46599.jsonl,e75f14a7-ebb0-4707-81b7-19bb833b11a2,{},Strike,{},{},{},0,7 - 9,8,0,0,0 - 1,0 - 1,
+1186,anonymized-files-wisd/12345645_46635.jsonl,0db744a2-cb14-41f0-a5b1-9eb45ee5dd89,{},Strike,Called,{},{},0,0 - 2,3,0,0,2 - 0,0 - 1,
+1187,anonymized-files-wisd/12345645_46702.jsonl,0875461a-4d78-4b80-b06f-13969de6ba07,{},Ball,Called,{},{},0,0 - 2,4,1,0,3 - 2,1 - 0,
+1188,anonymized-files-wisd/12345645_4684.jsonl,b8e0d516-ccf2-4a6e-bdef-cbd3f368132f,{},Strike,Foul,e7cc024d-8101-4338-b8e5-bedf91ac352a,{},1,3 - 8,6,0,0,0 - 0,0 - 1,{'mlbId': 174158975}
+1189,anonymized-files-wisd/12345645_46867.jsonl,e2046638-abc5-4894-acaa-d2a09a6a2c37,{},Strike,Foul,e227bffd-8666-482e-b1fe-1cdf5c33800a,{},1,0 - 3,4,0,0,3 - 1,0 - 1,{'mlbId': 797957728}
+1190,anonymized-files-wisd/12345645_46952.jsonl,12e1bc44-ad45-4375-8910-0aad3362eec5,{},Strike,Foul,10297cca-5764-4180-b499-d3c70c80dfeb,{},1,7 - 8,7,0,0,1 - 0,0 - 1,{'mlbId': 352830460}
+1191,anonymized-files-wisd/12345645_4751.jsonl,3c5d1f0e-b133-4b18-b4ec-06e11a9c59e2,{},Ball,Called,{},{},0,4 - 8,6,1,0,2 - 2,1 - 0,
+1192,anonymized-files-wisd/12345645_4767.jsonl,f5140955-477d-4b14-811a-35f684cccdaa,{},HitIntoPlay,{},2398edb3-c121-43d8-b042-54ac2bf969a8,{},1,0 - 1,2,1,0,0 - 1,0 - 0,{'mlbId': 485007791}
+1193,anonymized-files-wisd/12345645_47716.jsonl,31715402-0506-46cd-8b68-8100fca0bcf0,{},HitIntoPlay,{},2cbc4bd4-c568-45c0-b152-5703f6550af1,{},1,0 - 2,2,0,1,2 - 2,0 - 0,{'mlbId': 352830460}
+1194,anonymized-files-wisd/12345645_47827.jsonl,eadd2239-4f8d-4f3b-9306-eb9499704697,{},Ball,Called,{},{},0,1 - 3,4,0,0,3 - 0,1 - 0,
+1195,anonymized-files-wisd/12345645_47901.jsonl,f16a9bdc-a821-4055-84e1-94c74cc82ac8,{},Strike,Called,{},{},0,2 - 5,5,1,0,0 - 0,0 - 1,
+1196,anonymized-files-wisd/12345645_48070.jsonl,b9778bd3-b24d-4cf3-9eaa-af0ac52aaca0,{},Strike,Foul,83b88d43-27ed-4e8a-8fe9-a5d55d76c816,{},1,0 - 2,3,2,0,0 - 1,0 - 1,{'mlbId': 618024297}
+1197,anonymized-files-wisd/12345645_48414.jsonl,b9c8012d-2cee-4ba8-aea9-a1fec00d617f,{},HitIntoPlay,{},f5d3b509-92c9-4ecc-9e97-9ba475f21939,{},1,7 - 9,9,0,1,2 - 0,0 - 0,{'mlbId': 590082479}
+1198,anonymized-files-wisd/12345645_48435.jsonl,ac398d79-a3d5-4aa3-8331-04c14ba35f40,{},HitIntoPlay,{},2dad3acf-28eb-40e8-b4d4-a7cb2598e45a,{},1,6 - 8,6,2,0,3 - 2,0 - 0,{'mlbId': 590082479}
+1199,anonymized-files-wisd/12345645_48469.jsonl,35c62f5f-9f17-4251-9f95-2752855653e1,{},HitIntoPlay,{},6aee5155-59df-4cca-b0eb-4b449df0ba66,{},1,2 - 8,5,2,1,0 - 2,0 - 0,{'mlbId': 797957728}
+1200,anonymized-files-wisd/12345645_48553.jsonl,a5c00e52-77ab-43a9-80e1-4c92f624b051,{},Ball,Called,{},{},0,4 - 8,6,0,0,2 - 1,1 - 0,
+1201,anonymized-files-wisd/12345645_4868.jsonl,0c6b134e-abe4-4368-8c7d-d3cb63e726e7,{},HitIntoPlay,{},6ed16abf-2f37-48db-864a-b0f6a69014ea,{},1,2 - 8,6,0,0,0 - 2,0 - 0,{'mlbId': 765710437}
+1202,anonymized-files-wisd/12345645_48752.jsonl,516aa245-6b00-42a4-971f-02f11cdf4c1f,{},Ball,Called,{},{},0,2 - 8,6,0,0,0 - 0,1 - 0,
+1203,anonymized-files-wisd/12345645_49023.jsonl,445a184c-cf86-4c72-9ff7-01f90f6b727e,{},Ball,Called,{},{},0,7 - 8,8,1,0,2 - 0,1 - 0,
+1204,anonymized-files-wisd/12345645_49158.jsonl,af28b7f9-bd2e-4cbc-a46f-6da3bc7976ce,{},HitIntoPlay,{},93e802d5-073b-4b5f-92fc-a93a30adfa13,{},1,7 - 8,8,2,0,2 - 2,0 - 0,{'mlbId': 719146721}
+1205,anonymized-files-wisd/12345645_49435.jsonl,d02fe9f7-1695-4561-9226-951c1ddb978f,{},HitIntoPlay,{},9dd640f4-991e-4ed9-be07-503f24ef832e,{},1,7 - 9,9,1,0,2 - 0,0 - 0,{'mlbId': 474808052}
+1206,anonymized-files-wisd/12345645_49610.jsonl,96022a10-5ae8-43bc-8613-f5c213de4db5,{},Ball,Called,{},{},0,0 - 2,2,2,0,0 - 0,1 - 0,
+1207,anonymized-files-wisd/12345645_49632.jsonl,9e1a85bd-1d62-43cd-acf7-ca84e8b72a98,{},Ball,Called,{},{},0,7 - 8,7,2,0,0 - 2,1 - 0,
+1208,anonymized-files-wisd/12345645_49673.jsonl,9130eb3d-2ebd-4466-8816-1a1cc9b8faaf,{},Ball,Called,{},{},0,0 - 3,4,0,0,2 - 2,1 - 0,
+1209,anonymized-files-wisd/12345645_49944.jsonl,fcb7f8dd-e2b9-42b7-b119-1eb406ea8f32,{},Ball,Called,{},{},0,2 - 4,5,0,0,3 - 0,1 - 0,
+1210,anonymized-files-wisd/12345645_49954.jsonl,479009f7-16de-4b15-91b5-5aa7f6d8cd45,{},Ball,Called,{},{},0,7 - 8,7,0,0,0 - 2,1 - 0,
+1211,anonymized-files-wisd/12345645_5111.jsonl,08350e9d-b92b-4e81-9127-afcf7842431b,{},Strike,Called,{},{},0,0 - 2,2,2,1,3 - 2,0 - 1,
+1212,anonymized-files-wisd/12345645_5127.jsonl,6f165f5f-a4d8-4037-baa3-783954a014da,{},Ball,BallInDirt,{},{},0,7 - 9,9,1,0,2 - 0,1 - 0,
+1213,anonymized-files-wisd/12345645_5291.jsonl,7b3c469f-7ce9-481a-8bc6-0c9b1c8e19e5,{},Ball,Called,{},{},0,0 - 2,2,2,0,0 - 0,1 - 0,
+1214,anonymized-files-wisd/12345645_5674.jsonl,de801c35-f22d-45cc-874d-d8bc19c45695,{},Strike,Called,{},{},0,2 - 8,6,0,0,0 - 1,0 - 1,
+1215,anonymized-files-wisd/12345645_5725.jsonl,6d172362-497e-4d52-8dba-6194d460c7d8,{},Ball,Called,{},{},0,0 - 0,1,2,0,0 - 0,1 - 0,
+1216,anonymized-files-wisd/12345645_5831.jsonl,e22765e2-b704-454d-9d41-6c47d3ae788d,{},HitIntoPlay,{},bee9aa56-bfdd-4871-ace1-178db56aa19a,{},1,0 - 3,4,0,0,3 - 2,0 - 0,{'mlbId': 797957728}
+1217,anonymized-files-wisd/12345645_6004.jsonl,5f15fc23-e908-4302-a754-5ceec49c8614,{},Strike,{},{},{},0,0 - 2,3,2,1,1 - 2,0 - 1,
+1218,anonymized-files-wisd/12345645_6330.jsonl,d726c98d-73a1-43b5-aaee-4b172cd4bfdc,{},Strike,Called,{},{},0,2 - 8,5,1,1,1 - 2,0 - 1,
+1219,anonymized-files-wisd/12345645_6409.jsonl,8bb93a78-978b-4a49-b699-b260d00fd9a9,{},Ball,Called,{},{},0,0 - 2,2,2,0,2 - 2,1 - 0,
+1220,anonymized-files-wisd/12345645_6567.jsonl,48c60523-f371-4a52-9093-0255691054ab,{},Ball,Called,{},{},0,7 - 9,9,0,0,1 - 0,1 - 0,
+1221,anonymized-files-wisd/12345645_6618.jsonl,2b5e9f2b-905e-40f8-9dff-6bd15c58f771,{},Ball,Called,{},{},0,3 - 8,6,0,0,0 - 2,1 - 0,
+1222,anonymized-files-wisd/12345645_6685.jsonl,e35918fe-c257-4406-9c18-82ae62fa3c10,{},Ball,Called,{},{},0,0 - 2,3,1,0,2 - 2,1 - 0,
+1223,anonymized-files-wisd/12345645_67.jsonl,38630e43-e4e4-4435-a2fc-e76f229811e0,{},Strike,Blocked,{},{},0,2 - 8,5,1,0,1 - 0,0 - 1,
+1224,anonymized-files-wisd/12345645_6728.jsonl,7cc6eade-61e7-4b64-8187-3b7fc9ed4cb9,{},Strike,{},{},{},0,0 - 0,1,0,0,1 - 1,0 - 1,
+1225,anonymized-files-wisd/12345645_6778.jsonl,6538c517-31de-4a8b-836a-33addb353710,{},Ball,Called,{},{},0,0 - 2,3,2,0,0 - 0,1 - 0,
+1226,anonymized-files-wisd/12345645_6786.jsonl,468fe3d4-5eb7-41a3-92b8-4f4519b11bb9,{},Strike,Called,{},{},0,7 - 8,8,2,0,2 - 0,0 - 1,
+1227,anonymized-files-wisd/12345645_693.jsonl,caa3ccd4-f252-4676-a609-57b0521ef63f,{},Ball,Called,{},{},0,1 - 3,4,1,0,0 - 1,1 - 0,
+1228,anonymized-files-wisd/12345645_694.jsonl,2013e44b-3436-4a00-bdb2-ec3731aa8321,{},Ball,Called,{},{},0,0 - 0,2,0,0,0 - 1,1 - 0,
+1229,anonymized-files-wisd/12345645_7165.jsonl,4af9a88d-12e1-4bd0-a8d7-8b51e9312494,{},Strike,Foul,5bb47bbd-f839-4d90-96c5-0c1b816a795a,{},1,7 - 8,8,2,0,1 - 0,0 - 1,{'mlbId': 719146721}
+1230,anonymized-files-wisd/12345645_723.jsonl,534fc237-e5c4-4173-a50c-c727e7afdfe6,{},Ball,Called,{},{},0,5 - 8,6,2,0,0 - 2,1 - 0,
+1231,anonymized-files-wisd/12345645_7300.jsonl,a95379d3-3c16-4fd1-a576-ae59e68812e8,{},Ball,Called,{},{},0,0 - 0,2,0,0,0 - 0,1 - 0,
+1232,anonymized-files-wisd/12345645_7402.jsonl,dca88b9f-d390-4c60-97fd-4aeb4f8115c5,{},Ball,Called,{},{},0,2 - 3,4,2,0,0 - 1,1 - 0,
+1233,anonymized-files-wisd/12345645_7668.jsonl,6756dc14-4af1-4720-bd41-f640ecd6fa42,{},Ball,Called,{},{},0,2 - 7,5,2,0,2 - 0,1 - 0,
+1234,anonymized-files-wisd/12345645_7688.jsonl,75be364f-b32a-4182-a00c-cfa4a37af9c1,{},HitIntoPlay,{},0ed15f23-3648-46ca-94ed-6b3f77e68db1,{},1,0 - 2,4,0,1,0 - 0,0 - 0,{'mlbId': 474808052}
+1235,anonymized-files-wisd/12345645_7717.jsonl,b727db78-a7cb-4a87-89c7-5f74e9cf3112,{},Strike,Foul,f908c607-2b02-4fc7-8dd6-8584a45165c1,{},1,4 - 8,6,1,0,2 - 1,0 - 1,{'mlbId': 618024297}
+1236,anonymized-files-wisd/12345645_7810.jsonl,7d2a5e8c-cbf3-460a-a649-7c57733f70d4,{},Strike,Blocked,{},{},0,7 - 8,7,1,1,2 - 2,0 - 1,
+1237,anonymized-files-wisd/12345645_783.jsonl,20c2778a-6085-4d35-abef-94aa6204b498,{},Strike,{},{},{},0,3 - 8,6,0,0,0 - 1,0 - 1,
+1238,anonymized-files-wisd/12345645_8063.jsonl,7f083536-01f1-44d2-9d20-d0d7815068d3,{},HitIntoPlay,{},f869d811-496c-457d-bfec-8bf5f6d3f949,{},1,2 - 8,6,0,0,0 - 0,0 - 0,{'mlbId': 352830460}
+1239,anonymized-files-wisd/12345645_8329.jsonl,62666b92-5d8c-47c5-94d2-fba535f5b7aa,{},HitIntoPlay,{},5c8a4960-c931-49c3-97ca-124478e9dd19,{},1,0 - 2,3,2,0,1 - 2,0 - 0,{'mlbId': 618024297}
+1240,anonymized-files-wisd/12345645_8340.jsonl,f5b92e76-d88d-4ebb-b36c-d98994011a16,{},Strike,Called,{},{},0,4 - 8,6,0,0,2 - 0,0 - 1,
+1241,anonymized-files-wisd/12345645_8417.jsonl,b45838a7-ae4e-4738-8a76-b98009bf9a71,{},Ball,Called,{},{},0,0 - 0,1,1,0,0 - 0,1 - 0,
+1242,anonymized-files-wisd/12345645_8450.jsonl,04e6d36e-c002-4832-9cba-0e0ae511f98a,{},Ball,BallInDirt,{},{},0,0 - 0,2,0,0,1 - 2,1 - 0,
+1243,anonymized-files-wisd/12345645_8735.jsonl,32ddf7bb-75f4-4137-abf3-df33e17eb805,{},Ball,Called,{},{},0,4 - 8,6,1,0,1 - 1,1 - 0,
+1244,anonymized-files-wisd/12345645_880.jsonl,8060e215-76e5-441b-ab2b-4612a2a808f5,{},Strike,{},{},{},0,0 - 3,4,0,0,2 - 1,0 - 1,
+1245,anonymized-files-wisd/12345645_9016.jsonl,23e8c862-b2be-43d8-8311-8c2e130c28e7,{},Strike,{},{},{},0,7 - 9,8,0,1,2 - 2,0 - 1,
+1246,anonymized-files-wisd/12345645_9382.jsonl,b953d597-6839-4d46-9292-83b5f936067d,{},HitIntoPlay,{},9f299f4e-3933-4b75-917f-38a97754b160,{},1,7 - 9,9,2,0,0 - 0,0 - 0,{'mlbId': 485007791}
+1247,anonymized-files-wisd/12345645_9486.jsonl,1dcf4f5b-7e4a-444b-aa08-ea76cf7ca39c,{},Strike,{},{},{},0,7 - 8,7,0,0,0 - 1,0 - 1,
+1248,anonymized-files-wisd/12345645_9592.jsonl,3de7be9d-7510-4cd8-8d70-044a817e3d88,{},Ball,Called,{},{},0,4 - 8,6,0,0,3 - 1,1 - 0,
+1249,anonymized-files-wisd/12345645_9623.jsonl,b111416f-6dee-423d-a6e1-e89207b5c85f,{},Ball,Called,{},{},0,5 - 8,6,2,0,1 - 2,1 - 0,
+1250,anonymized-files-wisd/12345645_9694.jsonl,40aec546-f545-4d62-b0f5-8d9f2b9752c7,{},HitIntoPlay,{},{},{},0,7 - 8,8,0,1,0 - 0,0 - 0,
+1251,anonymized-files-wisd/12345645_9787.jsonl,4d7f6ede-fbcc-4503-b2b9-1dbd6be782f7,{},Ball,Called,{},{},0,0 - 0,2,0,0,1 - 0,1 - 0,
+1252,anonymized-files-wisd/12345645_9926.jsonl,accadcf0-83f6-44bd-af05-89fd8518b92e,{},Strike,Called,{},{},0,2 - 5,5,1,0,0 - 1,0 - 1,
+1253,anonymized-files-wisd/12345645_9968.jsonl,d1d014c0-5f02-4a5e-b55c-94f85d3652e7,{},Ball,Called,{},{},0,0 - 2,3,2,0,0 - 2,1 - 0,
