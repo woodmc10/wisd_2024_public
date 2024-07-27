@@ -23,7 +23,6 @@ def merge_metrics(data_folder):
     return all_metrics_df
 
 def generate_scorecard(data_folder, contact_location_values, track_angle_values, hunting_values):
-    # data_folder = 'https://raw.githubusercontent.com/woodmc10/wisd_2024/main/data/dataframes'
 
     all_swing_metrics_df = merge_metrics(data_folder)
 

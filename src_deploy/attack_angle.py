@@ -240,7 +240,7 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
 
             # Convert polar to Cartesian for image placement
             x_image, y_image = polar_to_cartesian(r_image, theta_image)
-            url = "https://raw.githubusercontent.com/woodmc10/wisd_2024/main/images/pieces/baseball_1.png"
+            url = "https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main/images/pieces/baseball_1.png"
             # Fetch the image from the URL
             response = requests.get(url)
             img = Image.open(BytesIO(response.content))

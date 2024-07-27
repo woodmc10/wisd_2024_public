@@ -9,8 +9,7 @@ from timing_rotate import viz_contact_loc
 from scorecard import generate_scorecard
 
 # Load your data
-# data_folder = 'https://raw.githubusercontent.com/woodmc10/wisd_2024/main/data/dataframes'
-data_folder = 'data/dataframes'
+data_folder = 'https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main/data/dataframes'
 swing_map_df = pd.read_csv(f'{data_folder}/swing_map_metrics_df.csv')
 tracking_metrics_df = pd.read_csv(f'{data_folder}/tracking_metrics_df.csv')
 timing_metrics_df = pd.read_csv(f'{data_folder}/timing_metrics_df.csv')
