@@ -1,3 +1,4 @@
 *.jsonl
 .ipynb_checkpoints/
 __pycache__/
+src_deploy/__pycache__/
