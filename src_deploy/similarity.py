@@ -106,10 +106,7 @@ def similarity_scorecard(dist_grades, distance_df):
     for batter in batters:
         scorecard_dict = dict()
         scorecard_dict["batter"] = batter
-        # the first swing processed is assigned a value of 0.0 and used as the reference swing
-        scorecard_dict["reference_file"] = distance_df[
-            (distance_df["batter"] == batter) & (distance_df["distance"] == 0.0)
-        ]["file"].values[0]
+        
         batter_df = distance_df[
             (distance_df["batter"] == batter) & (distance_df["distance"] > 0)
         ]
@@ -137,10 +134,6 @@ def similarity_scorecard(dist_grades, distance_df):
         scorecard_dict["dist_grade"] = get_grade(
             good_count / swing_count, distance_thresholds
         )
-        # store the swing with maximum distance for plotting
-        scorecard_dict["compare_file"] = batter_df[
-            batter_df["distance"] == max(batter_df["distance"])
-        ]["file"].values[0]
         scorecard_list.append(scorecard_dict)
     return pd.DataFrame.from_dict(scorecard_list)
 

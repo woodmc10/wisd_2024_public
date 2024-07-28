@@ -2,6 +2,7 @@ import pandas as pd
 from hunt import hunt_scorecard
 from track_angle import create_tracking_score_df
 from contact_loc import contact_loc_scorecard
+from similarity import similarity_scorecard
 
 
 def merge_metrics(data_folder):
@@ -47,7 +48,7 @@ def merge_metrics(data_folder):
 
 
 def generate_scorecard(
-    data_folder, contact_location_values, track_angle_values, hunting_values
+    data_folder, contact_location_values, track_angle_values, hunting_values, sim_values
 ):
     """
     Generate a scorecard by merging and scoring all swing metrics.
@@ -69,10 +70,12 @@ def generate_scorecard(
         track_angle_values, all_swing_metrics_df
     )
     hunting_score_df = hunt_scorecard(hunting_values, all_swing_metrics_df)
+    similarity_score_df = similarity_scorecard(sim_values, all_swing_metrics_df)
     # merge all metrics into a scorecard
     scorecard_df = timing_score_df.merge(
         tracking_score_df, on="batter", how="outer"
-    ).merge(hunting_score_df, on="batter", how="outer")
+    ).merge(hunting_score_df, on="batter", how="outer"
+    ).merge(similarity_score_df, on="batter", how="outer")
 
     return scorecard_df
 
@@ -83,7 +86,8 @@ if __name__ == "__main__":
     contact_location_defaults = [1.5, 0.9, 0.2, -0.5]
     track_angle_defaults = [5, 5, 10, 15]
     hunting_defaults = [1.5, 2.0, 2.5, 3.0]
+    similarity_defaults = [1.0, 0.95, 0.9, 0.85]
     scorecard_df = generate_scorecard(
-        data_folder, contact_location_defaults, track_angle_defaults, hunting_defaults
+        data_folder, contact_location_defaults, track_angle_defaults, hunting_defaults, similarity_defaults
     )
     scorecard_df.to_csv(f"{data_folder}scorecard.csv")

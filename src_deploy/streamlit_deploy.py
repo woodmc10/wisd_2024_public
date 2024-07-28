@@ -13,18 +13,22 @@ from contact_loc import viz_contact_loc
 from scorecard import generate_scorecard
 
 # Load data
-data_folder = (
-    "https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main/data/dataframes"
-)
+# github = "https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main"
+github = ".."
+data_folder = f"{github}/data/dataframes"
+image_folder = f"{github}/images/grades"
+
 swing_map_df = pd.read_csv(f"{data_folder}/swing_map_metrics_df.csv")
 tracking_metrics_df = pd.read_csv(f"{data_folder}/tracking_metrics_df.csv")
 timing_metrics_df = pd.read_csv(f"{data_folder}/timing_metrics_df.csv")
+similarity_metrics_df = pd.read_csv(f"{data_folder}/distance_metrics_df.csv")
 
 # Define metric options
 metric_options = [
     ("Contact Location"),
     ("Tracking Angle"),
     ("Hunting Pitches"),
+    ("Swing Similarity"),
 ]
 
 # Define grade values for widgets
@@ -58,9 +62,12 @@ def get_slider_values():
         "track_angles": [
             st.session_state.get(f"track_angle_{i}_default", 5) for i in range(4)
         ],
+        "swing_similarities":[
+            st.session_state.get(f'swing_similarity_{i}_default', 0.9) for i in range(4)
+        ],
         "metric_order": [
             st.session_state.get(f"priority_{i}_default", "Contact Location")
-            for i in range(3)
+            for i in range(4)
         ],
     }
 
@@ -83,11 +90,12 @@ def display_scorecard():
         values["contact_locations"],
         values["track_angles"],
         values["hunting_dists"],
+        values['swing_similarities'],
     )
     # prep dataframe to show custom sort order and readable columns
     df_min_swings = df[df["swing_count"] >= min_swing_count]
     scorecard = df_min_swings[
-        ["batter", "swing_count", "timing_grade", "track_angle_grade", "hunting_grade"]
+        ["batter", "swing_count", "timing_grade", "track_angle_grade", "hunting_grade", "dist_grade"]
     ]
     column_name_map = {
         "batter": "Batter ID",
@@ -95,6 +103,7 @@ def display_scorecard():
         "timing_grade": "Contact Location",
         "track_angle_grade": "Tracking Angle",
         "hunting_grade": "Hunting Pitches",
+        "dist_grade": "Swing Similarity",
     }
 
     display_scorecard = scorecard.copy()
@@ -154,8 +163,8 @@ if "initialized" not in st.session_state:
         st.session_state[f"contact_location_{i}_default"] = 1.5 - 0.75 * i
         st.session_state[f"hunting_{i}_default"] = 0.5 + 0.25 * i
         st.session_state[f"track_angle_{i}_default"] = 5
-        if i < 3:
-            st.session_state[f"priority_{i}_default"] = metric_options[i]
+        st.session_state[f"swing_similarity_{i}_default"] = 1 - 0.1 * i
+        st.session_state[f"priority_{i}_default"] = metric_options[i]
     st.session_state["swing_count_default"] = 2
     st.session_state["initialized"] = True
 
@@ -253,6 +262,16 @@ if tab_selection == "Customize Grading":
     # Add some spacing
     st.markdown("<br>", unsafe_allow_html=True)
 
+    # Swing Similarity
+    st.subheader("Swing Similarity")
+    col1 = st.columns(1)[0]
+
+    with col1:
+        swing_similarity = [st.slider(widget_grades[i], 0.1, 1.0,
+                                      st.session_state[f'swing_similarity_{i}_default'],
+                                      step=0.1,
+                                      key=f"swing_similarity_{i}",) for i in range(4)]
+
 # ------------------------------------------------
 elif tab_selection == "Scorecard":
     st.sidebar.header("Metric Priorities")
@@ -265,7 +284,7 @@ elif tab_selection == "Scorecard":
             key=f"priority_{i}",
             on_change=save_widget_states,
         )
-        for i in range(3)
+        for i in range(4)
     ]
 
     st.sidebar.header("Minimum Swing Count")
@@ -353,6 +372,16 @@ elif tab_selection == "Batter Plots":
                     st.pyplot(loc_fig)
                 except Exception as e:
                     st.error(f"Error in viz_contact_loc: {e}")
+
+                # Add some spacing
+                st.markdown("<br>", unsafe_allow_html=True)
+
+                st.subheader("Swing Similarity Plot")
+                try:
+                    sim_plot = f"{image_folder}/{batter_id}_similarity.png"
+                    st.image(sim_plot)
+                except Exception as e:
+                    st.error(f"Error in similarity plot: {e}")
 
         if batter_id:
             update_plots(batter_id)
