@@ -164,7 +164,86 @@ def filter_middle_percent(image, percentage=50):
     cropped_img = image.crop((left, top, right, bottom))
     return cropped_img
 
+def tracking_plot():
+    st.subheader("Tracking Angle Plot")
+    try:
+        tracking_df = create_tracking_score_df(
+            get_slider_values()["track_angles"], tracking_metrics_df
+        )
+        track_fig = generate_track_angle_plot(
+            batter_id, tracking_df, get_slider_values()["track_angles"]
+        )
 
+        # Extract and display image
+        image = extract_image(track_fig)
+        st.image(image, use_column_width=True)
+
+    except Exception as e:
+        st.error(f"Error in plot_tracking_angles: {e}")
+
+def hunting_plot():
+    st.subheader("Hunting Pitches Plot")
+    try:
+        hunt_grade = scorecard.query(f"batter == {batter_id}")[
+            "hunting_grade"
+        ].item()
+        batter_map = swing_map_df.query(f"batter == {batter_id}")
+        hunt_fig = plot_hunting(batter_map, hunt_grade)
+        st.pyplot(hunt_fig)
+    except Exception as e:
+        st.error(f"Error in plot_hunting: {e}")
+
+    
+def contact_loc_plot():
+    st.subheader("Contact Location Plot")
+    try:
+        loc_grade = scorecard.query(f"batter == {batter_id}")[
+            "timing_grade"
+        ].item()
+        batter_timing = timing_metrics_df.query(f"batter == {batter_id}")
+        loc_fig = viz_contact_loc(
+            batter_timing,
+            loc_grade,
+            get_slider_values()["contact_locations"],
+        )
+        st.pyplot(loc_fig)
+    except Exception as e:
+        st.error(f"Error in viz_contact_loc: {e}")
+
+def swing_sim_plot():
+    st.subheader("Swing Similarity Plot")
+    try:
+        sim_plot = f"{image_folder}/{batter_id}_similarity.png"
+        st.image(sim_plot)
+    except Exception as e:
+        st.error(f"Error in similarity plot: {e}")
+
+def update_plots(batter_id):
+    """
+    Displays the plots based on the selected batter ID and metric priority order.
+
+    Args:
+        batter_id (int): The ID of the selected batter.
+    """
+    # Get priority order and add any unselected metrics to end
+    values = get_slider_values()
+    priorities = pd.Series(values["metric_order"]).drop_duplicates().tolist()
+    unset_priorities = [order for order in metric_options if order not in priorities]
+    priorities.extend(unset_priorities)
+
+    for metric in priorities: 
+        st.markdown("<br>", unsafe_allow_html=True)
+        if metric == "Contact Location":
+            contact_loc_plot()
+        elif metric == "Tracking Angle":
+            tracking_plot()
+        elif metric == "Hunting Pitches":
+            hunting_plot()
+        elif metric == "Swing Similarity":
+            swing_sim_plot()
+        else:
+            st.write("An unexpected plotting option was provided")
+            
 # -------------------------------------------------------
 # Initialize session state for sliders and dropdowns if not already set
 if "initialized" not in st.session_state:
@@ -324,76 +403,10 @@ elif tab_selection == "Batter Plots":
             "Select Batter", batter_list, key="batter_selector"
         )
 
-        def update_plots(batter_id):
-            """
-            Updates the plots based on the selected batter ID.
-
-            Args:
-                batter_id (int): The ID of the selected batter.
-            """
-            if batter_id:
-                # Add some spacing
-                st.markdown("<br>", unsafe_allow_html=True)
-                st.subheader("Tracking Angle Plot")
-                try:
-                    tracking_df = create_tracking_score_df(
-                        get_slider_values()["track_angles"], tracking_metrics_df
-                    )
-                    track_fig = generate_track_angle_plot(
-                        batter_id, tracking_df, get_slider_values()["track_angles"]
-                    )
-
-                    # Extract and display image
-                    image = extract_image(track_fig)
-                    st.image(image, use_column_width=True)
-
-                except Exception as e:
-                    st.error(f"Error in plot_tracking_angles: {e}")
-
-                # Add some spacing
-                st.markdown("<br>", unsafe_allow_html=True)
-
-                st.subheader("Hunting Pitches Plot")
-                try:
-                    hunt_grade = scorecard.query(f"batter == {batter_id}")[
-                        "hunting_grade"
-                    ].item()
-                    batter_map = swing_map_df.query(f"batter == {batter_id}")
-                    hunt_fig = plot_hunting(batter_map, hunt_grade)
-                    st.pyplot(hunt_fig)
-                except Exception as e:
-                    st.error(f"Error in plot_hunting: {e}")
-
-                # Add some spacing
-                st.markdown("<br>", unsafe_allow_html=True)
-
-                st.subheader("Contact Location Plot")
-                try:
-                    loc_grade = scorecard.query(f"batter == {batter_id}")[
-                        "timing_grade"
-                    ].item()
-                    batter_timing = timing_metrics_df.query(f"batter == {batter_id}")
-                    loc_fig = viz_contact_loc(
-                        batter_timing,
-                        loc_grade,
-                        get_slider_values()["contact_locations"],
-                    )
-                    st.pyplot(loc_fig)
-                except Exception as e:
-                    st.error(f"Error in viz_contact_loc: {e}")
-
-                # Add some spacing
-                st.markdown("<br>", unsafe_allow_html=True)
-
-                st.subheader("Swing Similarity Plot")
-                try:
-                    sim_plot = f"{image_folder}/{batter_id}_similarity.png"
-                    st.image(sim_plot)
-                except Exception as e:
-                    st.error(f"Error in similarity plot: {e}")
-
         if batter_id:
             update_plots(batter_id)
+        else:
+            st.write("Please select a batter to display metric visuals.")
     else:
         st.write("Scorecard has not been created.")
         st.write("Please go to the Scorecard tab first to create the scorecard")
