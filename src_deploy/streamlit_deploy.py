@@ -13,8 +13,8 @@ from contact_loc import viz_contact_loc
 from scorecard import generate_scorecard
 
 # Load data
-# github = "https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main"
-github = ".."
+github = "https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main"
+# github = ".."
 data_folder = f"{github}/data/dataframes"
 image_folder = f"{github}/images/grades"
 
