@@ -24,6 +24,8 @@ def score_contact_loc(quality_locations, contact_loc):
         score = 3
     elif contact_loc > quality_locations[3]:
         score = 2
+    elif contact_loc > quality_locations[4]:
+        score = 1
     else:
         score = 0
     return score
@@ -118,11 +120,12 @@ def viz_contact_loc(batter_df, grade, quality_locations):
         (quality_locations[0], quality_locations[1]),
         (quality_locations[1], quality_locations[2]),
         (quality_locations[2], quality_locations[3]),
-        (quality_locations[3], x_min)
+        (quality_locations[3], quality_locations[4]),
+        (quality_locations[4], x_min),
     ]
     legend_patches = []
-    zones = ['Other', 'Grade A', 'Grade B', 'Grade C', 'Other']
-    zone_colors = ['red', 'green', 'blue', 'orange', 'red']
+    zones = ['Other', 'Grade A', 'Grade B', 'Grade C', 'Grade D', 'Other']
+    zone_colors = ['white', 'green', 'blue', 'orange', 'red', 'white']
     for i, range in enumerate(ranges):
         right = range[0] - 0.02
         left = range[1]
@@ -135,7 +138,7 @@ def viz_contact_loc(batter_df, grade, quality_locations):
         legend_patches.append(rect)
 
     # Add two legends
-    quality_legend = plt.legend(legend_patches[1:], zones[1:], loc='upper left',
+    quality_legend = plt.legend(legend_patches[1:-1], zones[1:-1], loc='upper left',
                                 bbox_to_anchor=(1, 0.8), fontsize=font3['size'],
                                 title='Quality Locations', title_fontsize=font2['size'])
     
@@ -163,7 +166,7 @@ def viz_contact_loc(batter_df, grade, quality_locations):
 if __name__ == '__main__':
 
     timing_metrics_df = pd.read_csv('../data/dataframes/timing_metrics_df.csv')
-    qual_locs = [1.5, 0.9, 0.2, -0.5]
+    qual_locs = [1.5, 0.9, 0.2, -0.5, -1.0]
     timing_score_df = contact_loc_scorecard(qual_locs, timing_metrics_df)
 
     batter_list = [849653732, 558675411]

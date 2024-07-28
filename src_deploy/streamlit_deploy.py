@@ -123,10 +123,14 @@ def display_scorecard():
     # collect widget values
     values = get_slider_values()
     min_swing_count = st.session_state["swing_count_default"]
+    
+    contact_locs = [locs[1] for locs in values["contact_locations"]]
+    top = [values["contact_locations"][-1][0]]
+    contact_locs.extend(top)
     # build scorecard with custom criteria
     df = generate_scorecard(
         data_folder,
-        [loc[1] for loc in values["contact_locations"]],
+        contact_locs,
         values["track_angles"],
         [loc[1] for loc in values["hunting_dists"]],
         [loc[1] for loc in values['swing_similarities']],
@@ -258,11 +262,15 @@ def contact_loc_plot(batter_id):
             "timing_grade"
         ].item()
         batter_timing = timing_metrics_df.query(f"batter == {batter_id}")
-        tops = [locs[1] for locs in get_slider_values()["contact_locations"]]
+
+        plot_locs = [locs[1] for locs in get_slider_values()["contact_locations"]]
+        top = [contact_location[-1][0]]
+        plot_locs.extend(top)
+
         loc_fig = viz_contact_loc(
             batter_timing,
             loc_grade,
-            tops,
+            plot_locs,
         )
         st.pyplot(loc_fig)
     except Exception as e:
@@ -310,9 +318,10 @@ def update_plots(batter_id):
             
 # -------------------------------------------------------
 # Initialize session state for sliders and dropdowns if not already set
+contact_locs_defaults = [(0.75, 1.5), (0.25, 0.75), (-0.5, 0.25), (-1.5, -0.5)]
 if "initialized" not in st.session_state:
     for i in range(4):
-        st.session_state[f"contact_location_{i}_default"] = (1.5 - 0.75 * (i + 1), 1.5 - 0.75 * i)
+        st.session_state[f"contact_location_{i}_default"] = contact_locs_defaults[i]
         st.session_state[f"hunting_{i}_default"] = (0.5 + 0.2 * i, 0.5 + 0.2 * (i + 1))
         st.session_state[f"track_angle_{i}_default"] = 5
         st.session_state[f"swing_similarity_{i}_default"] = (1 - 0.1 * (i + 1), 1 - 0.1 * i)
@@ -321,7 +330,7 @@ if "initialized" not in st.session_state:
     st.session_state["initialized"] = True
 
 # Main title
-st.title("Baseball Swing Metrics Dashboard")
+st.title("Baseball Swing Scouting Dashboard")
 
 # Tabs for UI
 tab_selection = st.sidebar.radio(
@@ -352,11 +361,14 @@ if tab_selection == "Customize Grading":
         ]
 
     with col2:
-        tops = [locs[1] for locs in contact_location]
+        plot_locs = [locs[1] for locs in contact_location]
+        top = [contact_location[-1][0]]
+        plot_locs.extend(top)
         try:
-            fig_location = viz_contact_loc(None, None, tops)
+            fig_location = viz_contact_loc(None, None, plot_locs)
             st.pyplot(fig_location)
         except Exception as e:
+            st.write(plot_locs)
             st.error(f"Error in viz_contact_loc: {e}")
 
     # Add some spacing
