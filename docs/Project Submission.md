@@ -22,8 +22,8 @@ Finally, creating the app required addressing nuances of visual spacing, statefu
 
 ## Next Steps
 * Metrics Correlation - These new metrics could be included in correlation analysis or used to model game outcomes. Analyzing an entire season of data would provide sufficient data to determine how well these new metrics correlate with different performance metrics. This analysis would allow for better default settings for the metrics grading or suggestions for priorities or weighting when ranking batters.
-* Limitation Reduction - Each of the metrics has its limitations. Some of the limitations can be mitigated with additional time or data. Specifically, with further data, the swing similarity analysis could tease apart details like pitch type or pitch location.
-* Tool Extention - The tool was designed with a scout in mind, but these swing metrics can be valuable for pitchers prepping for their next series, or for batter reflecting on their performance. The tool could be adjusted for each of these use cases. For the scout, an additional option to review two or more batters simultaneously would also be a valuable addition.
+* Limitation Reduction - Each of the metrics has its limitations. Some of the limitations can be mitigated with additional time or data. Specifically, with further data, the swing similarity analysis could tease apart details, like pitch type or pitch location.
+* Tool Extention - The tool was designed with a scout in mind, but these swing metrics can be valuable for pitchers prepping for their next series, or for a batter reflecting on their performance. The tool could be adjusted for each of these use cases. For the scout, an additional option to review two or more batters simultaneously would also be a valuable addition.
 * Composite Score - The tool currently allows the user to rank the players by setting the priority of the different metrics. Additional value could be provided by determining a composite score for each player that would offer better rankings. The composite score could be a weighting applied to each metric to generate a final score more nuanced than the graded rankings.
 
 ## GitHub Link
