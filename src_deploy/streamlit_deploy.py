@@ -287,10 +287,11 @@ elif tab_selection == "Batter Plots":
     st.header("Batter Plots")
 
     scorecard = st.session_state.get("scorecard", pd.DataFrame())
-    batter_list = st.session_state.get("batter_list", scorecard["batter"].tolist())
 
     if not scorecard.empty:
         st.sidebar.header("Select Batter")
+
+        batter_list = st.session_state.get("batter_list", scorecard["batter"].tolist())
         batter_id = st.sidebar.selectbox(
             "Select Batter", batter_list, key="batter_selector"
         )
@@ -355,3 +356,6 @@ elif tab_selection == "Batter Plots":
 
         if batter_id:
             update_plots(batter_id)
+    else:
+        st.write("Scorecard has not been created.")
+        st.write("Please go to the Scorecard tab first to create the scorecard")
