@@ -4,7 +4,7 @@ The swing scouting [dashboard](https://wisd2024-swing-metric-dashboard.streamlit
 ### Navigation
 The tool is navigated with radio buttons in the sidebar. The first tab is the Custom Grading page. When switching to the Scorecard tab the metric priority and swing count widgets will become available in the side bar. Similarly, the batter selection dropdown becomes avaiable in the side bar on the Batter Plots tab.
 
-![Navigation Pane](../images/tool/navigation.png)
+![Navigation Pane](../images/tool/navigation.png =x250)
 
 ### Set Custom Grading Ranges
 The first section in the tool allows the user to set the custom grading ranges. 
