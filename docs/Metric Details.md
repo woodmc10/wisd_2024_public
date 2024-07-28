@@ -64,7 +64,6 @@ The second example shows a batter who most often does not meet the pitch on the 
 ![Grade C Tracking Angle](../images/grades/545569723_tracking.png)
 
 ### Similarity Score
-> Note: The batting tool will not include the similarity score. Generating the score and the visuals for the score required access to the raw bat tracking data, which cannot be shared in the public repo used to deploy the tool.
 
 Similarity score evaluates how consistent a player is with each of their swings. Efficient and repeatable swing mechanics are a critical part of good batting.[^2] Check swings, [swords](https://www.mlb.com/glossary/statcast/sword), and hacks at bad pitches are all indications that a pitch fooled a batter. These swings have lower chances of becoming quality hits than those with good, consistent mechanics. Evaluating swing consistency can provide scouts with information that can be difficult to collect through visual review. 
 
