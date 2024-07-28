@@ -121,7 +121,7 @@ def viz_contact_loc(batter_df, grade, quality_locations):
         (quality_locations[3], x_min)
     ]
     legend_patches = []
-    zones = ['Other', 'Home Run', 'Line Drive', 'Ground Ball', 'Other']
+    zones = ['Other', 'Grade A', 'Grade B', 'Grade C', 'Other']
     zone_colors = ['red', 'green', 'blue', 'orange', 'red']
     for i, range in enumerate(ranges):
         right = range[0] - 0.02
@@ -135,7 +135,7 @@ def viz_contact_loc(batter_df, grade, quality_locations):
         legend_patches.append(rect)
 
     # Add two legends
-    quality_legend = plt.legend(legend_patches[:-1], zones[:-1], loc='upper left',
+    quality_legend = plt.legend(legend_patches[1:], zones[1:], loc='upper left',
                                 bbox_to_anchor=(1, 0.8), fontsize=font3['size'],
                                 title='Quality Locations', title_fontsize=font2['size'])
     

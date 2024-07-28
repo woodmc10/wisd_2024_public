@@ -115,6 +115,15 @@ def display_scorecard():
     display_scorecard["Batter ID"] = (
         display_scorecard["Batter ID"].astype(int).astype(str)
     )
+    # sort display columns to match priority order
+    priority_metrics = pd.Series(values["metric_order"]).drop_duplicates().tolist()
+    all_metrics = [option for option in metric_options]
+    display_columns = ["Batter ID", "Swing Count"]
+    missing_metrics = set(all_metrics).difference(set(priority_metrics))
+    display_columns.extend(list(priority_metrics))
+    display_columns.extend(list(missing_metrics))
+    display_scorecard = display_scorecard[display_columns]
+
     st.write(display_scorecard)
     return scorecard
 
@@ -233,7 +242,7 @@ if tab_selection == "Customize Grading":
     # Add some spacing
     st.markdown("<br>", unsafe_allow_html=True)
 
-    st.subheader("Track Angle")
+    st.subheader("Tracking Angle")
     col1, col2 = st.columns([1, 3])
 
     with col1:

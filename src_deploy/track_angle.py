@@ -340,6 +340,7 @@ def plot_tracking_angles(
         names = [""] * len(sorted_colors)
         names[0] = "High"
         names[-1] = "Low"
+        legend_title = "Swing Frequency"
     else:
         # set values to generate customization plot
         base_colors = [
@@ -360,6 +361,7 @@ def plot_tracking_angles(
         colors.insert(0, "white")
         sorted_colors = colors[4:8]
         names = ["Grade A", "Grade B", "Grade C", "Grade D"]
+        legend_title = "Scoring Ranges"
 
     data = [
         go.Barpolar(
@@ -393,7 +395,7 @@ def plot_tracking_angles(
             "legend": {"visible": False},
             "legend2": {
                 "font": {"size": 20},
-                "title": "Swing Frequency",
+                "title": legend_title,
                 "xref": "paper",
                 "x": 0.75,
                 "itemsizing": "constant",

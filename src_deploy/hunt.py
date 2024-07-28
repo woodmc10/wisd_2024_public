@@ -354,7 +354,7 @@ def plot_hunting(swing_map_df, grade, radii=None):
         subtitle = ""
 
     # add title
-    plt.title(f"Hunting Pitches{subtitle}", font1)
+    plt.title(f"Pitch Hunting{subtitle}", font1)
     # remove grid and axes
     plt.grid(False)
     plt.axis("off")
