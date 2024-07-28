@@ -54,22 +54,61 @@ def get_slider_values():
     """
     return {
         "contact_locations": [
-            st.session_state.get(f"contact_location_{i}_default", 0.5) for i in range(4)
+            st.session_state.get(f"contact_location_{i}_default", (0.5, 1)) for i in range(4)
         ],
         "hunting_dists": [
-            st.session_state.get(f"hunting_{i}_default", 1.0) for i in range(4)
+            st.session_state.get(f"hunting_{i}_default", (1.0, 2.0)) for i in range(4)
         ],
         "track_angles": [
             st.session_state.get(f"track_angle_{i}_default", 5) for i in range(4)
         ],
         "swing_similarities":[
-            st.session_state.get(f'swing_similarity_{i}_default', 0.9) for i in range(4)
+            st.session_state.get(f'swing_similarity_{i}_default', (0.9, 1.0)) for i in range(4)
         ],
         "metric_order": [
             st.session_state.get(f"priority_{i}_default", "Contact Location")
             for i in range(4)
         ],
     }
+
+def update_sliders(slider_idx, metric, direction="increasing"):
+    """
+    Update the values of sliders above and below the currently adjusted slider to maintain linked ranges.
+
+    Args:
+    slider_idx (int): The index of the currently adjusted slider.
+    metric (str): The metric associated with the sliders (e.g., 'contact_location').
+    direction (str, optional): The direction in which the values should be propagated. 
+                               Defaults to "increasing". Can be "increasing" or "decreasing".
+
+    This function dynamically updates the default values of sliders based on the selected value of the current slider. 
+    If `direction` is "increasing", it updates the slider below to start where the current slider ends. 
+    If `direction` is "decreasing", it updates the slider above to end where the current slider starts.
+    """
+    value = st.session_state[f"{metric}_{slider_idx}"]
+    st.session_state[f"{metric}_{slider_idx}_default"] = value
+    current_bottom = value[0]
+    current_top = value[1]
+
+    # Update slider below the current one 
+    if slider_idx < 3:
+        below = st.session_state[f"{metric}_{slider_idx+1}_default"]
+        below_top = below[1]
+        below_bottom = below[0]
+        if direction == "increasing":
+            st.session_state[f"{metric}_{slider_idx+1}_default"] = (current_top, below_top)
+        elif direction == "decreasing":
+            st.session_state[f"{metric}_{slider_idx+1}_default"] = (below_bottom, current_bottom)
+    
+    # Update sliders above the current one
+    if slider_idx > 0:
+        above = st.session_state[f"{metric}_{slider_idx-1}_default"]
+        above_bottom = above[0]
+        above_top = above[1]
+        if direction == "increasing":
+            st.session_state[f"{metric}_{slider_idx-1}_default"] = (above_bottom, current_bottom)
+        if direction == "decreasing":
+            st.session_state[f"{metric}_{slider_idx-1}_default"] = (current_top, above_top)
 
 
 def display_scorecard():
@@ -87,10 +126,10 @@ def display_scorecard():
     # build scorecard with custom criteria
     df = generate_scorecard(
         data_folder,
-        values["contact_locations"],
+        [loc[1] for loc in values["contact_locations"]],
         values["track_angles"],
-        values["hunting_dists"],
-        values['swing_similarities'],
+        [loc[1] for loc in values["hunting_dists"]],
+        [loc[1] for loc in values['swing_similarities']],
     )
     # prep dataframe to show custom sort order and readable columns
     df_min_swings = df[df["swing_count"] >= min_swing_count]
@@ -219,10 +258,11 @@ def contact_loc_plot(batter_id):
             "timing_grade"
         ].item()
         batter_timing = timing_metrics_df.query(f"batter == {batter_id}")
+        tops = [locs[1] for locs in get_slider_values()["contact_locations"]]
         loc_fig = viz_contact_loc(
             batter_timing,
             loc_grade,
-            get_slider_values()["contact_locations"],
+            tops,
         )
         st.pyplot(loc_fig)
     except Exception as e:
@@ -272,10 +312,10 @@ def update_plots(batter_id):
 # Initialize session state for sliders and dropdowns if not already set
 if "initialized" not in st.session_state:
     for i in range(4):
-        st.session_state[f"contact_location_{i}_default"] = 1.5 - 0.75 * i
-        st.session_state[f"hunting_{i}_default"] = 0.5 + 0.25 * i
+        st.session_state[f"contact_location_{i}_default"] = (1.5 - 0.75 * (i + 1), 1.5 - 0.75 * i)
+        st.session_state[f"hunting_{i}_default"] = (0.5 + 0.2 * i, 0.5 + 0.2 * (i + 1))
         st.session_state[f"track_angle_{i}_default"] = 5
-        st.session_state[f"swing_similarity_{i}_default"] = 1 - 0.1 * i
+        st.session_state[f"swing_similarity_{i}_default"] = (1 - 0.1 * (i + 1), 1 - 0.1 * i)
         st.session_state[f"priority_{i}_default"] = metric_options[i]
     st.session_state["swing_count_default"] = 2
     st.session_state["initialized"] = True
@@ -300,18 +340,21 @@ if tab_selection == "Customize Grading":
         contact_location = [
             st.slider(
                 widget_grades[i],
-                -1.0,
+                -1.5,
                 2.0,
                 st.session_state[f"contact_location_{i}_default"],
                 step=0.25,
                 key=f"contact_location_{i}",
+                on_change=update_sliders,
+                args=(i, "contact_location", "decreasing"),
             )
             for i in range(4)
         ]
 
     with col2:
+        tops = [locs[1] for locs in contact_location]
         try:
-            fig_location = viz_contact_loc(None, None, contact_location)
+            fig_location = viz_contact_loc(None, None, tops)
             st.pyplot(fig_location)
         except Exception as e:
             st.error(f"Error in viz_contact_loc: {e}")
@@ -327,17 +370,20 @@ if tab_selection == "Customize Grading":
             st.slider(
                 widget_grades[i],
                 0.0,
-                3.0,
+                2.0,
                 st.session_state[f"hunting_{i}_default"],
-                step=0.25,
+                step=0.1,
                 key=f"hunting_{i}",
+                on_change=update_sliders,
+                args=(i, "hunting", "increasing"),
             )
             for i in range(4)
         ]
 
     with col2:
         try:
-            fig_swing = plot_hunting(None, None, hunting)
+            tops = [locs[1] for locs in hunting]
+            fig_swing = plot_hunting(None, None, tops)
             st.pyplot(fig_swing)
         except Exception as e:
             st.error(f"Error in plot_hunting: {e}")
@@ -379,10 +425,12 @@ if tab_selection == "Customize Grading":
     col1 = st.columns(1)[0]
 
     with col1:
-        swing_similarity = [st.slider(widget_grades[i], 0.1, 1.0,
+        swing_similarity = [st.slider(widget_grades[i], 0.5, 1.0,
                                       st.session_state[f'swing_similarity_{i}_default'],
-                                      step=0.1,
-                                      key=f"swing_similarity_{i}",) for i in range(4)]
+                                      step=0.05,
+                                      key=f"swing_similarity_{i}",
+                on_change=update_sliders,
+                args=(i, "swing_similarity", "decreasing"),) for i in range(4)]
 
 # ------------------------------------------------
 elif tab_selection == "Scorecard":
