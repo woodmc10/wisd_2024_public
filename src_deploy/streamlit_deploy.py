@@ -3,13 +3,13 @@ import pandas as pd
 import plotly.io as pio
 from PIL import Image
 from io import BytesIO
-from attack_angle import (
+from track_angle import (
     plot_tracking_angles,
     create_tracking_score_df,
     generate_track_angle_plot,
 )
-from swing_map import plot_swing_map
-from timing_rotate import viz_contact_loc
+from hunt import plot_hunting
+from contact_loc import viz_contact_loc
 from scorecard import generate_scorecard
 
 # Load data
@@ -216,10 +216,10 @@ if tab_selection == "Customize Grading":
 
     with col2:
         try:
-            fig_swing = plot_swing_map(None, None, hunting)
+            fig_swing = plot_hunting(None, None, hunting)
             st.pyplot(fig_swing)
         except Exception as e:
-            st.error(f"Error in plot_swing_map: {e}")
+            st.error(f"Error in plot_hunting: {e}")
 
     # Add some spacing
     st.markdown("<br>", unsafe_allow_html=True)
@@ -331,10 +331,10 @@ elif tab_selection == "Batter Plots":
                         "hunting_grade"
                     ].item()
                     batter_map = swing_map_df.query(f"batter == {batter_id}")
-                    hunt_fig = plot_swing_map(batter_map, hunt_grade)
+                    hunt_fig = plot_hunting(batter_map, hunt_grade)
                     st.pyplot(hunt_fig)
                 except Exception as e:
-                    st.error(f"Error in plot_swing_map: {e}")
+                    st.error(f"Error in plot_hunting: {e}")
 
                 # Add some spacing
                 st.markdown("<br>", unsafe_allow_html=True)

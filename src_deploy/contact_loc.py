@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from matplotlib.lines import Line2D
-from distance import get_grade, color_letter
+from utils import get_grade, color_letter
 
 def score_contact_loc(quality_locations, contact_loc):
     """
@@ -28,7 +28,7 @@ def score_contact_loc(quality_locations, contact_loc):
         score = 0
     return score
 
-def timing_scorecard(quality_locations, timing_df):
+def contact_loc_scorecard(quality_locations, timing_df):
     """
     Generates a scorecard for timing data based on contact locations.
 
@@ -164,7 +164,7 @@ if __name__ == '__main__':
 
     timing_metrics_df = pd.read_csv('../data/dataframes/timing_metrics_df.csv')
     qual_locs = [1.5, 0.9, 0.2, -0.5]
-    timing_score_df = timing_scorecard(qual_locs, timing_metrics_df)
+    timing_score_df = contact_loc_scorecard(qual_locs, timing_metrics_df)
 
     batter_list = [849653732, 558675411]
         # when ready, create a list of all batters in scorecard_df and loop through

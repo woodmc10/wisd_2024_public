@@ -1,7 +1,7 @@
 import pandas as pd
-from swing_map import swing_map_scorecard
-from attack_angle import create_tracking_score_df
-from timing_rotate import timing_scorecard
+from hunt import hunt_scorecard
+from track_angle import create_tracking_score_df
+from contact_loc import contact_loc_scorecard
 
 
 def merge_metrics(data_folder):
@@ -64,11 +64,11 @@ def generate_scorecard(
     # get all metrics for each swing
     all_swing_metrics_df = merge_metrics(data_folder)
     # get summary metrics for each batter
-    timing_score_df = timing_scorecard(contact_location_values, all_swing_metrics_df)
+    timing_score_df = contact_loc_scorecard(contact_location_values, all_swing_metrics_df)
     tracking_score_df = create_tracking_score_df(
         track_angle_values, all_swing_metrics_df
     )
-    hunting_score_df = swing_map_scorecard(hunting_values, all_swing_metrics_df)
+    hunting_score_df = hunt_scorecard(hunting_values, all_swing_metrics_df)
     # merge all metrics into a scorecard
     scorecard_df = timing_score_df.merge(
         tracking_score_df, on="batter", how="outer"

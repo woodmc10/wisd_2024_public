@@ -6,8 +6,8 @@ import numpy as np
 from matplotlib import patches
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from attack_angle import get_ball_contact_idx
-from distance import get_grade, color_letter
+from track_angle import get_ball_contact_idx
+from utils import get_grade, color_letter
 
 
 def geometric_median(df, epsilon=1e-5):
@@ -147,7 +147,7 @@ def score_distances(quality_distances, hunt_distance):
     return score
 
 
-def swing_map_scorecard(hunt_dist, swing_map_df):
+def hunt_scorecard(hunt_dist, swing_map_df):
     """
     Generates a scorecard for swing map data based on hunt distances.
 
@@ -190,7 +190,7 @@ def swing_map_scorecard(hunt_dist, swing_map_df):
     return pd.DataFrame.from_dict(scorecard_list)
 
 
-def plot_swing_map(swing_map_df, grade, radii=None):
+def plot_hunting(swing_map_df, grade, radii=None):
     """
     Plots the swing map with pitch locations and optional radii.
 
@@ -368,7 +368,7 @@ if __name__ == "__main__":
 
     hunting_defaults = [0.5, 0.75, 1, 1.25]
     swing_map_df = pd.read_csv("../data/dataframes/swing_map_metrics_df.csv")
-    scorecard_df = swing_map_scorecard(hunting_defaults, swing_map_df)
+    scorecard_df = hunt_scorecard(hunting_defaults, swing_map_df)
 
     # batter_list = swing_map_df.batter.unique()
     batter_list = [459722179, 558675411, 545569723]
@@ -384,9 +384,9 @@ if __name__ == "__main__":
         grade = scorecard_df[scorecard_df["batter"] == batter_id][
             "hunting_grade"
         ].values[0]
-        plot_swing_map(batter_df, grade)
+        plot_hunting(batter_df, grade)
         plt.show()
         # plt.savefig(f'../images/grades/{batter_id}_hunting.png')
 
-    plot_swing_map(None, None, hunting_defaults)
+    plot_hunting(None, None, hunting_defaults)
     plt.show()

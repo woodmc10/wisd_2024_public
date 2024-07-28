@@ -1,6 +1,6 @@
 import math
 import pandas as pd
-from distance import get_grade, color_letter
+from utils import get_grade, color_letter
 
 import plotly.graph_objects as go
 from PIL import Image
