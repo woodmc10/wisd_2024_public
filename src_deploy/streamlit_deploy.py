@@ -164,7 +164,13 @@ def filter_middle_percent(image, percentage=50):
     cropped_img = image.crop((left, top, right, bottom))
     return cropped_img
 
-def tracking_plot():
+def tracking_plot(batter_id):
+    """
+    Displays tracking angle plot for the selected batter.
+
+    Args:
+        batter_id (int): The ID of the selected batter.
+    """
     st.subheader("Tracking Angle Plot")
     try:
         tracking_df = create_tracking_score_df(
@@ -181,7 +187,13 @@ def tracking_plot():
     except Exception as e:
         st.error(f"Error in plot_tracking_angles: {e}")
 
-def hunting_plot():
+def hunting_plot(batter_id):
+    """
+    Displays hunting pitches plot for the selected batter.
+
+    Args:
+        batter_id (int): The ID of the selected batter.
+    """
     st.subheader("Hunting Pitches Plot")
     try:
         hunt_grade = scorecard.query(f"batter == {batter_id}")[
@@ -194,7 +206,13 @@ def hunting_plot():
         st.error(f"Error in plot_hunting: {e}")
 
     
-def contact_loc_plot():
+def contact_loc_plot(batter_id):
+    """
+    Displays contact location plot for the selected batter.
+
+    Args:
+        batter_id (int): The ID of the selected batter.
+    """
     st.subheader("Contact Location Plot")
     try:
         loc_grade = scorecard.query(f"batter == {batter_id}")[
@@ -210,7 +228,13 @@ def contact_loc_plot():
     except Exception as e:
         st.error(f"Error in viz_contact_loc: {e}")
 
-def swing_sim_plot():
+def swing_sim_plot(batter_id):
+    """
+    Displays swing similarity plot for the selected batter.
+
+    Args:
+        batter_id (int): The ID of the selected batter.
+    """
     st.subheader("Swing Similarity Plot")
     try:
         sim_plot = f"{image_folder}/{batter_id}_similarity.png"
@@ -234,13 +258,13 @@ def update_plots(batter_id):
     for metric in priorities: 
         st.markdown("<br>", unsafe_allow_html=True)
         if metric == "Contact Location":
-            contact_loc_plot()
+            contact_loc_plot(batter_id)
         elif metric == "Tracking Angle":
-            tracking_plot()
+            tracking_plot(batter_id)
         elif metric == "Hunting Pitches":
-            hunting_plot()
+            hunting_plot(batter_id)
         elif metric == "Swing Similarity":
-            swing_sim_plot()
+            swing_sim_plot(batter_id)
         else:
             st.write("An unexpected plotting option was provided")
             
