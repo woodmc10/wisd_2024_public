@@ -8,7 +8,7 @@ from swing_map import plot_swing_map
 from timing_rotate import viz_contact_loc
 from scorecard import generate_scorecard
 
-# Load your data
+# Load data
 data_folder = 'https://raw.githubusercontent.com/woodmc10/wisd_2024_public/main/data/dataframes'
 swing_map_df = pd.read_csv(f'{data_folder}/swing_map_metrics_df.csv')
 tracking_metrics_df = pd.read_csv(f'{data_folder}/tracking_metrics_df.csv')
@@ -25,6 +25,9 @@ metric_options = [
 widget_grades = ['Grade A', 'Grade B', 'Grade C', 'Grade D']
 
 def save_widget_states():
+    """
+    Saves the current state of all Streamlit widgets to the session state.
+    """
     for key in st.session_state.keys():
         key_default = f'{key}_default'
         if key_default in st.session_state:
@@ -33,7 +36,7 @@ def save_widget_states():
 def get_slider_values():
     """
     Retrieves the current values of all sliders and dropdowns from the session state.
-    
+
     Returns:
         dict: A dictionary containing current slider values and metric order.
     """
@@ -47,17 +50,21 @@ def get_slider_values():
 def display_scorecard():
     """
     Generates and displays the scorecard based on the current slider values and priorities.
-    
+
     Returns:
         pd.DataFrame: The generated scorecard DataFrame.
     """
+    # save the widget states to use metric priorities and swing count widget values
     save_widget_states()
+    # collect widget values
     values = get_slider_values()
     min_swing_count = st.session_state['swing_count_default']
+    # build scorecard with custom criteria
     df = generate_scorecard(data_folder,
                             values['contact_locations'],
                             values['track_angles'],
                             values['hunting_dists'])
+    # prep dataframe to show custom sort order and readable columns
     df_min_swings = df[df['swing_count'] >= min_swing_count]
     scorecard = df_min_swings[['batter', 'swing_count', 'timing_grade', 
                                'track_angle_grade', 'hunting_grade']]
@@ -70,18 +77,38 @@ def display_scorecard():
     display_scorecard = scorecard.copy()
     display_scorecard.rename(columns=column_name_map, inplace=True)
     display_scorecard = display_scorecard.sort_values(values['metric_order'])
+    # store the batter list for use in dropdown
     st.session_state['batter_list'] = display_scorecard['Batter ID'].tolist()
+    # change batter id to string to make prettier
     display_scorecard['Batter ID'] = display_scorecard['Batter ID'].astype(int).astype(str) 
     st.write(display_scorecard)
     return scorecard
 
 def extract_image(fig):
-    # Convert the Plotly figure to a PIL Image
+    """
+    Converts a Plotly figure to a PIL Image.
+
+    Args:
+        fig (plotly.graph_objs._figure.Figure): The Plotly figure to convert.
+
+    Returns:
+        PIL.Image.Image: The converted image.
+    """
     img_bytes = pio.to_image(fig, format="png", scale=2)
     img = Image.open(BytesIO(img_bytes))
     return img
 
 def filter_middle_percent(image, percentage=50):
+    """
+    Crops the image to the middle percentage of its width.
+
+    Args:
+        image (PIL.Image.Image): The image to crop.
+        percentage (int, optional): The percentage of the width to keep. Defaults to 50.
+
+    Returns:
+        PIL.Image.Image: The cropped image.
+    """
     width, height = image.size
     left = int((100 - percentage) / 2 * width / 100)
     right = width
@@ -115,9 +142,8 @@ tab_selection = st.sidebar.radio("Select Tab",
 if tab_selection == "Customize Grading":
     st.header("Customize Grading for Swing Metrics")
 
-    # Contact Location
     st.subheader("Contact Location")
-    col1, col2 = st.columns([1, 3])  # Adjust column width ratios as needed
+    col1, col2 = st.columns([1, 3]) 
 
     with col1:
         contact_location = [st.slider(widget_grades[i], -1.0, 2.0,
@@ -128,14 +154,13 @@ if tab_selection == "Customize Grading":
     with col2:
         try:
             fig_location = viz_contact_loc(None, None, contact_location)
-            st.pyplot(fig_location)  # Display Matplotlib figure
+            st.pyplot(fig_location) 
         except Exception as e:
             st.error(f"Error in viz_contact_loc: {e}")
 
     # Add some spacing
-    st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
+    st.markdown("<br>", unsafe_allow_html=True)
 
-    # Pitch Hunting
     st.subheader("Pitch Hunting")
     col1, col2 = st.columns([1, 3]) 
 
@@ -148,14 +173,13 @@ if tab_selection == "Customize Grading":
     with col2:
         try:
             fig_swing = plot_swing_map(None, None, hunting)
-            st.pyplot(fig_swing)  # Display Matplotlib figure
+            st.pyplot(fig_swing)
         except Exception as e:
             st.error(f"Error in plot_swing_map: {e}")
 
     # Add some spacing
-    st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
+    st.markdown("<br>", unsafe_allow_html=True)
 
-    # Track Angle
     st.subheader("Track Angle")
     col1, col2 = st.columns([1, 3]) 
 
@@ -167,20 +191,17 @@ if tab_selection == "Customize Grading":
     with col2:
         try:
             fig_tracking = plot_tracking_angles(track_angle)
-            # fig_html = pio.to_html(fig_tracking, full_html=False)
 
-            # Extract and filter image
+            # Extract, filter and display image
             image = extract_image(fig_tracking)
             filtered_image = filter_middle_percent(image, percentage=50)
-
-            # Display the filtered image
             st.image(filtered_image, use_column_width=True)
 
         except Exception as e:
             st.error(f"Error in plot_tracking_angles: {e}")
 
     # Add some spacing
-    st.markdown("<br>", unsafe_allow_html=True)  # Adds a line break
+    st.markdown("<br>", unsafe_allow_html=True)
 
 #------------------------------------------------
 elif tab_selection == "Scorecard":
@@ -218,24 +239,27 @@ elif tab_selection == "Batter Plots":
         def update_plots(batter_id):
             """
             Updates the plots based on the selected batter ID.
-            
-            Parameters:
+
+            Args:
                 batter_id (int): The ID of the selected batter.
             """
             if batter_id:
+                # Add some spacing
+                st.markdown("<br>", unsafe_allow_html=True)
                 st.subheader("Tracking Angle Plot")
                 try:
                     tracking_df = create_tracking_score_df(get_slider_values()['track_angles'], tracking_metrics_df)
                     track_fig = generate_track_angle_plot(batter_id, tracking_df, get_slider_values()['track_angles'])
 
-                    # Extract and filter image
+                    # Extract and display image
                     image = extract_image(track_fig)
-
-                    # Display the filtered image
                     st.image(image, use_column_width=True)
 
                 except Exception as e:
                     st.error(f"Error in plot_tracking_angles: {e}")
+
+                # Add some spacing
+                st.markdown("<br>", unsafe_allow_html=True)
 
                 st.subheader("Hunting Pitches Plot")
                 try:
@@ -245,6 +269,9 @@ elif tab_selection == "Batter Plots":
                     st.pyplot(hunt_fig)
                 except Exception as e:
                     st.error(f"Error in plot_swing_map: {e}")
+                
+                # Add some spacing
+                st.markdown("<br>", unsafe_allow_html=True)
 
                 st.subheader("Contact Location Plot")
                 try:

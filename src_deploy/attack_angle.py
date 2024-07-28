@@ -8,22 +8,68 @@ import requests
 from io import BytesIO
 
 def find_sweet_spot(head_pos, handle_pos):
+    """
+    Calculate the sweet spot position on the bat given the head and handle positions.
+    This calculation assumes the sweet spot is at a point 17.5% shorter than the length
+    of the bat.
+
+    Args:
+        head_pos (float): The position of the bat's head.
+        handle_pos (float): The position of the bat's handle.
+
+    Returns:
+        float: The calculated sweet spot position.
+    """
     return head_pos - 0.175 * (head_pos - handle_pos)
 
 def calc_attack_angle(yz_path, bat_loc, hit_frame):
+    """
+    Calculate the attack angle of the swing.
+
+    Args:
+        yz_path (pd.DataFrame): DataFrame containing the Y and Z coordinates of the bat's path.
+        bat_loc (str): The location identifier of the bat.
+        hit_frame (pd.DataFrame): Single row of a dataFrame containing the hit frame data.
+
+    Returns:
+        float: The attack angle in degrees.
+    """
+    # Get the position of the ball at contact
     cols = ['time', f'{bat_loc}_pos_1', f'{bat_loc}_pos_2']
     hit_row = hit_frame[cols]
+    # Get the lowest position of the bat
     trough_row = yz_path.loc[yz_path[f'{bat_loc}_pos_2'].idxmin(), cols]
+    # Use the difference between the contact location and the trough to find the attack angle
     angle_df = hit_row - trough_row
     y = angle_df[f'{bat_loc}_pos_1'].iloc[0]
     z = angle_df[f'{bat_loc}_pos_2'].iloc[0]
     return math.degrees(math.atan(z/y))
 
 def get_ball_contact_idx(ball_df, contact_time):
+    """
+    Get the index of the ball contact point.
+
+    Args:
+        ball_df (pd.DataFrame): DataFrame containing the ball's trajectory data.
+        contact_time (float): The time of contact.
+
+    Returns:
+        int: The index of the contact point.
+    """
     ball_df['contact_time_diff'] = abs(ball_df['time'] - contact_time)
     return ball_df['contact_time_diff'].idxmin() 
 
 def calc_pitch_angle(ball_df, contact_time):
+    """
+    Calculate the pitch angle. Using the frame closest to contact and the frame immediately before.
+
+    Args:
+        ball_df (pd.DataFrame): DataFrame containing the ball's trajectory data.
+        contact_time (float): The time of contact.
+
+    Returns:
+        float: The pitch angle in degrees.
+    """
     ball_df_dedup = ball_df.drop_duplicates().reset_index()
     cols = ['time', 'pos_0', 'pos_1', 'pos_2']
     contact_idx = get_ball_contact_idx(ball_df_dedup, contact_time)
@@ -35,11 +81,19 @@ def calc_pitch_angle(ball_df, contact_time):
     return math.degrees(math.atan(z/y))
 
 def find_track_angle(ball_df, bat_df, hit_frame):
-    '''
-    Track angle is the difference between the attack angle and the pitch angle. 
-    It provides a measure of how well the batter is tracking and attacking the pitch.
-    '''
+    """
+    Calculate the track angle, which is the difference between the attack angle and the pitch angle.
+
+    Args:
+        ball_df (pd.DataFrame): DataFrame containing the ball's trajectory data.
+        bat_df (pd.DataFrame): DataFrame containing the bat's trajectory data.
+        hit_frame (pd.DataFrame): DataFrame containing the hit frame data.
+
+    Returns:
+        tuple: A tuple containing the attack angle and the track angle.
+    """
     hit_df = hit_frame.copy()
+    # Find the location of the sweet spot in the y and z axes
     for ax in ['1', '2']:
         bat_df[f'sweet_spot_pos_{ax}'] = bat_df.apply(
             lambda x:find_sweet_spot(x[f'head_pos_{ax}'], x[f'handle_pos_{ax}']), axis=1
@@ -53,6 +107,16 @@ def find_track_angle(ball_df, bat_df, hit_frame):
     return attack_angle, (attack_angle - pitch_angle)
 
 def group_angles(x, angle_ranges):
+    """
+    Group angles into predefined ranges.
+
+    Args:
+        x (float): The angle value.
+        angle_ranges (list): List of tuples representing angle ranges.
+
+    Returns:
+        int: The group index of the angle.
+    """
     group=0
     for i, angle in enumerate(angle_ranges):
         if x > angle[0]:
@@ -61,26 +125,61 @@ def group_angles(x, angle_ranges):
     return group
 
 def get_group_frequencies(df, group):
+    """
+    Get the frequency of a specific angle group.
+
+    Args:
+        df (pd.DataFrame): DataFrame containing the angle data.
+        group (int): The group index.
+
+    Returns:
+        tuple: A tuple containing the group index and its frequency.
+    """
     freq = len(df[df['angle_group'] == group])/len(df)
     return (group, freq)
 
 def convert_angle_freqs_to_score(angle_freqs):
+    """
+    Convert angle frequencies to a score.
+
+    Args:
+        angle_freqs (list): List of angle frequencies.
+
+    Returns:
+        str: The grade based on the score.
+    """
+    # Drop negative ranges used for plotting and only use positive ranges and abs(track angles)
     middle = math.floor(len(angle_freqs)/2)
     mid_angle_freqs = [(abs(i-middle), j) for i, j in angle_freqs]
     mid_angle_freqs_dict = dict()
+    # Add up the frequencies in each angle range
     for i, freq in mid_angle_freqs:
         if i in mid_angle_freqs_dict.keys():
             mid_angle_freqs_dict[i] += freq
         else:
             mid_angle_freqs_dict[i] = freq
+    # find the angle range with the maximum frequency
     freq_max = max(mid_angle_freqs_dict.values())
     max_keys = [k for k, v in mid_angle_freqs_dict.items() if v == freq_max]
     dict_len = len(mid_angle_freqs_dict)
+    # the scores are based on highest value = best score so these scores are inverted
+    # to match that structure
     score = dict_len - max(max_keys)
     thresholds = {'A':dict_len, 'B':dict_len-1, 'C':dict_len-2, 'D':dict_len-3}
     return get_grade(score, thresholds)
 
 def score_timing_angle(score_ranges, angle):
+    """
+    Score the timing angle based on predefined ranges.
+
+    Args:
+        score_ranges (list): List of tuples representing score ranges.
+        angle (float): The angle value.
+
+    Returns:
+        int: The score for the angle.
+    """
+    # Drop negative ranges used for plotting and only use positive ranges and abs(track angles)
     angle = abs(angle)
     half_range = math.floor(len(score_ranges)/2)
     quality_ranges = score_ranges[half_range:]
@@ -99,11 +198,22 @@ def score_timing_angle(score_ranges, angle):
     return score
 
 def tracking_scorecard(tracking_df, angle_ranges):
+    """
+    Generate a tracking scorecard for each batter.
+
+    Args:
+        tracking_df (pd.DataFrame): DataFrame containing tracking angle summary data.
+        angle_ranges (list): List of tuples representing angle ranges.
+
+    Returns:
+        list: A list of dictionaries containing scorecard information for each batter.
+    """
     scorecard_list = []
     for batter in tracking_df['batter'].unique():
         scorecard_dict = dict()
         scorecard_dict['batter'] = batter
 
+        # limit the tracking_df to rows of interest
         batter_df = tracking_df[
             (tracking_df['batter'] == batter)
             &
@@ -112,23 +222,34 @@ def tracking_scorecard(tracking_df, angle_ranges):
 
         if len(batter_df) == 0:
             continue
+
+        # group each swing's attack angle into a group of angle ranges
         batter_df['angle_group'] = batter_df.apply(
             lambda x: group_angles(x['track_angle'], angle_ranges),
             axis=1
         )
-
+        # convert range list to frequencies, then to score
         angle_freqs = [get_group_frequencies(batter_df, g) for g in range(len(angle_ranges))]
         angle_scores = [score_timing_angle(angle_ranges, angle) for angle in batter_df['track_angle']]
         scorecard_dict['angle_freqs'] = angle_freqs
         scorecard_dict['angle_scores'] = angle_scores
-        old_grade = convert_angle_freqs_to_score(angle_freqs)
         batter_score = sum(angle_scores) / len(angle_scores)
+        # translate score into grade
         thresholds = {'A': 3.25, 'B': 3, 'C': 2.5, 'D': 2}
         scorecard_dict['track_angle_grade'] = get_grade(batter_score, thresholds)
         scorecard_list.append(scorecard_dict)
     return scorecard_list
 
 def convert_score_ranges(score_ranges):
+    """
+    Convert score ranges to angle ranges, centers, and widths.
+
+    Args:
+        score_ranges (list): List of score ranges.
+
+    Returns:
+        tuple: A tuple containing ranges, centers, and widths.
+    """
     ranges = []
     for i, score in enumerate(score_ranges):
         if i == 0:
@@ -149,6 +270,16 @@ def convert_score_ranges(score_ranges):
     return ranges, centers, widths
 
 def polar_to_cartesian(r, theta_deg):
+    """
+    Convert polar coordinates to Cartesian coordinates.
+
+    Args:
+        r (float): The radius.
+        theta_deg (float): The angle in degrees.
+
+    Returns:
+        tuple: A tuple containing the x and y Cartesian coordinates.
+    """
     # polar coordinates start at approximately (1.5, 1.95)
     theta_rad = math.radians(theta_deg + 2)
     x = -r * math.cos(theta_rad) + 1.5
@@ -158,14 +289,29 @@ def polar_to_cartesian(r, theta_deg):
 
 def plot_tracking_angles(score_ranges, alphas=None, grade=None, 
                            color=None, batter_id=None):
+    """
+    Plot the tracking angles on a polar plot.
+
+    Args:
+        score_ranges (list): List of score ranges.
+        alphas (list, optional): List of alpha values for transparency based on frequencies.
+        grade (str, optional): The grade to display (A/B/C/D/F).
+        color (str, optional): The color of the grade text.
+        batter_id (int, optional): The batter ID.
+
+    Returns:
+        go.Figure: The plotly figure object.
+    """
     pitch_angle = 10
     _, centers, widths = convert_score_ranges(score_ranges)
     theta_list = [-theta - pitch_angle for theta in centers]
 
+    # set colors for wedge edges, with the Grade A edges being magenta to stand out
     marker_colors = ['darkslateblue'] * len(widths)
     marker_colors[4:6] = ['magenta']*2
 
     if batter_id is not None:
+        # set values based on the batter's track angles
         colors = [f'rgba(0,136,255,{a})' for a in alphas]
         sorted_colors = list(set(colors.copy()))
         sorted_colors.sort(reverse=True)
@@ -173,16 +319,15 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
         names[0] = "High"
         names[-1] = "Low"
     else:
+        # set values to generate customization plot
         base_colors = ['#FF0000', '#FFA500', '#0000FF', '#008000', '#0000FF', '#FFA500', '#FF0000']
-        alpha_value = 0.3  # Adjust this to control transparency
+        alpha_value = 0.3 
         colors = [f'rgba({int(color[1:3], 16)},{int(color[3:5], 16)},{int(color[5:7], 16)},{alpha_value})' 
                   for color in base_colors]
         colors.append('white')
         colors.insert(0, 'white')
         sorted_colors = colors[4:8]
         names = ['Grade A', 'Grade B', 'Grade C', 'Grade D']
-
-
 
     data = [
         go.Barpolar(
@@ -196,6 +341,7 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
         )
     ]
 
+    # Generate a custom legend
     legends = [
         go.Barpolar(
             r=[None],
@@ -219,20 +365,23 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
             }
     )
     
+    # Add title
     fig.add_annotation(text="Tracking Angle", font={'size':30},
                        xref="paper", yref="paper",
                        x=0.5, y=1.25, showarrow=False)
     
     if batter_id is not None: 
+        # Add batter grade
         fig.add_annotation(text=grade, font={'size':100, 'color':color},
                         xref="paper", yref="paper",
                         x=0.25, y=0, showarrow=False)
 
-
+        # Add batter id subtitle
         fig.add_annotation(text=f"Batter: {batter_id}", font={'size':30},
                         xref="paper", yref="paper",
                         x=0.5, y=1.15, showarrow=False)
         
+        # Add images of baseball to represent pitch angle
         for i in range(8):
             # Set the polar coordinates for the image
             r_image = (i)*0.3 
@@ -263,7 +412,7 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
                 )
             )
     
-    
+    # Remove cartesian axes and convert to polar coordinates
     fig.update_layout(
         xaxis=dict(
             visible=False,
@@ -279,11 +428,11 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
         polar=dict(
             radialaxis=dict(range=[0, 5], showticklabels=False, ticks=''),
             angularaxis=dict(showticklabels=False, ticks=''),
-            # sector=[-pitch_angle - 90, -pitch_angle + 90]
             sector=[-pitch_angle - 45, -pitch_angle + 45]
         )
     )
 
+    # Set figure size differently for batter plot and customizing plot
     if batter_id is not None: 
         fig.update_layout(
             autosize=True,
@@ -301,14 +450,37 @@ def plot_tracking_angles(score_ranges, alphas=None, grade=None,
     return fig
 
 def generate_track_angle_plot(batter_id, tracking_score_df, score_widths):
+    """
+    Generate a plot for the tracking angle of a specific batter.
+
+    Args:
+        batter_id (int): The ID of the batter.
+        tracking_score_df (pd.DataFrame): DataFrame containing tracking score data.
+        score_widths (list): List of score widths.
+
+    Returns:
+        go.Figure: The plotly figure object.
+    """
     batter_df = tracking_score_df[tracking_score_df['batter'] == batter_id]
+    # convert frequencies to percents for wedge fill transparency
     percents = [group_freq[1] for group_freq in batter_df['angle_freqs'].values[0]]
     alphas = [per/max(percents) for per in percents]
+    # get the grade and grade color
     grade = batter_df['track_angle_grade'].values[0]
     color = color_letter(grade)
     return plot_tracking_angles(score_widths, alphas, grade, color, batter_id)
 
 def create_tracking_score_df(score_widths, tracking_metrics_df):
+    """
+    Create a DataFrame containing tracking scores.
+
+    Args:
+        score_widths (list): List of score widths.
+        tracking_metrics_df (pd.DataFrame): DataFrame containing tracking metrics.
+
+    Returns:
+        pd.DataFrame: The DataFrame containing tracking scores.
+    """
     score_ranges, _, _ = convert_score_ranges(score_widths)
     tracking_score_list = tracking_scorecard(tracking_metrics_df, score_ranges)
     return pd.DataFrame.from_dict(tracking_score_list)

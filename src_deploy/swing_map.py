@@ -12,10 +12,13 @@ from distance import get_grade, color_letter
 def geometric_median(df, epsilon=1e-5):
     """
     Computes the geometric median of a set of points using Weiszfeld's algorithm.
-    
-    :param df: A pandas DataFrame with columns 'x' and 'y' representing the points.
-    :param epsilon: A small threshold to stop the iteration.
-    :return: A tuple containing the geometric median (x_m, y_m) and a list of distances to each point.
+
+    Args:
+        df (pandas.DataFrame): A DataFrame with columns 'pitch_x' and 'pitch_z' representing the points.
+        epsilon (float, optional): A small threshold to stop the iteration. Defaults to 1e-5.
+
+    Returns:
+        tuple: A tuple containing the geometric median (x_m, y_m) and a list of distances to each point.
     """
     points = df[['pitch_x', 'pitch_z']].to_numpy()
     median = np.mean(points, axis=0)  # Initial guess: centroid
@@ -39,6 +42,16 @@ def geometric_median(df, epsilon=1e-5):
 
 
 def pitch_location(ball_df, bat_df):
+    """
+    Finds the pitch location at the point of contact.
+
+    Args:
+        ball_df (pandas.DataFrame): DataFrame containing ball position data.
+        bat_df (pandas.DataFrame): DataFrame containing bat event data.
+
+    Returns:
+        tuple: A tuple containing the pitch location coordinates (pitch_x, pitch_z).
+    """
     ball_df_dedup = ball_df.drop_duplicates().reset_index()
     hit_frame = bat_df[bat_df['event'].isin(['Hit', 'Nearest'])]
     contact_time = hit_frame['time'].values[0]
@@ -49,6 +62,15 @@ def pitch_location(ball_df, bat_df):
     return pitch_x, pitch_z
 
 def swing_outcome(json_file):
+    """
+    Determines the outcome of a swing based on the JSON file data.
+
+    Args:
+        json_file (dict): JSON file containing summary acts and score information.
+
+    Returns:
+        tuple: A tuple containing the swing outcome and the starting number of strikes.
+    """
     result = json_file['summary_acts']['pitch']['result']
         # Strike or HitIntoPlay
     action = json_file['summary_acts']['pitch']['action']
@@ -73,6 +95,15 @@ def swing_outcome(json_file):
 
 
 def find_radial_dist(df):
+    """
+    Finds the maximum radial distance between pairs of pitch locations.
+
+    Args:
+        df (pandas.DataFrame): DataFrame containing pitch locations.
+
+    Returns:
+        tuple: A tuple containing the pair of points with the maximum distance and the maximum distance itself.
+    """
     pairs = combinations(df[['pitch_x', 'pitch_z']].values, 2)
 
     # Initialize variables to store the maximum distance and corresponding points
@@ -89,6 +120,16 @@ def find_radial_dist(df):
     return max_pair, max_distance
 
 def score_distances(quality_distances, hunt_distance):
+    """
+    Scores the hunt distance based on predefined quality distances.
+
+    Args:
+        quality_distances (list): List of quality distances to compare against.
+        hunt_distance (float): The hunt distance to be scored.
+
+    Returns:
+        int: An integer score based on the hunt distance.
+    """
     if hunt_distance < quality_distances[0]:
         score = 4
     elif hunt_distance < quality_distances[1]:
@@ -102,9 +143,20 @@ def score_distances(quality_distances, hunt_distance):
     return score
 
 def swing_map_scorecard(hunt_dist, swing_map_df):
+    """
+    Generates a scorecard for swing map data based on hunt distances.
+
+    Args:
+        hunt_dist (list): List of hunt distances for scoring.
+        swing_map_df (pandas.DataFrame): DataFrame containing swing map data.
+
+    Returns:
+        pandas.DataFrame: A DataFrame containing the scorecard for each batter.
+    """
     scorecard_list = []
     for batter_id in swing_map_df['batter'].unique():
         scorecard_dict = {'batter': batter_id}
+        # filter the dataframe for the non-two strike swings of the selected batter
         batter_df = swing_map_df[
             (swing_map_df['batter'] == batter_id)
             &
@@ -113,18 +165,20 @@ def swing_map_scorecard(hunt_dist, swing_map_df):
         if len(batter_df) <= 1:
             continue
         
-        # add radius
+        # add radius and distances
         max_pair, max_dist = find_radial_dist(batter_df)
         median, distances = geometric_median(batter_df)
+        # score the batter
         distance_scores = [score_distances(hunt_dist, dist) for dist in distances]
         avg_score = sum(distance_scores) / len(distance_scores)
+        # add some summary stats
         scorecard_dict['max_swing_dist'] = max_dist
         scorecard_dict['max_swing_pair'] = max_pair
         scorecard_dict['geometric_median'] = median
         scorecard_dict['point_distances'] = distances
         scorecard_dict['distance_scores'] = distance_scores
         scorecard_dict['avg_score'] = avg_score
-
+        # convert score to grade
         hunt_distance_avg = {'A': 4, 'B': 3, 'C': 2, 'D': 1}
         grade = get_grade(avg_score, hunt_distance_avg)
         scorecard_dict['hunting_grade'] = grade
@@ -132,7 +186,18 @@ def swing_map_scorecard(hunt_dist, swing_map_df):
     return pd.DataFrame.from_dict(scorecard_list)
 
 def plot_swing_map(swing_map_df, grade, radii=None):
-    
+    """
+    Plots the swing map with pitch locations and optional radii.
+
+    Args:
+        swing_map_df (pandas.DataFrame): DataFrame containing swing map data.
+        grade (str): The grade to display on the plot.
+        radii (list, optional): List of radii to display as circles on the plot.
+
+    Returns:
+        matplotlib.figure.Figure: The generated matplotlib figure.
+    """
+    # define colors and fonts
     result_colors = {
         'Hit and Safe': 'green',
         'Hit and Out': 'red',
@@ -145,17 +210,20 @@ def plot_swing_map(swing_map_df, grade, radii=None):
     font2 = {'size':18}
     font3 = {'size':14}
 
+    # set fig size
     default_fig_size = (6.4, 4.8)
     size_adjust = 1.5
     larger_fig_size = [fig_size * size_adjust for fig_size in default_fig_size]
     fig, axis = plt.subplots(figsize=larger_fig_size)
 
     if swing_map_df is not None:
+        # plot scatter plot of pitch locations of all swings
         swing_map_df = swing_map_df.copy()
         swing_map_df.loc[:, 'color'] = swing_map_df['swing_result'].map(result_colors)
         results = swing_map_df['swing_result'].unique()
         batter_id = swing_map_df['batter'].iloc[0]
 
+        # plot two-strike swings
         axis = sns.scatterplot(
             data=swing_map_df[swing_map_df['two_strikes']], 
             x='pitch_x', y='pitch_z', 
@@ -166,6 +234,7 @@ def plot_swing_map(swing_map_df, grade, radii=None):
             s=100,
             legend=False
         )
+        # plot non-two-strike swings with different marker
         axis = sns.scatterplot(
             data=swing_map_df[~swing_map_df['two_strikes']], 
             x='pitch_x', y='pitch_z', 
@@ -190,17 +259,19 @@ def plot_swing_map(swing_map_df, grade, radii=None):
                 lw=3,
                 zorder = 0.1))
     
+    # resize axes
     axis.set_xlim([-3, 3])
     axis.set_ylim([-1.5, 5])
 
     if radii: 
+        # plot target circles in customizing figure
         # Add expanding circles (hunting radii)
         center=(-0.25, 2.75)
         colors = ['green', 'blue', 'orange', 'red']
         legend_patches = []
         grades = ['Grade A', 'Grade B', 'Grade C', 'Grade D']
         for i, radius in enumerate(radii):
-            color = colors[i % len(colors)]  # Cycle through colors if there are more circles than colors
+            color = colors[i % len(colors)]
             if i == 0:
                 inner_radius = 0
             else:
@@ -217,9 +288,10 @@ def plot_swing_map(swing_map_df, grade, radii=None):
                                     title='Hunting Radii', title_fontsize=font2['size'])
 
     if swing_map_df is not None: 
+        # add letter grade
         axis.text(-2.8, -1, grade, fontsize=100, color=color_letter(grade))
 
-        # # Produce a legend with custom markers
+        # Add a legend with custom markers
         handles, labels = axis.get_legend_handles_labels()
         legend_elements = [
             Line2D([0], [0], marker='X', color='w', label='Two-strike pitches', 
@@ -232,13 +304,14 @@ def plot_swing_map(swing_map_df, grade, radii=None):
             for l, h in result_colors.items() if l in results]
         legend_elements.extend(legend_handles)
         axis.legend(handles=legend_elements, loc="best", title=None, prop=font3)
-
+        # add batter id subtitle
         subtitle = f'\n Batter: {batter_id}'
     else:
         subtitle = ""
 
-
+    # add title
     plt.title(f'Hunting Pitches{subtitle}', font1)
+    # remove grid and axes 
     plt.grid(False)
     plt.axis('off')
     plt.xlabel(None)
