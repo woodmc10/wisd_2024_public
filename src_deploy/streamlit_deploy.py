@@ -264,7 +264,7 @@ def contact_loc_plot(batter_id):
         batter_timing = timing_metrics_df.query(f"batter == {batter_id}")
 
         plot_locs = [locs[1] for locs in get_slider_values()["contact_locations"]]
-        top = [contact_location[-1][0]]
+        top = [get_slider_values()["contact_locations"][-1][0]]
         plot_locs.extend(top)
 
         loc_fig = viz_contact_loc(
