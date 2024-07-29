@@ -180,8 +180,8 @@ if __name__ == '__main__':
         ]
         grade = timing_score_df[timing_score_df['batter'] == batter_id]['timing_grade'].values[0]
         fig = viz_contact_loc(batter_df, grade, qual_locs)
-        plt.show()
-        # plt.savefig(f'../images/grades/testing/rotated_{batter_id}_contact_location.png')
+        # plt.show()
+        plt.savefig(f'../images/grades/{batter_id}_contact_location.png')
 
     widget_fig = viz_contact_loc(None, None, qual_locs)
     plt.show()
