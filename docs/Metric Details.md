@@ -14,11 +14,11 @@ This evaluation oversimplifies the idea of hunting for a pitch. The best pitch t
 **Visualization:**
 The visual shows the locations of all pitches the batter swung at during the three-game series. Colors indicate the pitch's outcome, and shapes show the two-strike pitches. This first example shows a player hunting for a high, inside pitch. This batter only swung at pitches in the zone for neutral and positive-count pitches, and the other swings showed this batter protecting the plate with two strikes. 
 
-![Grade B Hunting Score](../images/grades/459722179_hunting.png)
+<img src="../images/grades/459722179_hunting.png" height="500">
 
 The second example shows a less picky batter willing to swing at pitches in a more extensive range of the strike zone. This batter also swings at high and inside pitches and a low pitch on the outer third of the plate. 
 
-![Grade C Hunting Score](../images/grades/545569723_hunting.png)
+<img src="../images/grades/545569723_hunting.png" height="500">
 
 Even these two images show that hunting only sometimes leads to success. In this series, the batter with the higher hunting score never safely reached base, while the batter with the lower hunting score did.
 
@@ -36,16 +36,16 @@ This assessment of contact zones also assumes batters have similar stances withi
 **Visualization:**
 The visualization of the contact zone shows the plate from above with the distribution of the contact locations overlaid across the home run, line drive, and ground ball regions. The first example shows a batter whose contact locations are primarily in the line drive zone, with another group of contacts in the home run zone. 
 
-![Grade B Contact Location](../images/grades/849653732_contact_location.png)
+<img src="../images/grades/849653732_contact_location.png" height="500">
 
 In the second example, the batter usually makes contact in front of the home run zone. Since no value is assigned to contact in front of the home run zone, this batter is heavily penalized for his contact location and receives a lower grade. 
 
-![Grade F Contact Location](../images/grades/558675411_contact_location.png)
+<img src="../images/grades/558675411_contact_location.png" height="500">
 
 ### Tracking Angle
 The tracking angle score is a combination of attack angle and pitch angle. A positive attack angle increases the opportunity for the batter to make contact with the pitch.[^4] The article illustrates that with this image: 
 
-![Positive Attack Angle](../images/positive_attack_angle.png)
+<img src="../images/positive_attack_angle.png" height="300">
 
 This article about attack angle assumes the pitch angle is between 6 and 10 degrees. Since the provided data includes bat tracking and ball tracking data, this analysis compares the attack and pitch angles to create a new metric: the tracking angle. This metric will better indicate how the batter is tracking the ball as it approaches the plate and how he swings the bat through the pitch angle. 
 
@@ -57,11 +57,11 @@ The tracking angle visual shows the tracking angle ranges shaded to indicate the
 
 The first example shows a batter who consistently swings the bat through the plane of the ball. Most of his swings match the pitch angle, with a few swings hacking down across the pitch angle. 
 
-![Grade A Tracking Angle](../images/grades/590082479_tracking.png)
+<img src="../images/grades/590082479_tracking.png" width="700">
 
 The second example shows a batter who most often does not meet the pitch on the plane. Instead, this batter's attack angle is usually lower than the pitch angle. Because of this difference in tracking angle, this batter will need to have even better timing than the first batter to contact the pitch.
 
-![Grade C Tracking Angle](../images/grades/545569723_tracking.png)
+<img src="../images/grades/545569723_tracking.png" width="700">
 
 ### Similarity Score
 
@@ -82,11 +82,12 @@ The visual shows a batter's reference swing and their least similar swing. It de
 
 This first example shows two swings moving against the x-axis. The bat head starts slowly, then quickly travels out across the plate, and eventually travels back across the plate as the batter finishes the swing, wrapping the bat head back behind his body. This batter has very consistent swings; both follow nearly the same path along the axis during the swing.
 
-![Grade A Swing Similarity](../images/grades/223971350_similarity.png)
+<img src="../images/grades/223971350_similarity.png" width="700">
 
 Here is an example of a less consistent batter. This batter has one swing that reaches out across the plate and then wraps back, while the other swing doesn't reach out as far and never returns to a position behind the batter. 
 
-![Grade C Swing Similarity](../images/grades/412098649_similarity.png)
+<!-- ![Grade C Swing Similarity](../images/grades/412098649_similarity.png) -->
+<img src="../images/grades/412098649_similarity.png" width="700">
 
 ## Footnotes
 [^1]: American Baseball Camps. (2022, April 4) Hitting in Advantaged Counts. https://americanbaseballcamps.com/courses/developing-a-hitting-approach-how-to-have-a-plan-on-every-pitch/lessons/advantage-counts/
